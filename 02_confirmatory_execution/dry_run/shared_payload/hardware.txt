@@ -1,0 +1,6 @@
+{
+ "plataforma": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+ "node": "0x920009ab165e",
+ "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+ "numpy": "2.5.2"
+}

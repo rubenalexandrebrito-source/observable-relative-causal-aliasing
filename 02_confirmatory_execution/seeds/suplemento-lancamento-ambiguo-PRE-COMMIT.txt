@@ -1,0 +1,14 @@
+# SUPLEMENTO OPERACIONAL PREVIO - LANCAMENTO FISICO AMBIGUO
+# Pre-registo A v8.3 - Fase 4 - Pre-data Amendment No. 2
+# Registado ANTES do primeiro lancamento fisico.
+# NAO altera o protocolo nem o codigo; apenas fixa o tratamento de ambiguidade.
+data_hora_UTC=2026-08-15T12:56:24Z
+cara_inequivoca=1
+coroa_inequivoca=0
+resultado_ambiguo=moeda_de_pe_OU_presa_OU_parcialmente_coberta_OU_nao_inequivoco=>INVALIDO
+regra_invalido_1=marcar_INVALIDO
+regra_invalido_2=NAO_contar_esse_lancamento_entre_os_32
+regra_invalido_3=repetir_ate_obter_resultado_valido
+regra_invalido_4=manter_o_lancamento_invalido_REGISTADO
+amendment=Pre-data_Amendment_No_2
+estado=A_AGUARDAR_OS_32_LANCAMENTOS_VALIDOS_nenhum_lancamento_efectuado

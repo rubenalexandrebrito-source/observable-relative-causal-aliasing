@@ -1,0 +1,3202 @@
+{
+ "0045ee0f58bc49f7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "0204145c1240a5e3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "02485d12d02dcff9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "0516916e2d50f27c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "070e525e441ee298": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "0951438f03acd5b3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "096735a605bc0e6c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "09927c39b22e14f1": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "09a1bf9958118eec": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "0b916e9501b7d7b5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "0d4cf4d3fa06858e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "0e65a566852ba562": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "0e912a98015e22bc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "0e9f595a37cf1407": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "0efaffc04fed3680": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "0f04ee006d5a3758": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "113beaf5a9419a3b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "12ad78391ce8fe7e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "1396a08f8d3c9ce2": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "13d42f6ff1a432d5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "15637e3c6cda137b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "1796d65626c292f3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "1889ee32d8e08253": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "1a1168fe41e2a303": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "1a498b21d1117522": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "1ad2df0927d0e088": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "1dbdf03061da13a5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "1de7419e752ccf81": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "1f73cd4253d5622d": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "1fed31cb31baffbf": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "23b6791573ef0601": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "2423cf836c32ffdf": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "2456d5e01de5dcbd": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "26600294e585bc96": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "268358887793f924": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "2837f73fbe8bcb9f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "29f93cbe6cd22445": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "2cf8e569249cd48c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "338066d84bb83516": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "347a494fbe47b29b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "38d6f5ea5e0c04d0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "3a5d0031220fb66f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "3e8fb4102258e26f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "404d24a27c200d56": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "407ec7ed036aed9e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "409879af979315c0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "415b142abe8ac7ce": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "41671836b7f5cc66": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "43e8c61dce8ca8a1": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4478df79d5c1ab8b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "44bc45a76da7d934": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "4704bf116f690316": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4799de5bfdb51cba": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4837f6595187dfc0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "486c38e5464dff68": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "49103b5c87132d64": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "497bad5442e07939": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4a121914639305d5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "4a3679f526cb1693": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4d818e452575d02b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "4dc397b01e7febf9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "5315f85a9353d2f3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "535a711484832cd6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "540beb7791bb2fd7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "54d797ca9aa6d758": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "54dc60a6641d0029": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "54e941f313151181": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "554cfc1f3c1845a6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "561594c42ddd1d34": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "589e53d401267507": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "5ab8919503cb66ac": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "5c5beb0476d5e104": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "5c7a5d1f20a7be58": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "5cda8168ede76420": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "5e6031988c234aa2": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "5e71b562fd7e6cb8": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "5e92bc5c95baf92c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "619d562c1a2fb963": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "6474d1ce66d3c257": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "649c66ff1aa3ab7f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "658024fc48ad4cef": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "66aaffa6efd38840": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "67398367f0eaa017": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "67a94ca4dcb699d8": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "68a686ea5f9530ae": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "68f2a89fc8ab2ca5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "6a78863462faef54": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "6b193bb03e089ad0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "6dfc2c2fe3f8f067": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "6e0329a550c214d7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "6e12adb316133300": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "6f781a9acdf8ffd6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "70e6ff25f6e13a2e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "735c7c7a6a05b762": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "7582272ed5ebb338": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "75c3c449b550926b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "789aa6b58fbabfa0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "7a53f40940f10fb7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "7bb0baab3a8ed7aa": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "7c871b15ec695d1a": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "7d89c00b62f47e49": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "7dc2d776d7bf0590": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "7f16420dc802691e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "7f1db6e3a594e01f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "7f88912565df10bc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "80bc0c6b41498cc3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "82222e74c533eed7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "8244a3ec04972704": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "840b84e4cda249be": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "854fc647d4dca885": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "85db2743f55592f0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "884f73f4583fc9dc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "8f8343640dbc3e7f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "8f8e80aa62c5999f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "93773ac303ec43cc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "958959c834300204": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "97d4f10e5784ca66": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "98950317bf118c7e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "990d6f9e640841ea": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "9b9533e56df336b1": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "9bb7118392259f1f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "9ce4be04cb7795e9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "9efd2031b3e97ea6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "9f09735527b8b735": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a0e7bdd8acd50fd3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a1d20005f301c029": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a3a674148f0902cd": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a3d1808aa8dd419c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a4edb9ee065ebe0e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a57de74258f65456": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "a5f07654aafc5748": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "a6fcddc190d590e9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "a90b7bbcfcc38082": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "aefee8ccdd3495cc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "af444aa9ab348470": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "b166f6082d6057bb": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "b404e6f0223d9860": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "b6b79b82e2428299": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "b735a2f7f8946260": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "b752644384b6d787": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "b8079b78d0b0bb55": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "b80f3903e99f80bc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "ba1f0c005c836614": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "ba5a5e7c8e191c78": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "ba7714e1df8da6e7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "bc5621ed2e0b193c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "bdf349273da8a628": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "befdb93faea6132e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "c00b7263ec90d4b1": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "c0f29c6792c4753b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "c3109968343e08a5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c4fb81c11439d320": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c5326da6ef0ee66f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c76499fc1c9169ad": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c7bcc90b61bfcf0b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c7f83edc3ae5f3d6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "c8199580c10f84ed": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "c9a63c4dbfd0aff6": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "cbe55a3d7529276d": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "cdd554c9a6423be5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "ce2f3c4549dbb5f0": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "cf83a9e3584f9afc": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "d1759d93dc5870d7": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "d3098311be7b360e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "d44d9db74adabbb3": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "d490241494dfde27": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "d704f8e740321680": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "d79ebfe4d7a50147": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "d7cba3fc0fcecd3c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "d841d20ce46b0d56": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "d9ba891ed24801f9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "dabe04c00a6f6537": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "db333fa9113ace56": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "db6a9d9d71ef8a48": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "dd535e6c3b293cb9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "dde25c14f04c3af5": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "de783bc3fe15f930": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "e04150b222913599": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "e05fad0770d06bd9": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "e64f45323e7adf63": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "e6f30bb9cde56f2a": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "e8264b6949a7bdae": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "e8a4a3e33d3ca090": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "e915a54610cdca8b": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "e9ae9749e610adba": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "ea6ec3914a68857c": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "ec8dd2bc17a0b963": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "ee0a08223539987f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "ee5ef02bbd3b1add": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f22241a4bb040b18": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f31d8329f434dfde": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f4789275ccb2efc4": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f5b6e7a80856dc71": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f5fc5e336ce2ad77": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "f91099296de857c4": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "fbf8cf22faba3c79": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ },
+ "fc9ea90aa594e1bf": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "fe4ec9b6816cca5e": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 512,
+  "testados": 512
+ },
+ "ff96346d77e75a4a": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 524288,
+  "testados": 524288
+ },
+ "ffe07f7bed32bf8f": {
+  "discrepancias": {
+   "C1p": 0,
+   "C2": 0,
+   "C3": 0
+  },
+  "discrepancias_base": 0,
+  "exemplos": {
+   "BASE": [],
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "grupo_total": 65536,
+  "testados": 65536
+ }
+}

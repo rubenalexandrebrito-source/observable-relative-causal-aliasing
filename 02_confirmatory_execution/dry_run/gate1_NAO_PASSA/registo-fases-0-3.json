@@ -1,0 +1,27 @@
+{
+ "A1_estimativa_horas": 8.381710169179666,
+ "T_equiv_horas": 102.03217828506713,
+ "T_total_horas": 102.1390281859752,
+ "dados_confirmatorios_gerados": false,
+ "estado": "NAO_PASSA_GATE_72H",
+ "fim": "2026-08-14T22:16:42.007103+00:00",
+ "fumo": false,
+ "gate_72h": "NAO PASSA -> parar; emenda pre-dados; nenhum dado confirmatorio e gerado",
+ "hardware": {
+  "node": "0x920009ab165e",
+  "numpy": "2.5.2",
+  "plataforma": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]"
+ },
+ "inicio": "2026-08-14T10:18:55.503510",
+ "oito_numeros": {
+  "T_classificador_E1_s": 0.47038072300028944,
+  "T_escala_E1_s": 2.8658632049996413,
+  "T_escala_E2_s": 381.3233993409999,
+  "t_E1_III_s": 708.2540088429996,
+  "t_E1_II_s": 712.2727236829996,
+  "t_E1_I_s": 3.082968517000154,
+  "t_E2_III_s": 20281.194585482997,
+  "t_E2_II_s": 20949.48703158
+ }
+}

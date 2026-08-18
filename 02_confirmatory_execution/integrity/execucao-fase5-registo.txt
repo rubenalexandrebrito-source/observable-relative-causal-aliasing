@@ -1,0 +1,29 @@
+# REGISTO DE EXECUCAO - FASE 5 CONFIRMATORIA - Pre-registo A v8.3 (Amendments 1,2,3 congeladas)
+compilado_UTC=2026-08-17T11:27:18Z
+resultado_confirmatorio_A=negativo
+S_E1=3786434918_E1_50familias ; S_E2=3786434919_E2_25familias_estrato2 (cada semente usada 1x)
+
+## ETAPAS: comando | exit | inicio_UTC -> fim_UTC | duracao | notas
+geracao_E1 | 0 | 2026-08-15T13:28:44Z -> 13:28:45Z | 1s | 150 inst | sha_manifesto=2de4360385e0704f36117dbef55dd5e66b84cf5a82739d0296f709f88b106f2e
+geracao_E2 | 0 | 2026-08-15T13:28:45Z -> 13:28:45Z | 0s | 50 inst | sha_manifesto=8d9ec17cab5bfc74a7f411952a9e8f19a6304850e4e4dc5bf50b292b7c51f0a0
+cegar_chaves | - | 2026-08-15 ~13:29Z | mv CHAVE-NAO-ABRIR.json -> chaves-confirmatorias/ ANTES das classificacoes; conteudo nao aberto
+classificador_E1 | 0 | 2026-08-15T13:29:55Z -> 13:29:55Z | 0s | sha_classificacoes=0ec8e7e0db088c70311ce83f0406d78a1e32b19102e03e4b11d5ef137d133daa
+escala_E1 | 0 | 2026-08-15T13:29:55Z -> 13:29:58Z | 3s | sha_escala=9dba044d6d9ec583854c006a9bcb9bfd272ea16a2e7a2884c5b644dd01357396
+escala_E2 | 0 | 2026-08-15T13:29:58Z -> 13:36:22Z | 384s | sha_escala=1e14e6dbfa1021294ba9ee9d212697740c5361e210155f9b85a97621db3c2080
+equivalencias | 0 | 2026-08-15T13:37:04Z -> 2026-08-17T11:23:28Z | ~45h46m | WORKERS_EQUIV=3 exaustivo | sha_equivalencias=73c30f134a6817ba1a0dd389d8ee05981ca972dc2058d34ef31292c434d004fc
+pontuacao | 0 | 2026-08-17T11:25:27Z -> 11:25:27Z | 0s | sha_pontuacao=83dfe673931cb6a73e7fd28d3c0777a275d59c1f4ff6c67b8d8a37363ea1c0b7
+
+## INTEGRIDADE CHAVES (Passo 6): ambas COINCIDEM com sha_chave dos manifestos
+E1 sha_chave=716f56d58ac8500f9d533dcb5ae0966be3413254d5df41c65ed18ce46a741902
+E2 sha_chave=78de6304d6b4d93563c5672893054244d979fdee618e631bb9e31d1ed5615615
+
+## SHA256 DOS ARTEFACTOS CONFIRMATORIOS
+0ec8e7e0db088c70311ce83f0406d78a1e32b19102e03e4b11d5ef137d133daa  prereg-A/class-e1.json
+9dba044d6d9ec583854c006a9bcb9bfd272ea16a2e7a2884c5b644dd01357396  prereg-A/escala-e1.json
+1e14e6dbfa1021294ba9ee9d212697740c5361e210155f9b85a97621db3c2080  prereg-A/escala-e2.json
+73c30f134a6817ba1a0dd389d8ee05981ca972dc2058d34ef31292c434d004fc  prereg-A/equiv-agregado.json
+1d752d350e9a038b8e0985b2bb012294c34fa5d21e3724f408fd444e80c93f98  resultado-pontuacao-A.txt
+716f56d58ac8500f9d533dcb5ae0966be3413254d5df41c65ed18ce46a741902  chaves-confirmatorias/chave-e1.json
+78de6304d6b4d93563c5672893054244d979fdee618e631bb9e31d1ed5615615  chaves-confirmatorias/chave-e2.json
+2de4360385e0704f36117dbef55dd5e66b84cf5a82739d0296f709f88b106f2e  prereg-A/conf-e1/manifesto.json
+8d9ec17cab5bfc74a7f411952a9e8f19a6304850e4e4dc5bf50b292b7c51f0a0  prereg-A/conf-e2/manifesto.json

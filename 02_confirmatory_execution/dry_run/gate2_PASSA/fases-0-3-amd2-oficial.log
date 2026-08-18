@@ -1,0 +1,1248 @@
+test_mesma_semente_mesmos_bytes (__main__.TestDeterminismo.test_mesma_semente_mesmos_bytes) ... ok
+test_sementes_diferentes_lotes_diferentes (__main__.TestDeterminismo.test_sementes_diferentes_lotes_diferentes) ... ok
+test_H_constante_com_memoria_inicial_divergente_cai_em_E3 (__main__.TestElegibilidade.test_H_constante_com_memoria_inicial_divergente_cai_em_E3) ... ok
+test_H_constante_rejeitado (__main__.TestElegibilidade.test_H_constante_rejeitado) ... ok
+test_pi_identicas_nunca_aceites (__main__.TestElegibilidade.test_pi_identicas_nunca_aceites) ... ok
+test_sigma_constante_rejeitado (__main__.TestElegibilidade.test_sigma_constante_rejeitado) ... ok
+test_testemunha_E6_verifica (__main__.TestElegibilidade.test_testemunha_E6_verifica) ... ok
+test_directorio_existente_falha (__main__.TestEndurecimentos.test_directorio_existente_falha) ... ok
+test_estrato2_extensao_so_apos_aceitacao (__main__.TestEndurecimentos.test_estrato2_extensao_so_apos_aceitacao) ... ok
+test_ids_sem_colisoes (__main__.TestEndurecimentos.test_ids_sem_colisoes) ... ok
+test_manifesto_verificavel_ficheiro_a_ficheiro (__main__.TestEndurecimentos.test_manifesto_verificavel_ficheiro_a_ficheiro) ... /root/causal-A-amd2-official/prereg-A/test_gerador.py:161: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmptfq977av/lote/manifesto.json' mode='r' encoding='UTF-8'>
+  man = js.load(open(os.path.join(alvo, "manifesto.json")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/0c9f8a266bf6d24b.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/5528225c1e455354.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/5fe60895c7dba54a.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/676c7cf1ca81ae7b.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/aad8bc11eb6b1265.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:163: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/instancias/dcb3875387371fde.json'>
+  corpo = open(os.path.join(alvo, "instancias", nome), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_gerador.py:165: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmptfq977av/lote/CHAVE-NAO-ABRIR.json'>
+  corpo_chave = open(os.path.join(alvo, "CHAVE-NAO-ABRIR.json"), "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_theta_sha_completo (__main__.TestEndurecimentos.test_theta_sha_completo) ... ok
+test_chave_reconstroi_variante (__main__.TestExportacaoCega.test_chave_reconstroi_variante) ... ok
+test_dimensoes_congeladas (__main__.TestExportacaoCega.test_dimensoes_congeladas) ... ok
+test_estrato2_dimensao_e_par (__main__.TestExportacaoCega.test_estrato2_dimensao_e_par) ... ok
+test_sem_rotulos_semanticos (__main__.TestExportacaoCega.test_sem_rotulos_semanticos) ... ok
+test_fecho_da_orbita (__main__.TestOrbita.test_fecho_da_orbita) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.487s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 0.245s
+
+OK
+........
+----------------------------------------------------------------------
+Ran 8 tests in 8.794s
+
+OK
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpebs96n4u/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpvduk9m8j/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpe2rqm_j4/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpi0vs8q3h/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpwdwncd8g/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpscytrjz6/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpzv1_tsrf/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp0cyi0ate/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp_drvtpp1/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpv2yrpqcs/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/classif.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/escala1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/escala.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/equiv.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/ch1.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_pontuacao.py:105: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/ch2.json' mode='w' encoding='UTF-8'>
+  json.dump(obj, open(p,"w")); caminhos[nome] = p
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:141: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/classif.json' mode='r' encoding='UTF-8'>
+  classif = json.load(open(classif_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:142: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/escala1.json' mode='r' encoding='UTF-8'>
+  escala_e1 = json.load(open(escala_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:143: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/escala.json' mode='r' encoding='UTF-8'>
+  escala = json.load(open(escala_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:144: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/equiv.json' mode='r' encoding='UTF-8'>
+  equiv = json.load(open(equiv_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/ch1.json' mode='r' encoding='UTF-8'>
+  chave_e1 = json.load(open(chave_e1_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/pontuacao.py:146: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpy271jlyw/ch2.json' mode='r' encoding='UTF-8'>
+  chave_e2 = json.load(open(chave_e2_path))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+----------------------------------------------------------------------
+Ran 11 tests in 0.009s
+
+OK
+......./root/causal-A-amd2-official/prereg-A/test_equivalencias.py:155: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp06s9gbjg/a/x.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo, open(os.path.join(d1, "x.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:157: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp06s9gbjg/b/y.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo2, open(os.path.join(d2, "y.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp06s9gbjg/a/x.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp06s9gbjg/b/y.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:295: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmp06s9gbjg/agg.json'>
+  open(saida, "wb").write(corpo)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:160: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp06s9gbjg/agg.json' mode='r' encoding='UTF-8'>
+  agg = json.load(open(saida))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_equivalencias.py:173: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph8ktaxgk/a/x.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo, open(os.path.join(d1, "x.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:174: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph8ktaxgk/b/y.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo, open(os.path.join(d2, "y.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph8ktaxgk/a/x.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmph8ktaxgk/b/y.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+../root/causal-A-amd2-official/prereg-A/test_equivalencias.py:360: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/aaa.json' mode='w' encoding='UTF-8'>
+  json.dump(a0, open(os.path.join(dir_i, "aaa.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:361: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/bbb.json' mode='w' encoding='UTF-8'>
+  json.dump(a1, open(os.path.join(dir_i, "bbb.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/aaa.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/bbb.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:295: ResourceWarning: unclosed file <_io.BufferedWriter name='/tmp/tmp7m77fjyr/agg-par.json'>
+  open(saida, "wb").write(corpo)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:364: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/tmp7m77fjyr/agg-par.json'>
+  corpo_par = open(saida, "rb").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/aaa.json' mode='r' encoding='UTF-8'>
+  ii = json.load(open(os.path.join(dir_i, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:369: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp7m77fjyr/in/bbb.json' mode='r' encoding='UTF-8'>
+  ii = json.load(open(os.path.join(dir_i, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+...../root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/78d69a649c3a3411.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/126ae7f10e769901.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4abfa0c486b812bf.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/a7ded7ac4abd7e20.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/8f55268874d23b0d.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/83385a956d878306.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4e9d9ba597e599f8.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/f8b85edec8370a5e.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358c6c61dadce064.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/69fbd4e58f86fcf1.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/74e5099c0f1920c9.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:429: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358188850d19331b.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/fb0bd81cc0f380a5.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/068e4a42cb491aa4.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/ddc51cabd51e64e6.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/3e9f4f5193588c87.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/98085bffb019041c.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/4f5300398cf19b68.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/09999351855d8b92.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:431: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/9d901bfbeaa3fe0a.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/126ae7f10e769901.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358188850d19331b.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358c6c61dadce064.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4abfa0c486b812bf.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4e9d9ba597e599f8.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/69fbd4e58f86fcf1.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/74e5099c0f1920c9.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/78d69a649c3a3411.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/83385a956d878306.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/8f55268874d23b0d.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/a7ded7ac4abd7e20.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/f8b85edec8370a5e.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/068e4a42cb491aa4.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/09999351855d8b92.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/3e9f4f5193588c87.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/4f5300398cf19b68.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/98085bffb019041c.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/9d901bfbeaa3fe0a.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/ddc51cabd51e64e6.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/fb0bd81cc0f380a5.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/126ae7f10e769901.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358188850d19331b.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4e9d9ba597e599f8.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/74e5099c0f1920c9.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/78d69a649c3a3411.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/a7ded7ac4abd7e20.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/358c6c61dadce064.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/4abfa0c486b812bf.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e1/69fbd4e58f86fcf1.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/4f5300398cf19b68.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/ddc51cabd51e64e6.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/fb0bd81cc0f380a5.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/068e4a42cb491aa4.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/09999351855d8b92.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmphd1so6hb/e2/98085bffb019041c.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_equivalencias.py:387: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpq6i73_l8/a/x.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo, open(os.path.join(d1, "x.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:388: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpq6i73_l8/b/y.json' mode='w' encoding='UTF-8'>
+  json.dump(alvo, open(os.path.join(d2, "y.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpq6i73_l8/a/x.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/equivalencias.py:280: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpq6i73_l8/b/y.json' mode='r' encoding='UTF-8'>
+  inst = json.load(open(os.path.join(directorio, f)))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+....../root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/78d69a649c3a3411.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/126ae7f10e769901.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/4abfa0c486b812bf.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/a7ded7ac4abd7e20.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/8f55268874d23b0d.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/83385a956d878306.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/4e9d9ba597e599f8.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/f8b85edec8370a5e.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/358c6c61dadce064.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/69fbd4e58f86fcf1.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/74e5099c0f1920c9.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:228: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/358188850d19331b.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/fb0bd81cc0f380a5.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/068e4a42cb491aa4.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/ddc51cabd51e64e6.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/3e9f4f5193588c87.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/98085bffb019041c.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/4f5300398cf19b68.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/09999351855d8b92.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:230: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/9d901bfbeaa3fe0a.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/358188850d19331b.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/358c6c61dadce064.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/4abfa0c486b812bf.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/4e9d9ba597e599f8.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/69fbd4e58f86fcf1.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/74e5099c0f1920c9.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/78d69a649c3a3411.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/83385a956d878306.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/8f55268874d23b0d.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/a7ded7ac4abd7e20.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e1/f8b85edec8370a5e.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/068e4a42cb491aa4.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/09999351855d8b92.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/3e9f4f5193588c87.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/4f5300398cf19b68.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/98085bffb019041c.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/9d901bfbeaa3fe0a.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/ddc51cabd51e64e6.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmpes6tcpw1/e2/fb0bd81cc0f380a5.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-0.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-1.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-2.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-3.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-4.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-5.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-6.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-7.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-8.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-9.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-10.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:245: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-11.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, f"renomeado-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-0.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-1.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-2.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-3.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-4.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-5.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-6.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:247: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-7.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, f"outro-{k}.json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-0.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-1.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-10.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-11.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-2.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-3.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-4.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-5.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-6.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-7.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-8.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-9.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-0.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-1.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-2.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-3.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-4.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-5.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-6.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-7.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-1.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-11.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-6.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-10.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-0.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-3.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-8.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-2.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e1/renomeado-9.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-5.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-2.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-0.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-1.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-6.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp3f76fl7q/e2/outro-4.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/78d69a649c3a3411.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/126ae7f10e769901.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4abfa0c486b812bf.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/a7ded7ac4abd7e20.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/8f55268874d23b0d.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/83385a956d878306.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4e9d9ba597e599f8.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/f8b85edec8370a5e.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358c6c61dadce064.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/69fbd4e58f86fcf1.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/74e5099c0f1920c9.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:203: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358188850d19331b.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d1, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/fb0bd81cc0f380a5.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/068e4a42cb491aa4.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/ddc51cabd51e64e6.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/3e9f4f5193588c87.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/98085bffb019041c.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/4f5300398cf19b68.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/09999351855d8b92.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/test_equivalencias.py:205: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/9d901bfbeaa3fe0a.json' mode='w' encoding='UTF-8'>
+  json.dump(i, open(os.path.join(d2, i["id"] + ".json"), "w"))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/126ae7f10e769901.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358188850d19331b.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358c6c61dadce064.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4abfa0c486b812bf.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4e9d9ba597e599f8.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/69fbd4e58f86fcf1.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/74e5099c0f1920c9.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/78d69a649c3a3411.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/83385a956d878306.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/8f55268874d23b0d.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/a7ded7ac4abd7e20.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/f8b85edec8370a5e.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/068e4a42cb491aa4.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/09999351855d8b92.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/3e9f4f5193588c87.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/4f5300398cf19b68.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/98085bffb019041c.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/9d901bfbeaa3fe0a.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/ddc51cabd51e64e6.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:56: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/fb0bd81cc0f380a5.json' mode='r' encoding='UTF-8'>
+  iid = json.load(open(caminho))["id"]     # pelo CONTEUDO
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/126ae7f10e769901.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358188850d19331b.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4e9d9ba597e599f8.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/74e5099c0f1920c9.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/78d69a649c3a3411.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/a7ded7ac4abd7e20.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/358c6c61dadce064.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/4abfa0c486b812bf.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e1/69fbd4e58f86fcf1.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/4f5300398cf19b68.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/ddc51cabd51e64e6.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/fb0bd81cc0f380a5.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/068e4a42cb491aa4.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/09999351855d8b92.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/root/causal-A-amd2-official/prereg-A/dryrun.py:74: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/tmp5guni_l0/e2/98085bffb019041c.json' mode='r' encoding='UTF-8'>
+  instancias = [json.load(open(indice[iid])) for iid in ids]
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.
+----------------------------------------------------------------------
+Ran 25 tests in 12.253s
+
+OK
+n=6: 56/56 projeccoes, 56 intervencoes reais, 0.00s, 59.5 us/intervencao
+n=8: 246/246 projeccoes, 246 intervencoes reais, 0.02s, 73.6 us/intervencao
+n=10: 1012/1012 projeccoes, 1012 intervencoes reais, 0.07s, 71.3 us/intervencao
+n=11: 2035/2035 projeccoes, 2035 intervencoes reais, 0.15s, 72.9 us/intervencao
+n=12: 4082/4082 projeccoes, 417422 intervencoes reais, 11.96s, 28.6 us/intervencao
+sha_benchmark: 76ba6cf846e3338399e41909c70e84a962c018fc46c03d796f936a0138ffad30
+{
+ "sha_manifesto": "a757abca6894737b1917e4cf3ecb7454a676462893f96b68cc5c56e57f6a4ab6",
+ "taxa_aceitacao": 0.25380710659898476,
+ "tentativas": 197
+}
+{
+ "sha_manifesto": "3c18be2d64e8cf0983aca14205f551096d2c34985b9e8b56c3230d33309347c5",
+ "taxa_aceitacao": 0.2976190476190476,
+ "tentativas": 84
+}
+sha_classificacoes: 59488b2e637a733235fdf25a0bbc9e5282c1fb9597b3778cbcf39ff1ccd4a647
+sha_escala: bfec5550d9f877f09e99f706f9a14d30c81cd09ae8416084725858c2eed5792f
+sha_escala: 88c89ae2a2472178805a50560efb88410cb80e1b345963ade3cb178fb2472a1c
+{
+ "E1:I": [
+  "38bc61b012608a9c",
+  "ce526d4c8d074a40",
+  "d378a7471acd842e"
+ ],
+ "E1:II": [
+  "3b39caa9eeedb90c",
+  "5162cc0cc7b6477c",
+  "69532d898d953d9e"
+ ],
+ "E1:III": [
+  "38df087a7981ac68",
+  "4cb79f2c7b78e2db",
+  "d7e0dfd6a37a2a7b"
+ ],
+ "E2:II": [
+  "174a2e5ce211956c",
+  "b1b8029386b82f1c",
+  "f984f12fb58d88b8"
+ ],
+ "E2:III": [
+  "13ac5aaf585291d2",
+  "51283df959023fc6",
+  "9a0e17716c348a06"
+ ]
+}
+{
+ "T_equiv_estimado_horas": 45.85824827462498,
+ "registado_em": "2026-08-15T06:15:29.079304",
+ "t_por_grupo_segundos": {
+  "E1:I": 1.5822903700027382,
+  "E1:II": 330.4993472049973,
+  "E1:III": 329.7015892969939,
+  "E2:II": 9344.653787807001,
+  "E2:III": 9142.543013087
+ }
+}
+tempos gravados em dryrun-tempos.json
+
+== suite test_gerador.py
+$ /root/prereg-env/bin/python test_gerador.py
+
+== suite test_classificador.py
+$ /root/prereg-env/bin/python test_classificador.py
+
+== suite test_escala.py
+$ /root/prereg-env/bin/python test_escala.py
+
+== suite test_pontuacao.py
+$ /root/prereg-env/bin/python test_pontuacao.py
+
+== suite test_equivalencias.py
+$ /root/prereg-env/bin/python test_equivalencias.py
+
+== benchmark 11.0
+$ /root/prereg-env/bin/python benchmark.py --saida benchmark-oficial.json
+
+== gerar dry-e1
+$ /root/prereg-env/bin/python gerador.py --semente 777000200 --familias 50 --saida dry-e1
+
+== gerar dry-e2
+$ /root/prereg-env/bin/python gerador.py --semente 777000201 --familias 25 --estrato2 --saida dry-e2
+
+== classificador E1
+$ /root/prereg-env/bin/python classificador.py --instancias dry-e1/instancias --saida /tmp/dry-descartavel-n7qzrsje/dry-class-e1.json
+
+== escala E1
+$ /root/prereg-env/bin/python escala.py --instancias dry-e1/instancias --saida /tmp/dry-descartavel-n7qzrsje/dry-escala-e1.json
+
+== escala E2
+$ /root/prereg-env/bin/python escala.py --instancias dry-e2/instancias --saida /tmp/dry-descartavel-n7qzrsje/dry-escala-e2.json
+
+== runner temporal das equivalências
+$ /root/prereg-env/bin/python dryrun.py --chave-e1 dry-e1/CHAVE-NAO-ABRIR.json --chave-e2 dry-e2/CHAVE-NAO-ABRIR.json --saida dryrun-seleccao.json --cronometrar dry-e1/instancias dry-e2/instancias
+
+========== OITO NÚMEROS (segundos) ==========
+  T_classificador_E1_s: 0.50
+  T_escala_E1_s: 2.87
+  T_escala_E2_s: 379.39
+  t_E1_I_s: 1.58
+  t_E1_II_s: 330.50
+  t_E1_III_s: 329.70
+  t_E2_II_s: 9344.65
+  t_E2_III_s: 9142.54
+  T_equiv:  45.86 h
+  T_total:  45.96 h
+  GATE:     PASSA -> Fase 4 (congelamento)
+  registo em registo-fases-0-3.json

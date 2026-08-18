@@ -1,0 +1,42 @@
+# CONGELAMENTO FORMAL - Pre-registo A v8.3 - Fase 4
+# Amendment No. 2 (paralelizacao det. das equivalencias) + Amendment No. 3 (randomness externo drand)
+data_hora_UTC=2026-08-15T13:25:26Z
+condicao=NENHUM_dado_confirmatorio_gerado;Fase_5_NAO_iniciada
+hardware_node=0x920009ab165e
+hardware_plataforma=Linux-7.0.0-29-generic-x86_64-with-glibc2.43
+python=3.14.4
+numpy=2.5.2
+gate=PASSA_GATE_72H__A1_estimativa_horas=8.42__T_equiv_horas=45.86__T_total_horas=45.96
+amendment_2=Pre-data_Amendment_No_2__paralelizacao_determinista_equivalencias_WORKERS_EQUIV_3
+amendment_3=Pre-data_Amendment_No_3__External_public_randomness_source__drand_quicknet
+beacon=quicknet
+chain_hash=52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971
+round=31332238
+round_time_UTC=2026-08-15T13:21:18Z
+randomness=e1b06966f5e67e25d1a4901b3eab9573add296cf9daba40c88cf6dcfe3db4bc6
+signature=8caa8d181525c1b8124cfb32ed0f2a610f07068aa43f626f54d1c8a2248f88e925a85a4ea91b9346ef9325ae2acc7bb3
+primeiros_8_hex=e1b06966
+S_E1=3786434918
+S_E2=3786434919
+colisao=NENHUMA
+manifesto=hashes-finais-dev.txt__sha256_995d42dde0070310b6f214ce0398cf1cd89644bf8d79af56823c41bf31ed83d7
+supersede_pre_compromissos_fisicos=convencao-sementes-PRE-COMMIT.txt,suplemento-lancamento-ambiguo-PRE-COMMIT.txt__PRESERVADOS_imutaveis
+
+## SHA256 dos 12 .py (instrumento congelado):
+19d0baf0e3a8742d44039893c34b8941da936144de1e1fdd9b21da27baa11f6a  benchmark.py
+ecaa40c6fa2abf84751811cbe5490073bb68e790ab1d5e135ea9342256b046a3  classificador.py
+595c400bcdb2c8a04ec5758170345b0133dfe41dd932e221944f91251a29fe34  dryrun.py
+f3b31124c961419f86a4024f80c755c94371130fceae8f1d4c61eebd1d367c8d  equivalencias.py
+40ccd532e583b05665b2fbed8bd2a63f18a4300615f6dba7fb3eaaa73e05cca7  escala.py
+6389c5615fd88540676164394d3bab0c572e85fffaa1a1ba3a300a13ddd58ccd  gerador.py
+028f5a0327c3e3437ffc6df03d10d45d9a06c3d0ff267795caa6f9e751fe0f57  pontuacao.py
+fb42d9f14bd50f3f40cd293e4f842e87844bedd79218036f8826ba18312e1528  test_classificador.py
+4a41de63b913ab5b2b98c8f4ebc7831437fc6928eb69afdc4ee3f68ad55c29c0  test_equivalencias.py
+98a7543423757f0610c1bedd66a35638f48437baeea60df8ac03836164433f17  test_escala.py
+ebfda4d8967cf9e3cecf087a1fcaf901a2e5c735f2e099112f5f39ade9cc4254  test_gerador.py
+905db9b5077aa8264554311284c5bba425a474848b2b780152e5374650ebf055  test_pontuacao.py
+## SHA256 fases_0_3.py (orquestrador):
+3e171881f294194322f2ee76f456143c5a91da5cf431d936289d75c91a9b1814  fases_0_3.py
+
+## FRASE DE CONGELAMENTO (seccao 11.2 do Pre-registo A v8.3):
+Congelado nos termos da secção 11.2 do Pré-registo A v8.3. A partir deste momento, alterações implicam anulação registada.

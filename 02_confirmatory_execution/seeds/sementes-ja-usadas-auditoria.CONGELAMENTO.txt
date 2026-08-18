@@ -1,0 +1,8 @@
+# CONGELAMENTO DA LISTA DE EXCLUSAO DE SEMENTES (pre-sorteio)
+# Pre-registo A v8.3 - Fase 4 - Pre-data Amendment No. 2
+ficheiro=sementes-ja-usadas-auditoria.txt
+sha256=4d98cc317a8882ecd7f3b4a750cce931ade8539e73c0a3fa5f627f52f2397280
+congelado_em_UTC=2026-08-15T12:54:02Z
+n_distintas=20
+imutavel=chattr_+i
+regra=NAO_ALTERAR_APOS_O_PRIMEIRO_LANCAMENTO_FISICO

@@ -1,0 +1,102 @@
+{
+ "declaracao": "Nenhuma candidata executada; nenhuma classificacao observada; sistemas descartaveis nunca reutilizados.",
+ "estimativa_confirmatoria": {
+  "estrato1_A1_horas": 1.9091962935385325,
+  "estrato2_A1_horas": 6.472513875641134,
+  "nota": "Estimativa da componente A1+enumeracao apenas, por extrapolacao linear da taxa medida; orcamento de 72h avalia o workload completo no dry run 11.1a."
+ },
+ "resultados": [
+  {
+   "avaliacoes_estado_workload_completo_analitico": 214272,
+   "bytes_tabela_transicao": 512,
+   "contadores_reais": {
+    "avaliacoes_estado": 3584,
+    "comparacoes": 3584,
+    "intervencoes": 56
+   },
+   "intervencoes_workload_completo_analitico": 3348,
+   "n": 6,
+   "origem_sistema": "gerador",
+   "pico_memoria_bytes": 5334,
+   "projeccoes_admissiveis_no_executado": 0,
+   "projeccoes_executadas": 56,
+   "projeccoes_total": 56,
+   "segundos": 0.003351216000282875,
+   "segundos_por_intervencao": 5.98431428621942e-05
+  },
+  {
+   "avaliacoes_estado_workload_completo_analitico": 15091200,
+   "bytes_tabela_transicao": 2048,
+   "contadores_reais": {
+    "avaliacoes_estado": 62976,
+    "comparacoes": 62976,
+    "intervencoes": 246
+   },
+   "intervencoes_workload_completo_analitico": 58950,
+   "n": 8,
+   "origem_sistema": "sintetica_curva",
+   "pico_memoria_bytes": 15249,
+   "projeccoes_admissiveis_no_executado": 0,
+   "projeccoes_executadas": 246,
+   "projeccoes_total": 246,
+   "segundos": 0.018126237000160472,
+   "segundos_por_intervencao": 7.368389024455477e-05
+  },
+  {
+   "avaliacoes_estado_workload_completo_analitico": 1013243904,
+   "bytes_tabela_transicao": 8192,
+   "contadores_reais": {
+    "avaliacoes_estado": 1036288,
+    "comparacoes": 1036288,
+    "intervencoes": 1012
+   },
+   "intervencoes_workload_completo_analitico": 989496,
+   "n": 10,
+   "origem_sistema": "gerador",
+   "pico_memoria_bytes": 55953,
+   "projeccoes_admissiveis_no_executado": 0,
+   "projeccoes_executadas": 1012,
+   "projeccoes_total": 1012,
+   "segundos": 0.07019175400000677,
+   "segundos_por_intervencao": 6.935944071146913e-05
+  },
+  {
+   "avaliacoes_estado_workload_completo_analitico": 8227067904,
+   "bytes_tabela_transicao": 16384,
+   "contadores_reais": {
+    "avaliacoes_estado": 4167680,
+    "comparacoes": 4167680,
+    "intervencoes": 2035
+   },
+   "intervencoes_workload_completo_analitico": 4017123,
+   "n": 11,
+   "origem_sistema": "sintetica_curva",
+   "pico_memoria_bytes": 110225,
+   "projeccoes_admissiveis_no_executado": 0,
+   "projeccoes_executadas": 2035,
+   "projeccoes_total": 2035,
+   "segundos": 0.1461849560000701,
+   "segundos_por_intervencao": 7.183535921379366e-05
+  },
+  {
+   "avaliacoes_estado_workload_completo_analitico": 66542542848,
+   "bytes_tabela_transicao": 32768,
+   "contadores_reais": {
+    "avaliacoes_estado": 1709760512,
+    "comparacoes": 1709760512,
+    "intervencoes": 417422
+   },
+   "intervencoes_workload_completo_analitico": 16245738,
+   "n": 12,
+   "origem_sistema": "gerador",
+   "pico_memoria_bytes": 327272,
+   "projeccoes_admissiveis_no_executado": 3,
+   "projeccoes_executadas": 4082,
+   "projeccoes_total": 4082,
+   "segundos": 11.974058516999776,
+   "segundos_por_intervencao": 2.8685738933261246e-05
+  }
+ ],
+ "seccao_protocolo": "11.0",
+ "semente_descartavel": 900000001
+}

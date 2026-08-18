@@ -1,0 +1,31 @@
+# PRE-COMPROMISSO DA RONDA drand - Pre-data Amendment No. 3 (quicknet)
+# Fixado ANTES de round_time e ANTES de consultar qualquer randomness.
+registado_em_UTC=2026-08-15T13:11:16Z
+beacon=quicknet
+chain_hash=52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971
+scheme=bls-unchained-g1-rfc9380
+genesis_time=1692803367
+period=3
+T0_UNIX=1786799476
+T0_UTC=2026-08-15T13:11:16Z
+TARGET_UNIX=1786800076
+TARGET_UTC=2026-08-15T13:21:16Z
+formula_round=round=1+ceil((TARGET_UNIX-genesis_time)/period)
+formula_round_time=round_time=genesis_time+(round-1)*period
+formula_previous=previous_round_time=round_time-period
+delta=93996709
+ceil_delta_period=31332237
+round=31332238
+round_time_UNIX=1786800078
+round_time_UTC=2026-08-15T13:21:18Z
+previous_round_time_UNIX=1786800075
+previous_round_time_UTC=2026-08-15T13:21:15Z
+check_round_time_ge_TARGET=YES
+check_previous_round_time_lt_TARGET=YES
+regra_derivacao_S=randomness_hex;primeiros_8_hex=primeiros_32_bits;unsigned_big_endian=S
+S_E1=S
+S_E2=S+1
+lista_exclusao=sementes-ja-usadas-auditoria.txt;sha256=4d98cc317a8882ecd7f3b4a750cce931ade8539e73c0a3fa5f627f52f2397280;20_valores
+regra_colisao=se_S_ou_S+1_na_lista=>registar_e_PARAR;NAO_escolher_outra_ronda;NAO_gerar_dados_confirmatorios
+endpoint_a_usar_DEPOIS=RELAY/52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971/public/31332238
+estado=RANDOMNESS_AINDA_NAO_CONSULTADA

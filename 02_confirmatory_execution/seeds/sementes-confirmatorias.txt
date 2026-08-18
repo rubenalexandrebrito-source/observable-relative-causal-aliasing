@@ -1,0 +1,24 @@
+# SEMENTES CONFIRMATORIAS - Pre-registo A v8.3 - Fase 4
+# Fonte externa: Pre-data Amendment No. 3 (drand quicknet public randomness).
+data_hora_UTC=2026-08-15T13:25:26Z
+metodo=drand_quicknet_beacon_publico_verificavel__supersede_32_lancamentos_fisicos
+beacon=quicknet
+chain_hash=52db9ba70e0cc0f6eaf7803dd07447a1f5477735fd3f661792ba94600c84e971
+scheme=bls-unchained-g1-rfc9380
+round=31332238
+round_time_UTC=2026-08-15T13:21:18Z
+recolha_UTC=2026-08-15T13:21:58Z
+relays_consultados=api.drand.sh,drand.cloudflare.com,api2.drand.sh
+relays_coincidem_por_campo=YES
+randomness=e1b06966f5e67e25d1a4901b3eab9573add296cf9daba40c88cf6dcfe3db4bc6
+signature=8caa8d181525c1b8124cfb32ed0f2a610f07068aa43f626f54d1c8a2248f88e925a85a4ea91b9346ef9325ae2acc7bb3
+testemunha=beacon_publico_drand_quicknet_verificavel_por_qualquer_terceiro_round_31332238
+regra_derivacao=primeiros_8_hex=e1b06966=32_bits_unsigned_big_endian
+primeiros_8_hex=e1b06966
+S=3786434918
+S_E1=3786434918
+S_E2=3786434919
+colisao=NENHUMA__verificado_contra_20_sementes__sementes-ja-usadas-auditoria.txt__sha256_4d98cc317a8882ecd7f3b4a750cce931ade8539e73c0a3fa5f627f52f2397280
+precommit_ronda_sha256=f94e94451220bc542b38eab82fc2c0629f4898e7efa568fd47d5a0cbb6408086
+amendment=Pre-data_Amendment_No_3
+estado=SEMENTES_FIXADAS__nenhum_lote_confirmatorio_gerado

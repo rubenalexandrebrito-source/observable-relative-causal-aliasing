@@ -1,0 +1,51 @@
+# AUDITORIA DAS SEMENTES JA USADAS
+# Pre-registo A v8.3 - Fase 4 - Pre-data Amendment No. 2
+# Metodo: extraccao DOCUMENTAL (grep) dos 12 .py, fases_0_3.py e dos registos
+#         preservados. NAO se executaram geradores. NAO se alterou codigo.
+compilado_em_UTC=2026-08-15T12:50:04Z
+
+## VERIFICACOES PREVIAS
+conf_e1_conf_e2=INEXISTENTES  # procura por CONTEUDO em toda a maquina: lista vazia
+sementes_dev_txt=INEXISTENTE  # nao existe em toda a maquina. Ausencia = nao ha
+#   este registo adicional; NAO prova que apenas estas sementes tenham existido.
+
+## (1) SEMENTES DE GERADOR / DESENVOLVIMENTO
+900000001  # benchmark.py:34 SEMENTE_DESCARTAVEL; gerar_lote (n=6/10/12) e
+#            SeedSequence([900000001,n]) (n=8/11); benchmark-oficial.json
+#            "semente_descartavel" (1a exec + AMD2 + fumo).  [QUEIMADA v8.3]
+777000111  # SEMENTE_DEV: test_classificador.py:10, test_equivalencias.py:8,
+#            test_escala.py:10; gerar_lote(777000111,...).            [QUEIMADA v8.3]
+
+## (2) SEMENTES DE DRY-RUN / SELECTOR
+777000200  # fases_0_3.py:169 gerador --semente (dry-e1); dry-e1/manifesto.json
+#            semente_raiz; logs oficiais (1a e AMD2).               [QUEIMADA v8.3]
+777000201  # fases_0_3.py:171 gerador --semente --estrato2 (dry-e2);
+#            dry-e2/manifesto.json; logs oficiais.                  [QUEIMADA v8.3]
+777000300  # dryrun.py:23 SEMENTE_DRYRUN; PCG64(777000300) selector do dry run.
+
+## (3) SEMENTES DE TESTES
+777000210  # test_equivalencias.py (fixtures dryrun E1): gerar_lote(777000210,4,False)
+777000211  # test_equivalencias.py (fixtures dryrun E2): gerar_lote(777000211,4,True)
+123456     # test_gerador.py:29-30 gerar_lote(123456,2,False)
+1          # test_gerador.py:35 gerar_lote(1,...); :147 gerador --semente 1;
+#            test_equivalencias.py semente_amostra=1 (amostragem)
+2          # test_gerador.py:36 gerar_lote(2,2,False)
+42         # test_gerador.py:71 gerar_lote(42,3,False)
+99         # test_gerador.py:99,109 gerar_lote(99,2,False)
+7          # test_gerador.py:115 gerar_lote(7,1,False); theta_valida_qualquer(semente=7)
+#            (test_gerador:14, test_classificador:129); PCG64(7) test_classificador:154
+11         # test_gerador.py:123 gerar_lote(11,1,True)
+555        # test_gerador.py:132 gerar_lote(555,5,False)
+556        # test_gerador.py:138 gerar_lote(556,1,False)
+888        # test_gerador.py:172-173 gerar_lote(888,3,False) e (888,3,True)
+77         # test_gerador.py:157 gerador --semente 77 (subprocess)
+0          # equivalencias.py:157 semente_amostra=0 (default, PCG64(0)); varios testes
+#            [papel: AMOSTRAGEM de equivalencias, nao geracao de lote]
+5          # test_equivalencias.py:129 semente_amostra=5   [papel: AMOSTRAGEM]
+
+## UNIAO CONSERVADORA PARA VERIFICACAO DE COLISAO DE S e S+1
+# (todas as acima; inclui as de amostragem por precaucao conservadora)
+uniao=0,1,2,5,7,11,42,77,99,123456,555,556,888,777000111,777000200,777000201,777000210,777000211,777000300,900000001
+n_distintas=20
+regra_colisao=se S ou (S+1) pertencer a esta uniao -> COLISAO: registar e PARAR;
+#             nao improvisar, nao gerar dados confirmatorios.

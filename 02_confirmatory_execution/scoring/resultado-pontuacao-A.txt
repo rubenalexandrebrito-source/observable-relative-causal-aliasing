@@ -1,0 +1,133 @@
+{
+ "nota": "Cl\u00e1usulas D1-D3 (10.2) s\u00e3o procedimentais e verificam-se por auditoria, n\u00e3o por este script. O resultado n\u00e3o prova nem refuta H* (10.2). C3 \u00e9 can\u00e1rio e n\u00e3o entra em H_A.",
+ "resultado_confirmatorio_A": "negativo",
+ "veredicto_por_candidata": {
+  "C1p": {
+   "acertos_E1": "150/150",
+   "acertos_E2": "49/50",
+   "erros": [
+    {
+     "id": "7bb0baab3a8ed7aa",
+     "variante": "II"
+    }
+   ],
+   "itens": {
+    "alvos_E1": true,
+    "alvos_E2": false,
+    "equivalencias": true,
+    "escala": true
+   },
+   "n_erros": 1,
+   "passa": false
+  },
+  "C2": {
+   "acertos_E1": "101/150",
+   "acertos_E2": "25/50",
+   "erros": [
+    {
+     "id": "0b916e9501b7d7b5",
+     "variante": "II"
+    },
+    {
+     "id": "0e65a566852ba562",
+     "variante": "II"
+    },
+    {
+     "id": "0f04ee006d5a3758",
+     "variante": "II"
+    },
+    {
+     "id": "1a1168fe41e2a303",
+     "variante": "II"
+    },
+    {
+     "id": "2423cf836c32ffdf",
+     "variante": "II"
+    },
+    {
+     "id": "347a494fbe47b29b",
+     "variante": "II"
+    },
+    {
+     "id": "3e8fb4102258e26f",
+     "variante": "II"
+    },
+    {
+     "id": "4799de5bfdb51cba",
+     "variante": "II"
+    },
+    {
+     "id": "4837f6595187dfc0",
+     "variante": "II"
+    },
+    {
+     "id": "497bad5442e07939",
+     "variante": "II"
+    }
+   ],
+   "itens": {
+    "alvos_E1": false,
+    "alvos_E2": false,
+    "equivalencias": true,
+    "escala": true
+   },
+   "n_erros": 74,
+   "passa": false
+  },
+  "C3": {
+   "acertos_E1": "100/150",
+   "acertos_E2": "25/50",
+   "erros": [
+    {
+     "id": "0951438f03acd5b3",
+     "variante": "II"
+    },
+    {
+     "id": "0b916e9501b7d7b5",
+     "variante": "II"
+    },
+    {
+     "id": "0e65a566852ba562",
+     "variante": "II"
+    },
+    {
+     "id": "0f04ee006d5a3758",
+     "variante": "II"
+    },
+    {
+     "id": "1a1168fe41e2a303",
+     "variante": "II"
+    },
+    {
+     "id": "2423cf836c32ffdf",
+     "variante": "II"
+    },
+    {
+     "id": "347a494fbe47b29b",
+     "variante": "II"
+    },
+    {
+     "id": "3e8fb4102258e26f",
+     "variante": "II"
+    },
+    {
+     "id": "4799de5bfdb51cba",
+     "variante": "II"
+    },
+    {
+     "id": "4837f6595187dfc0",
+     "variante": "II"
+    }
+   ],
+   "itens": {
+    "alvos_E1": false,
+    "alvos_E2": false,
+    "equivalencias": true,
+    "escala": true
+   },
+   "n_erros": 75,
+   "passa": false
+  }
+ }
+}
+sha_pontuacao: 83dfe673931cb6a73e7fd28d3c0777a275d59c1f4ff6c67b8d8a37363ea1c0b7

@@ -1,0 +1,19 @@
+# PRE-COMPROMISSO DA CONVENCAO DAS SEMENTES CONFIRMATORIAS
+# Pre-registo A v8.3 - Fase 4 - Pre-data Amendment No. 2
+# Registado ANTES de qualquer lancamento fisico; 32 bits ainda NAO recebidos.
+# CORRECCAO pre-sorteio: removida a baseline de colisao fixa (nao pertence a
+#   convencao); a colisao verifica-se contra a UNIAO completa em
+#   sementes-ja-usadas-auditoria.txt.
+data_hora_UTC_pre_commit=2026-08-15T12:51:24Z
+metodo=32_lancamentos_fisicos_de_moeda
+convencao=cara_1_coroa_0
+n_lancamentos=32
+ordem=temporal_MSB_para_LSB
+conversao=binario_32bits_para_inteiro_decimal_unsigned
+definicao_S_E1=S
+definicao_S_E2=S+1
+fonte=externa_ao_projecto_NAO_simulado_sem_Python_NumPy_RNG_do_projecto
+verificacao_colisao=contra_uniao_de_TODAS_as_sementes_usadas_ver_sementes-ja-usadas-auditoria.txt
+estado=A_AGUARDAR_OS_32_BITS_S_ainda_NAO_calculado_nenhum_dado_confirmatorio
+gate=PASSA_GATE_72H_T_total_45.96h
+amendment=Pre-data_Amendment_No_2

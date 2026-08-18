@@ -1,0 +1,15158 @@
+{
+ "0045ee0f58bc49f7": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0045ee0f58bc49f7",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0204145c1240a5e3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0204145c1240a5e3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0951438f03acd5b3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0951438f03acd5b3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "sinal",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "sinal",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "096735a605bc0e6c": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "096735a605bc0e6c",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "09927c39b22e14f1": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "09927c39b22e14f1",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0b916e9501b7d7b5": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0b916e9501b7d7b5",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0e65a566852ba562": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0e65a566852ba562",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0e912a98015e22bc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0e912a98015e22bc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0e9f595a37cf1407": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0e9f595a37cf1407",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "0f04ee006d5a3758": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "0f04ee006d5a3758",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "113beaf5a9419a3b": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "113beaf5a9419a3b",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "12ad78391ce8fe7e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "12ad78391ce8fe7e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "1796d65626c292f3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "1796d65626c292f3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "1a1168fe41e2a303": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "1a1168fe41e2a303",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "1ad2df0927d0e088": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "1ad2df0927d0e088",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "1de7419e752ccf81": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "1de7419e752ccf81",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "23b6791573ef0601": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "23b6791573ef0601",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "2423cf836c32ffdf": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "2423cf836c32ffdf",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "268358887793f924": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "268358887793f924",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "2837f73fbe8bcb9f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "2837f73fbe8bcb9f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "29f93cbe6cd22445": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "29f93cbe6cd22445",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "338066d84bb83516": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "338066d84bb83516",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "347a494fbe47b29b": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "347a494fbe47b29b",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "38d6f5ea5e0c04d0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "38d6f5ea5e0c04d0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "3a5d0031220fb66f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "3a5d0031220fb66f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "3e8fb4102258e26f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "3e8fb4102258e26f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "407ec7ed036aed9e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "407ec7ed036aed9e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "409879af979315c0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "409879af979315c0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "415b142abe8ac7ce": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "415b142abe8ac7ce",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "41671836b7f5cc66": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "41671836b7f5cc66",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "43e8c61dce8ca8a1": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "43e8c61dce8ca8a1",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4704bf116f690316": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4704bf116f690316",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4799de5bfdb51cba": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4799de5bfdb51cba",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4837f6595187dfc0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4837f6595187dfc0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "49103b5c87132d64": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "49103b5c87132d64",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "497bad5442e07939": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "497bad5442e07939",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4a121914639305d5": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4a121914639305d5",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4a3679f526cb1693": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4a3679f526cb1693",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4d818e452575d02b": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4d818e452575d02b",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "4dc397b01e7febf9": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "4dc397b01e7febf9",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5315f85a9353d2f3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5315f85a9353d2f3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "535a711484832cd6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "535a711484832cd6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "540beb7791bb2fd7": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "540beb7791bb2fd7",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "54d797ca9aa6d758": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "54d797ca9aa6d758",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "54dc60a6641d0029": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "54dc60a6641d0029",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "554cfc1f3c1845a6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "554cfc1f3c1845a6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "561594c42ddd1d34": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "561594c42ddd1d34",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "589e53d401267507": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "589e53d401267507",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5c5beb0476d5e104": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5c5beb0476d5e104",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5c7a5d1f20a7be58": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5c7a5d1f20a7be58",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5cda8168ede76420": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5cda8168ede76420",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5e6031988c234aa2": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5e6031988c234aa2",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "5e71b562fd7e6cb8": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "5e71b562fd7e6cb8",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6474d1ce66d3c257": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6474d1ce66d3c257",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "649c66ff1aa3ab7f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "649c66ff1aa3ab7f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "658024fc48ad4cef": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "658024fc48ad4cef",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "67398367f0eaa017": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "67398367f0eaa017",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "67a94ca4dcb699d8": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "67a94ca4dcb699d8",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "68a686ea5f9530ae": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "68a686ea5f9530ae",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "68f2a89fc8ab2ca5": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "68f2a89fc8ab2ca5",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6a78863462faef54": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6a78863462faef54",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6b193bb03e089ad0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6b193bb03e089ad0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6dfc2c2fe3f8f067": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6dfc2c2fe3f8f067",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6e12adb316133300": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6e12adb316133300",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "6f781a9acdf8ffd6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "6f781a9acdf8ffd6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "70e6ff25f6e13a2e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "70e6ff25f6e13a2e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "735c7c7a6a05b762": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "735c7c7a6a05b762",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7582272ed5ebb338": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7582272ed5ebb338",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "789aa6b58fbabfa0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "789aa6b58fbabfa0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7c871b15ec695d1a": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7c871b15ec695d1a",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7d89c00b62f47e49": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7d89c00b62f47e49",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7dc2d776d7bf0590": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7dc2d776d7bf0590",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7f16420dc802691e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7f16420dc802691e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "7f88912565df10bc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "7f88912565df10bc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "80bc0c6b41498cc3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "80bc0c6b41498cc3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "82222e74c533eed7": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "82222e74c533eed7",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "8244a3ec04972704": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "8244a3ec04972704",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "840b84e4cda249be": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "840b84e4cda249be",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "854fc647d4dca885": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "854fc647d4dca885",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "85db2743f55592f0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "85db2743f55592f0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "884f73f4583fc9dc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "884f73f4583fc9dc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "8f8343640dbc3e7f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "8f8343640dbc3e7f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "8f8e80aa62c5999f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "8f8e80aa62c5999f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "93773ac303ec43cc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "93773ac303ec43cc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "958959c834300204": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "958959c834300204",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "97d4f10e5784ca66": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "97d4f10e5784ca66",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "98950317bf118c7e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "98950317bf118c7e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "990d6f9e640841ea": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "990d6f9e640841ea",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "9b9533e56df336b1": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "9b9533e56df336b1",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "9bb7118392259f1f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "9bb7118392259f1f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "9efd2031b3e97ea6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "9efd2031b3e97ea6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "9f09735527b8b735": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "9f09735527b8b735",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a0e7bdd8acd50fd3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a0e7bdd8acd50fd3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a1d20005f301c029": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a1d20005f301c029",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a3a674148f0902cd": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a3a674148f0902cd",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a3d1808aa8dd419c": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a3d1808aa8dd419c",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a4edb9ee065ebe0e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a4edb9ee065ebe0e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a57de74258f65456": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a57de74258f65456",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a6fcddc190d590e9": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a6fcddc190d590e9",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "a90b7bbcfcc38082": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "a90b7bbcfcc38082",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "aefee8ccdd3495cc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "aefee8ccdd3495cc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "af444aa9ab348470": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "af444aa9ab348470",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "b166f6082d6057bb": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "b166f6082d6057bb",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "b404e6f0223d9860": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "b404e6f0223d9860",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "b735a2f7f8946260": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "b735a2f7f8946260",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "b752644384b6d787": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "b752644384b6d787",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "b8079b78d0b0bb55": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "b8079b78d0b0bb55",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ba1f0c005c836614": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ba1f0c005c836614",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ba5a5e7c8e191c78": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ba5a5e7c8e191c78",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "bc5621ed2e0b193c": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "bc5621ed2e0b193c",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "bdf349273da8a628": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "bdf349273da8a628",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c00b7263ec90d4b1": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c00b7263ec90d4b1",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c3109968343e08a5": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c3109968343e08a5",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c4fb81c11439d320": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c4fb81c11439d320",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c5326da6ef0ee66f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c5326da6ef0ee66f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c76499fc1c9169ad": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c76499fc1c9169ad",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c7bcc90b61bfcf0b": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c7bcc90b61bfcf0b",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c7f83edc3ae5f3d6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c7f83edc3ae5f3d6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "c9a63c4dbfd0aff6": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "c9a63c4dbfd0aff6",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "cbe55a3d7529276d": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "cbe55a3d7529276d",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ce2f3c4549dbb5f0": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ce2f3c4549dbb5f0",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "cf83a9e3584f9afc": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "cf83a9e3584f9afc",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "d3098311be7b360e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "d3098311be7b360e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "d44d9db74adabbb3": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "d44d9db74adabbb3",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "d704f8e740321680": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "d704f8e740321680",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "d9ba891ed24801f9": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "d9ba891ed24801f9",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "db333fa9113ace56": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "db333fa9113ace56",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "db6a9d9d71ef8a48": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "db6a9d9d71ef8a48",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "dd535e6c3b293cb9": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "dd535e6c3b293cb9",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "dde25c14f04c3af5": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "dde25c14f04c3af5",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "de783bc3fe15f930": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "de783bc3fe15f930",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e04150b222913599": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e04150b222913599",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e64f45323e7adf63": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e64f45323e7adf63",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e6f30bb9cde56f2a": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e6f30bb9cde56f2a",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e8264b6949a7bdae": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e8264b6949a7bdae",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e915a54610cdca8b": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e915a54610cdca8b",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "e9ae9749e610adba": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "e9ae9749e610adba",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ec8dd2bc17a0b963": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ec8dd2bc17a0b963",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ee0a08223539987f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ee0a08223539987f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ee5ef02bbd3b1add": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ee5ef02bbd3b1add",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f22241a4bb040b18": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f22241a4bb040b18",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f31d8329f434dfde": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f31d8329f434dfde",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f4789275ccb2efc4": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f4789275ccb2efc4",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f5b6e7a80856dc71": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f5b6e7a80856dc71",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f5fc5e336ce2ad77": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f5fc5e336ce2ad77",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      3
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "arestas": {
+    "0->3": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "f91099296de857c4": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "f91099296de857c4",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "fbf8cf22faba3c79": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "fbf8cf22faba3c79",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0
+     ],
+     [
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->0": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "fc9ea90aa594e1bf": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "fc9ea90aa594e1bf",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "fe4ec9b6816cca5e": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "fe4ec9b6816cca5e",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "arestas": {
+    "0->1": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ },
+ "ffe07f7bed32bf8f": {
+  "admissiveis": [],
+  "falhas": {
+   "C1p": [],
+   "C2": [],
+   "C3": []
+  },
+  "granularidades_admissiveis": [],
+  "id": "ffe07f7bed32bf8f",
+  "micro": {
+   "C1p": {
+    "componentes": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ],
+    "meios": [
+     [
+      1
+     ],
+     [
+      2
+     ]
+    ]
+   },
+   "C2": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "C3": {
+    "componentes": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ],
+    "meios": [
+     [
+      0,
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "E_C": [
+    [
+     0,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     3,
+     1
+    ]
+   ],
+   "arestas": {
+    "0->2": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "1->0": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "2->3": {
+     "C1p": "estado",
+     "C2": "estado",
+     "C3": "estado"
+    },
+    "3->1": {
+     "C1p": "sinal",
+     "C2": "estado",
+     "C3": "estado"
+    }
+   }
+  },
+  "n_admissiveis": 0,
+  "projeccoes": [],
+  "validade_6_4": false
+ }
+}
