@@ -71,17 +71,18 @@ See `06_reproducibility/REPRODUCE.md` for integrity verification, unit/instrumen
 
 See `CITATION.cff`.
 
-## DOI and archival release status
+## Archival release
 
-Reserved Zenodo DOI for version 1.0.0:
+Version 1.0.0 has been permanently archived on Zenodo.
 
-**10.5281/zenodo.21995651**
+**Version DOI:** 10.5281/zenodo.21995651
+**Concept DOI (all versions):** 10.5281/zenodo.21995650
+**GitHub release:** v1.0.0
 
 <https://doi.org/10.5281/zenodo.21995651>
 
-The DOI is currently **reserved** for the archival release candidate and will be registered when the corresponding Zenodo deposit is published. It is not yet a published/registered DOI — do not treat it as such until the Zenodo deposit is public.
-
-Repository status: **private archival release-candidate preparation**.
+The immutable archival release is identified by Git tag `v1.0.0`.
+The `main` branch may contain subsequent non-scientific metadata or documentation updates; the archived v1.0.0 scientific package remains unchanged.
 
 ## Licensing
 
@@ -89,6 +90,4 @@ Original project code: MIT (`LICENSE-CODE`). Original documentation, data, and d
 
 ## Repository release status
 
-This repository is currently in **private archival release-candidate preparation**, version 1.0.0.
-
-The definitive public release will tag `v1.0.0`, publish a GitHub Release, and publish the corresponding Zenodo deposit under the reserved DOI above. None of those three steps has occurred yet. Do not treat the current private state as the public archival release.
+The archival release for version 1.0.0 is complete: Git tag `v1.0.0`, GitHub Release `v1.0.0`, and the corresponding Zenodo deposit have all been published under the DOIs above. See `06_reproducibility/CHECKS.md` for the current repository-visibility status.

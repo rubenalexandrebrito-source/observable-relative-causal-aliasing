@@ -50,18 +50,21 @@ human archival audit
 Zenodo DOI reserved
 10.5281/zenodo.21995651
         ↓
-release-candidate metadata preparation  (this step)
+release candidate frozen
+        ↓
+Git tag v1.0.0  (b7d2929f77cda727f6e4ed54aede800f3c0dc3e6)
+        ↓
+GitHub Release v1.0.0
+        ↓
+Zenodo version 1.0.0 published
+        ↓
+DOI registered: 10.5281/zenodo.21995651
+(Concept DOI, all versions: 10.5281/zenodo.21995650)
+        ↓
+public GitHub release  (this step)
 ```
 
-**Still to do, explicitly not started:**
-
-```
-GitHub tag/release        (v1.0.0)
-Zenodo publication
-public repository release
-```
-
-The Zenodo DOI was reserved prior to public release so that the persistent identifier could be incorporated into the archival metadata before the final version was frozen. At this stage the DOI is reserved but the Zenodo record has not yet been published.
+The Zenodo DOI was reserved prior to public release so that the persistent identifier could be incorporated into the archival metadata before the final version was frozen. The DOI is now registered and the Zenodo record is published, under the immutable Git tag `v1.0.0`. The Zenodo publication step did not alter, reinterpret, rescue, or retroactively change any scientific result, finding, or artifact recorded above the "CONFIRMATORY RESULT: NEGATIVE" line in this chain — it is a publication event only.
 
 **Post-confirmatory analysis never alters the confirmatory decision.** No step below the "CONFIRMATORY RESULT: NEGATIVE" line changes any value above it. No replacement criterion ("C1″") exists anywhere in this chain.
 

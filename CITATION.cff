@@ -3,6 +3,7 @@ title: "Observable-Relative Causal Aliasing"
 message: "If you use this repository or its materials, please cite the associated research record."
 type: software
 version: 1.0.0
+date-released: 2026-08-18
 
 authors:
   - family-names: "Brito"

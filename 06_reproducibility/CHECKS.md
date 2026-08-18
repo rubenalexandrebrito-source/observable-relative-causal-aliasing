@@ -48,11 +48,15 @@ No API keys, passwords, private keys, credentials, cookies, authentication heade
 
 ```
 Zenodo DOI reserved:          PASS
-DOI:                          10.5281/zenodo.21995651
+Zenodo DOI registered:        PASS
+Zenodo record published:      PASS
 
-DOI registered/public:        NOT YET
-GitHub tag created:           NO
-GitHub release created:       NO
-Repository public:            NO
-Zenodo deposit published:     NO
+Version DOI:                  10.5281/zenodo.21995651
+Concept DOI (all versions):   10.5281/zenodo.21995650
+
+GitHub tag v1.0.0:            PASS  (b7d2929f77cda727f6e4ed54aede800f3c0dc3e6)
+GitHub Release v1.0.0:        PASS
+Release asset SHA-256:        74cd21d5aed0de08f0598759b331154fa20fd7d5a4db3c78b0c362d224259ffe
+
+Repository public:            NOT YET
 ```
