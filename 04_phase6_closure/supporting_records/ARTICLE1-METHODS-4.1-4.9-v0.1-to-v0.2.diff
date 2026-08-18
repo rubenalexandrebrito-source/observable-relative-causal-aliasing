@@ -1,0 +1,87 @@
+--- ARTICLE1-METHODS-4.1-4.9-v0.1.md	2026-08-17 18:32:52
++++ ARTICLE1-METHODS-4.1-4.9-v0.2.md	2026-08-17 20:55:09
+@@ -1,6 +1,6 @@
+-# ARTICLE 1 — METHODS 4.1–4.9 — v0.1
++# ARTICLE 1 — METHODS 4.1–4.9 — v0.2
+ 
+-**Status:** manuscript draft derived from the frozen v8.3 instrument, frozen Article Architecture v2.1, frozen Claim–Evidence Ledger v1.1, and frozen Results v0.2  
++**Status:** post-red-team manuscript draft derived from the frozen v8.3 instrument, frozen Article Architecture v2.1, frozen Claim–Evidence Ledger v1.1, and frozen Results v0.2  
+ **Date:** 17 August 2026  
+ **Scope:** Methods 4.1–4.9 only. Sections 4.10–4.15 remain outside this draft.
+ 
+@@ -110,7 +110,7 @@
+ 
+ ### Family generation
+ 
+-A family \(\theta\) comprised \(F_0,G_0,H,K,\sigma_A,\sigma_B,\pi_0,\pi_1\), initial processor/memory/interface states, and, in E2, downstream lookup tables \(R_1,R_2\) and initial downstream bits. The base tables were sampled uniformly over their finite codomains. The two interface permutations were sampled independently and families with \(\pi_0=\pi_1\) were rejected.
++A family \(\theta\) comprised \(F_0,G_0,H,K,\sigma_A,\sigma_B,\pi_0,\pi_1\), initial processor/memory/interface states, and, in E2, downstream lookup tables \(R_1,R_2\) and initial downstream bits. The base tables were sampled uniformly over their finite codomains, and the initial processor, memory, and interface states were likewise sampled uniformly. The two interface permutations were sampled independently and families with \(\pi_0=\pi_1\) were rejected.
+ 
+ Randomness was a deterministic function of the root seed using NumPy PCG64. Four child streams were assigned positionally to (i) nuclear family generation, (ii) export permutations, (iii) instance shuffling/identifiers, and (iv) E2 downstream extensions. E2 extensions were sampled only after the nuclear family passed eligibility, preventing rejected nuclear families from consuming downstream random draws.
+ 
+@@ -138,7 +138,7 @@
+ 
+ ### Blind export
+ 
+-Before analysis, each instance underwent two independent forms of label destruction. First, the state-bit coordinates were randomly permuted. Second, module order was randomly permuted. Module boundaries and retained-memory bit designations remained visible because they were required by the classifier, but semantic module identities were replaced by anonymous identifiers \(Q_0,Q_1,\ldots\). No marker identified system type, family membership, or paired variants.
++Before analysis, each instance underwent two separate label-destroying randomizations. First, the state-bit coordinates were randomly permuted. Second, module order was randomly permuted. Module boundaries and retained-memory bit designations remained visible because they were required by the classifier, but semantic module identities were replaced by anonymous identifiers \(Q_0,Q_1,\ldots\). No marker identified system type, family membership, or paired variants.
+ 
+ For each instance, the hidden key recorded the system variant, bit permutation, module-order permutation, family index, and a hash of the generating \(\theta\). The key was serialized separately from the blinded transition table. Blinding was procedural rather than cryptographic: code and seed could in principle regenerate the key. The frozen procedure therefore required that the key be moved outside the classifier-accessible directory before analysis, that the generator not be rerun with a confirmatory seed during analysis, and that the key be opened only at the prespecified scoring step after verification against its recorded SHA-256 digest.
+ 
+@@ -227,6 +227,8 @@
+ 
+ C3 was an analytic implementation canary. For each receiver output bit it recorded whether the exact intervention-response signatures varied across interventions, producing a support set for each memory context. C3 labeled an edge STATE when this support set was invariant. C3 was executed and scored for audit purposes but was not a scientific \(H_A\) decision candidate.
+ 
++For a receiver without retained-memory coordinates — the interface modules and, in E2, the downstream modules — the frozen classifier used a single degenerate context \(\{\bot\}\) whose fiber was the entire state space. With only one context, the cross-context invariance conditions of all three candidates hold trivially, so every \(G_C\) edge into a memoryless receiver was labeled STATE. In consequence, the System-II processor-to-interface edges of the interaction ring were always STATE, and the four core modules formed a single STATE component under a given candidate exactly when that candidate additionally labeled both channel-to-processor edges STATE.
++
+ ### STATE graph, components, and media
+ 
+ For each candidate \(C\in\{\mathrm{C1'},\mathrm{C2},\mathrm{C3}\}\), the STATE graph \(G_S^C\) retained only those edges of \(G_C\) labeled STATE by \(C\). The component partition was the set of strongly connected components of \(G_S^C\).
+@@ -235,13 +237,13 @@
+ 
+ ### Scale-preservation item
+ 
+-The confirmatory score also required stability under admissible coordinate projections. For every subset \(S\) with
++The confirmatory score also required stability under admissible coordinate projections, in both confirmatory strata. For every subset \(S\) with
+ 
+ \[
+ 2\le |S|<n,
+ \]
+ 
+-the scale executor first tested exact fiber consistency of the projected transition for **every intervention on subsets of \(S\)**. If the projection was admissible, it constructed the quotient transition \(T_S\), projected the initial state and surviving modules, projected retained-memory coordinates by intersection with \(S\), and applied the same frozen classifier. For each candidate, scale preservation required that every pair of surviving modules be in the same component after projection if and only if it was in the same component in the micro system.
++the scale executor first tested exact fiber consistency of the projected transition for **every intervention on subsets of \(S\)**. If the projection was admissible, it constructed the quotient transition \(T_S\), projected the initial state and surviving modules, projected retained-memory coordinates by intersection with \(S\), and applied the same frozen classifier. For each candidate, scale preservation required that every pair of surviving modules be in the same component after projection if and only if it was in the same component in the micro system. Projected media were computed by the classifier but were not scored; the scale item compared only the component relation.
+ 
+ In E2, execution validity additionally required at least two admissible projections of distinct granularities. Failure of this construction requirement annulled the execution rather than defeating a candidate.
+ 
+@@ -257,7 +259,7 @@
+ 
+ ### Candidate and experiment-level decision rules
+ 
+-Before any scientific candidate was evaluated, the scoring program audited exact instance cardinalities and IDs, exhaustive equivalence counts, E2 scale validity, and the C3-specific canary condition. Integrity, E2-construction, or canary failures produced procedural annulment states rather than scientific candidate defeats.
++Before any scientific candidate was evaluated, the scoring program audited exact instance cardinalities and IDs, exhaustive equivalence counts, invariance of \(G_C\) under the equivalence conjugations (an instrument-level property whose violation was an integrity failure, never a candidate defeat), E2 scale validity, and the C3-specific canary condition, namely that both channel-to-processor edges existed in \(G_C\) and were labeled STATE by C3 in every confirmatory System-II instance (50 in E1 and 25 in E2). Integrity, E2-construction, or canary failures produced procedural annulment states rather than scientific candidate defeats.
+ 
+ For each of C1′, C2, and C3, a candidate-level pass required the conjunction of four items:
+ 
+@@ -341,7 +343,7 @@
+ 
+ ## 4.5 Causally sufficient local-state comparability and strict realization
+ 
+-The full counterfactual fiber deliberately ranges over global states that need not all be visited by the orbit. To test whether a cross-context causal difference survived in realized dynamics, we separately defined realized support.
++The definitions in this subsection are, like Section 4.4, part of the post-confirmatory analysis; they leave the frozen classifier and its scoring unchanged. The full counterfactual fiber deliberately ranges over global states that need not all be visited by the orbit. To test whether a cross-context causal difference survived in realized dynamics, we separately defined realized support.
+ 
+ For a channel-to-processor edge in System II, let \(r\) denote the non-memory processor state of the receiver and let \(c\) denote the incoming channel symbol. For memory context \(m\), define
+ 
+@@ -407,7 +409,7 @@
+ 
+ ## 4.6 Contextual pull-back lemma for System II
+ 
+-Consider a decisive System-II channel-to-processor edge and condition on receiver memory \(m\).
++Sections 4.6–4.9 formalize the post-confirmatory analysis; none of them modifies the frozen criterion, its targets, or its scoring. Consider a decisive System-II channel-to-processor edge and condition on receiver memory \(m\).
+ 
+ For \(C_{AB}\to B\), write the receiver processor state as \(r=y\), the incoming channel value as \(c=c_{AB}\), and \(M=G_0\). The next processor state is
+ 
+@@ -733,4 +735,4 @@
+ - 4.14 temporal-composition analysis;
+ - 4.15 internal verification, software environment, seeds, hashes, and reproducibility record.
+ 
+-`ARTICLE 1 — METHODS 4.1–4.9 v0.1 — READY FOR RED-TEAM`
++`ARTICLE 1 — METHODS 4.1–4.9 v0.2 — POST-RED-TEAM — CANDIDATE FOR FREEZE`
