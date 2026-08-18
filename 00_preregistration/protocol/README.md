@@ -2,7 +2,18 @@
 
 *Archival packaging documentation.*
 
-This directory preserves the confirmatory instrument **exactly as it was first frozen**, before Pre-data Amendment No. 2 (deterministic parallelization engineering fix) was applied.
+> **Archival scope note**
+>
+> The original prose preregistration document has not been recovered.
+> The materials preserved in this directory constitute the surviving executable
+> source snapshot from the preregistration-era, prior to Pre-data Amendment No. 2.
+> They are preserved as historical provenance and must not be interpreted as a
+> reconstruction of, or substitute for, the missing prose preregistration.
+>
+> The final post-Amendment-2 frozen confirmatory instrument is archived separately
+> under `01_frozen_confirmatory_instrument/`.
+
+This directory preserves the surviving executable source snapshot from the initial preregistration-era freeze, before Pre-data Amendment No. 2 (deterministic parallelization engineering fix) was applied.
 
 ## Contents
 

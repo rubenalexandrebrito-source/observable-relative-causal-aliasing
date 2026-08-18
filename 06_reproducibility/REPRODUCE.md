@@ -22,7 +22,28 @@ shasum -a 256 -c hashes-finais-dev.txt
 
 ## B. Unit / instrument verification
 
-The frozen instrument ships five test suites (`test_classificador.py`, `test_equivalencias.py`, `test_escala.py`, `test_gerador.py`, `test_pontuacao.py`). During final archival assembly, all five were re-run in an isolated environment (Python 3.14.7 — the closest available patch to the confirmatory environment's recorded 3.14.4 — with NumPy 2.5.2, the exact recorded version): **70 tests, 0 failures, 0 errors.** This differs from a "50 tests across 5 suites" figure mentioned in the archival task brief; that number was not independently verified before this run and is superseded by the directly observed count above. To re-run them yourself in an isolated environment:
+The frozen instrument ships five test suites (`test_classificador.py`, `test_equivalencias.py`, `test_escala.py`, `test_gerador.py`, `test_pontuacao.py`). During final archival assembly, all five were re-run in an isolated environment (Python 3.14.7 — the closest available patch to the confirmatory environment's recorded 3.14.4 — with NumPy 2.5.2, the exact recorded version), executed individually from inside `01_frozen_confirmatory_instrument/` (no repository-wide discovery): **70 tests, 0 failures, 0 errors.**
+
+### Historical test-count discrepancy
+
+A prior project summary referred to "50 tests across 5 suites". No surviving source snapshot examined during archival reconstruction yields exactly 50 tests.
+
+Direct execution and static inspection (`grep -c "^    def test_"` per file) establish:
+
+- preregistration-era pre-Amendment-2 snapshot (`00_preregistration/protocol/`): **58 tests** (9+13+8+17+11), executed and verified 58/58 OK;
+- final post-Amendment-2 frozen instrument (`01_frozen_confirmatory_instrument/`): **70 tests** (9+25+8+17+11), executed and verified 70/70 OK.
+
+The increase from 58 to 70 is fully accounted for by 12 additional deterministic tests introduced in `test_equivalencias.py` with Pre-data Amendment No. 2 (`test_workers_fixo_em_tres`, `test_workers1_igual_workers3_estruturalmente`, `test_paralelo_repetido_e_identico`, `test_agregador_paralelo_igual_referencia_sequencial`, `test_excepcao_de_worker_nao_e_silenciada`, `test_selector_dryrun_regra_pcg64_intacta`, `test_formula_T_equiv_inalterada`, and 5 others); the other four test files are byte-identical between the two snapshots.
+
+The earlier value of 50 is therefore retained only as an unreconciled historical reference and is not used as an identifier of either archived source state:
+
+```
+Verified preregistration-era snapshot: 58 tests
+Verified final frozen instrument:      70 tests
+Historical reference to "50 tests":    NOT RECONCILED
+```
+
+To re-run the final frozen instrument's suite yourself in an isolated environment:
 
 ```bash
 python3.14 -m venv /tmp/repro-env
