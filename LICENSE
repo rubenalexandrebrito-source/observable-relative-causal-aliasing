@@ -1,0 +1,26 @@
+This repository uses dual licensing.
+
+## Code
+
+All original Python source code in this repository (the frozen confirmatory
+instrument, the confirmatory orchestrator, and all post-confirmatory analysis
+scripts) is licensed under the MIT License. See `LICENSE-CODE`.
+
+## Documentation, data, and derived scientific artifacts
+
+All original documentation, generated data (blinded instances, classification
+and scoring outputs, seed derivation records), analysis reports, and other
+non-software scientific artifacts authored by the repository owner are
+licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+See `LICENSE-DATA`.
+
+## Third-party material
+
+No third-party code, data, or documents with incompatible licensing terms
+have knowingly been included in this repository. Bibliographic references to
+external work are citations only (title, author, venue), not redistribution
+of the cited material itself; see `03_post_confirmatory/08_prior_art/`. If
+any third-party material with unclear licensing terms were identified during
+archival assembly, it would be withheld from publication and reported to the
+repository owner rather than published under either license above; no such
+material was found.

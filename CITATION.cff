@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Observable-Relative Causal Aliasing"
+message: "If you use this repository or its materials, please cite the associated research record."
+type: software
+authors:
+  - family-names: "Brito"
+    given-names: "Rúben Alexandre"
+repository-code: "https://github.com/rubenalexandrebrito-source/observable-relative-causal-aliasing"
+version: 1.0.0
