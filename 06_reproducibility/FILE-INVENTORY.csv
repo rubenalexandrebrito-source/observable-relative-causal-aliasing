@@ -1,10 +1,10 @@
 repository_path,original_path,filename,sha256,size_bytes,epistemic_status,phase,canonical,duplicate_class,notes
 .gitignore,,.gitignore,58cec784a6faa1ad5ebec7fa713acf64226267d63815450f523cf9887dcc901a,57,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
-CITATION.cff,,CITATION.cff,0fc3e6b8ec004c2e8c6e9e826a28444b1f1bf8b4545bb282ee1664053e76453c,366,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
+CITATION.cff,,CITATION.cff,22c0928f206a9c14c13cfd2d89dea67b898400528917c17e17c06e82ec88bacc,355,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
 LICENSE,,LICENSE,e85b88d6f674785fbd7040390db324fd3b50ddbd63b512d13377746b68bd51b7,1220,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
-LICENSE-CODE,,LICENSE-CODE,e32aca99ab6290a698bd6b2ed307feac2075f516fc97c2b7e4eef94e85676068,1079,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
-LICENSE-DATA,,LICENSE-DATA,108a04f5b129996afb575ce37f2e3a8e5257e7f378118c09e8b4afb53a38a352,1108,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
-README.md,,README.md,70e866747aad5ae1d397497903c6ed221551ae3618293477c47a584d77b430b7,5071,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
+LICENSE-CODE,,LICENSE-CODE,9230ce8497257a01bd2eaf3144bf94d039dadab33945bd0f36ee1fd8e141c60d,1068,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
+LICENSE-DATA,,LICENSE-DATA,213bb51d6fef11e4b60a050116cb6c36ff91f133e177fc2cf865f508249baa38,1097,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
+README.md,,README.md,365162710a4dd44e2170d86804248a87f0ebe179a6e54584da301afdcd4095f6,5060,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.
 04_phase6_closure/FASE6-FORMAL-CLOSURE.md,servidor2:/root/causal-A-postconfirmatory-analysis/multiagent/coordinator/FASE6-FORMAL-CLOSURE.md,FASE6-FORMAL-CLOSURE.md,8ca9f960da8c2bff6a724d8ebe6095ee851b499181821b1c2a04e013614549ca,13105,POST-CONFIRMATORY,PHASE6-CLOSURE,YES,NONE,
 04_phase6_closure/FASE6-MULTIAGENT-SYNTHESIS.md,servidor2:/root/causal-A-postconfirmatory-analysis/multiagent/coordinator/FASE6-MULTIAGENT-SYNTHESIS.md,FASE6-MULTIAGENT-SYNTHESIS.md,bd8b19e58a35696e111c92b65538c621526f49f7d9d6498bbbfba33b4c44e185,49564,POST-CONFIRMATORY,PHASE6-CLOSURE,YES,NONE,
 04_phase6_closure/README.md,,README.md,74f88baf3edb8e580df70eec9064ec34a8151145bba501d4477cb8493d0e1da4,2742,ARCHIVAL-METADATA,PACKAGING,YES,NONE,Authored during archival assembly; not a historical scientific artifact.

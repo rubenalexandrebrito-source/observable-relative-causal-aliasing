@@ -4,6 +4,6 @@ message: "If you use this repository or its materials, please cite the associate
 type: software
 authors:
   - family-names: "Brito"
-    given-names: "Rúben Alexandre"
+    given-names: "Ruben"
 repository-code: "https://github.com/rubenalexandrebrito-source/observable-relative-causal-aliasing"
 version: 1.0.0

@@ -4,7 +4,7 @@ Reproducibility repository for the study:
 
 **Observable-Relative Causal Aliasing**
 
-Author: **Rúben Alexandre Brito**
+Author: **Ruben Brito**
 
 ## Scientific status
 
