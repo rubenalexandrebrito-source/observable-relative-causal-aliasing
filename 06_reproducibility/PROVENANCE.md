@@ -44,7 +44,24 @@ article architecture + claim–evidence ledger + Methods/Results freeze
 manuscript scientific-content freeze v1.0  (05_manuscript/)
         ↓
 this repository — archival packaging
+        ↓
+human archival audit
+        ↓
+Zenodo DOI reserved
+10.5281/zenodo.21995651
+        ↓
+release-candidate metadata preparation  (this step)
 ```
+
+**Still to do, explicitly not started:**
+
+```
+GitHub tag/release        (v1.0.0)
+Zenodo publication
+public repository release
+```
+
+The Zenodo DOI was reserved prior to public release so that the persistent identifier could be incorporated into the archival metadata before the final version was frozen. At this stage the DOI is reserved but the Zenodo record has not yet been published.
 
 **Post-confirmatory analysis never alters the confirmatory decision.** No step below the "CONFIRMATORY RESULT: NEGATIVE" line changes any value above it. No replacement criterion ("C1″") exists anywhere in this chain.
 

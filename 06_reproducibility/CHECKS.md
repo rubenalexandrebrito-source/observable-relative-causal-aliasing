@@ -43,3 +43,16 @@ See `PACKAGING-PROVENANCE-INCIDENT.md` for the full investigation of a since-sup
 `fases_0_3.py` records one machine identifier field, `"node"`, computed via Python's `uuid.getnode()` (typically MAC-address-derived), appearing in `hardware.txt` and `registo-fases-0-3.json` in both `00_preregistration/development_records/` and `02_confirmatory_execution/`. Value: `0x920009ab165e`. This is a virtual-machine network-interface identifier on a rented cloud server, not a physically traceable personal device — but per the archival specification's explicit instruction, it is flagged here for the repository owner's decision before any public release, rather than silently kept or silently removed.
 
 No API keys, passwords, private keys, credentials, cookies, authentication headers, or personal email addresses were found anywhere in the archived material (full scan log available on request; patterns checked: API/secret/private keys, bearer tokens, `ghp_`/`github_pat_`/`sk-` token prefixes, email addresses, IP addresses, and the specific known real server hostname/IP/root-password string).
+
+## Archival release preparation
+
+```
+Zenodo DOI reserved:          PASS
+DOI:                          10.5281/zenodo.21995651
+
+DOI registered/public:        NOT YET
+GitHub tag created:           NO
+GitHub release created:       NO
+Repository public:            NO
+Zenodo deposit published:     NO
+```
