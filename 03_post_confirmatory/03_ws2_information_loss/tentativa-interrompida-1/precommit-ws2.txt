@@ -1,0 +1,67 @@
+POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente
+PRECOMMIT WS2 (information-loss decomposition) — fixado ANTES de qualquer execução analítica.
+Data UTC: 2026-08-17. Workstream: ws2-information-loss.
+
+RESULTADO CONFIRMATORIO: negativo (fechado, imutável). Nada aqui o recalcula ou reinterpreta.
+
+1. AMOSTRAGEM
+   - NENHUMA amostra nova é gerada. N novo = 0. Nenhuma semente nova é consumida.
+   - Todas as análises são replays determinísticos de famílias JÁ REGISTADAS nos
+     datasets exploratórios (sementes registadas 910000001 e 910000002, fluxo
+     SeedSequence(S).spawn(4)[0], convenção do gerador congelado: contador de
+     tentativa incrementa por CADA theta amostrado), mais a cópia read-only da
+     instância confirmatória 7bb0baab3a8ed7aa (tabela cega, chave já aberta na Fase 5).
+   - Se alguma amostra nova se tornar necessária, será precedida de um novo
+     ficheiro precommit-ws2-sample-*.txt fixando N e sementes DENTRO do intervalo
+     atribuído 910000040..910000049. (Nenhuma está planeada.)
+
+2. CONJUNTOS DE CASOS PARA ANALISE AO NIVEL DE SITIO (regras determinísticas, ordem do ficheiro)
+   - S1 = TODOS os 46 colapso_total (22 do lote1 + 24 do lote2), ambas as arestas (92 arestas).
+   - S2 (controlos L3) = as duas arestas dos PRIMEIROS 6 exemplos individua_ambas do lote1 (12 arestas L3).
+   - S3 (controlos mistos) = as duas arestas dos PRIMEIROS 6 exemplos individua_uma do lote1
+     (6 arestas L3 + 6 arestas não-L3, na mistura L1/L2 que vier).
+   - Exemplar verboso para o relatório: o primeiro colapso (L1,L1) do lote1 na ordem do ficheiro.
+   - fam-20 confirmatória: ambas as arestas, na tabela cega E2 (n=12), via chave para localizar módulos.
+
+3. CADEIA DE TRANSFORMACOES (fixada) E METRICAS POR ARESTA
+   S0 respostas ponto-a-ponto X_m[k][z] (padrão xr por intervenção k e ponto da fibra z; fibras
+      alinhadas pelo eixo de bits livres; verificação Z0[i]^Z1[i]==mascara_memoria);
+   S1 Hamming por sítio H_m = pc(X_m);
+   S1.5 histograma de H por intervenção (multiconjunto sobre a fibra);
+   S2 agregação d_m[k] = soma_z H_m[k][z]; refinamento por blocos (k,c) (c = valor do canal),
+      células (k,c,r) (r = estado não-memória do receptor), multiplicidade esperada 32 (E1) / 128 (E2);
+   S3 vetor d_m; S4 rank_canonico(d_m); S5 decisão estado/sinal.
+   Por aresta e por intervenção: dep_k, s1_k (sítios com pc diferente), swap_k (padrão difere, pc igual),
+   hist0_k/hist1_k e igualdade, d0_k/d1_k, delta assinado por sítio (pc0-pc1 em -2..2).
+   Blocos (k,c) classificados: B0 padrões idênticos; B1 padrões diferem, pc pontual igual;
+   B2 pc pontual difere, multiconjunto de pc no bloco igual; B3 multiconjuntos diferem, somas do bloco iguais;
+   B4 somas do bloco diferem. Estágio de perda da aresta L1 = primeiro operador F que iguala:
+   F_pc (todas ≤B1), F_perm_bloco (todas ≤B2), F_soma_bloco (todas ≤B3, zero B4).
+   Também: igualdade do histograma global por intervenção vs necessidade de compensação entre blocos.
+
+4. HIPOTESES PRE-DECLARADAS (exploratórias)
+   H1: nas arestas L1 a igualdade surge tipicamente só ao nível da soma por bloco (B3 presentes);
+       s1=0 (perda toda no pc pontual) é raro.
+   H2: zero blocos B4 em arestas L1 (implicado pela necessidade de K: L1 => Wtil_0=Wtil_1 par-a-par).
+   H3: nas L2 a preservação do rank opera por margens: |d0-d1| concentrado em 32/64 (quantum 32 em E1),
+       mudanças dentro dos intervalos entre classes de empate; classes de empate movem-se em bloco quando empatadas.
+   H4: fam-20: ambas as arestas L1; C_BA->A com W equidistante (todos os pares=4) — auditar; multiplicidade 128.
+
+5. PASSO POPULACIONAL (replay analítico dos 2 lotes registados, 10000 famílias)
+   - Replay do loop de aceitação congelado (sementes registadas), SEM tabela_transicao: métricas por aresta
+     derivadas analiticamente das células (k,c,r) via theta (M=G0 para C_AB->B, M=F0 para C_BA->A).
+   - Validação obrigatória: theta_sha dos 86 exemplos registados; d0/d1/dep/nivel iguais aos registados;
+     contagens agregadas reproduzem 705/225/19070, dep>0 em 19993/20000, colapsos 46 (29/10/7).
+   - Auditoria independente da CONDICAO K do agente único: recomputar tau, Iso(W), K por aresta;
+     matriz de confusão K vs L1 (esperado TP 370/335, FP=FN=0 in-sample).
+   - Validação da redução analítica ao nível de SITIO (não só de d): igualdade célula-a-célula
+     entre enumeração pela tabela congelada e fórmula fechada, em TODAS as arestas de S1∪S2∪S3.
+   - Análise ordinal L2: estrutura de empates, margens, quantum das diferenças; contagem teórica da fibra
+     da ordinalização C(33,t) para vetores em {0,32,...,1024}^9 com t valores distintos; agrupamento
+     dos vetores d observados por padrão de rank.
+
+6. SAIDAS (todas em /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/)
+   precommit-ws2.txt (este ficheiro), ws2_*.py (scripts), ws2-thetas-cases.json,
+   ws2-cases-sitelevel.json, ws2-fam20-sitelevel.json, ws2-population-stages.json,
+   ws2-L2-ordinal.json, *.out (logs), WS2-INFORMATION-LOSS.md, SHAS.txt.
+   Tudo rotulado POST-CONFIRMATORY / EXPLORATORY. Nada fora deste diretório é escrito.

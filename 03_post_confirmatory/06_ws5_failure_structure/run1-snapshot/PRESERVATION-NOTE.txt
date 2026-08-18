@@ -1,0 +1,4 @@
+# SNAPSHOT run1 de WS4/WS5 congelado pelo orquestrador
+snapshot_UTC=2026-08-17T14:15:44Z
+nota=ficheiros com mtime anterior a ~14:10Z sao do run1; o run2 comecou ~14:12Z apos retoma do workflow
+ws2_ws3_run1=interrompidos_sem_relatorio_restos_em_tentativa-interrompida-1_dentro_dos_ws_dirs

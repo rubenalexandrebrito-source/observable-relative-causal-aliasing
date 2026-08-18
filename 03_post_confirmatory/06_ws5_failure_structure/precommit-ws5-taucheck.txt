@@ -1,0 +1,10 @@
+# PRE-COMPROMISSO WS5 - sanity check da distribuicao de classes de tau
+# POST-CONFIRMATORY / EXPLORATORY. Motivo: na amostra RAW 910000031 a celula C3
+# saiu 6709/20000 (esperado 6956.5 sob uniforme em S4\{id}; z=-3.7). Verificar
+# se o caminho de amostragem (sample_theta_base + rejeicao pi0==pi1 + tau)
+# produz a lei uniforme esperada, com semente independente.
+semente=910000032 (intervalo WS5; nunca usada)
+N=200000 thetas com pi0!=pi1 (unica rejeicao)
+estatistica=contagens das classes de ciclo de tau=pi1 o pi0^{-1} e das 7 celulas
+esperado=T 6/23, C3 8/23, DT 3/23, FC 6/23; sub-celulas 1/3-2/3 dentro da classe
+regra=reportar tal como sair; sem repeticao

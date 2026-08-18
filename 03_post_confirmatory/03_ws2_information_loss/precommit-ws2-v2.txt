@@ -1,0 +1,45 @@
+POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente, WS2 (information loss).
+PRECOMMIT v2 — fixado ANTES de qualquer execução analítica desta retoma.
+Data UTC: 2026-08-17. Workstream: ws2-information-loss. Retoma após tentativa interrompida
+(arquivada em tentativa-interrompida-1/, precommit original preservado lá).
+
+RESULTADO CONFIRMATORIO: negativo (fechado, imutável). Nada aqui o recalcula ou reinterpreta.
+
+1. AMOSTRAGEM
+   - NENHUMA amostra nova. N novo = 0. NENHUMA semente nova é consumida (o intervalo
+     atribuído 910000040..910000049 fica intacto). Todas as análises são replays
+     determinísticos das famílias JÁ REGISTADAS (sementes registadas 910000001 e
+     910000002) e da cópia read-only da instância confirmatória 7bb0baab3a8ed7aa.
+
+2. PLANO (fixado antes de correr)
+   a) Auditoria de código da tentativa interrompida CONCLUÍDA (leitura linha a linha
+      contra o instrumento congelado). Os scripts ws2_a..ws2_f são adoptados VERBATIM
+      (byte a byte) e re-executados na raiz do ws dir; os outputs re-gerados devem ser
+      byte-idênticos (sha256) aos arquivados; qualquer divergência pára a linha e é registada.
+   b) Script novo ws2_g_operator.py (determinístico, sem amostras novas): a partir dos
+      thetas já replayados e do output populacional já gerado —
+      (i) testemunhas concretas X0!=X1 -> F(X0)=F(X1) por estágio (B1/B2/B3, e L2);
+      (ii) caracterização analítica do estágio F1_pc_pontual: teste "tau ∈ ∩_r Iso(w_r)"
+           (w_r(p,q)=pc2(M[r][p]^M[r][q])) contra o estágio enumerado, nas 705 arestas L1;
+      (iii) verificação em TODAS as 20000 arestas dos corolários do lema das somas-linha:
+           multiset{d[5..8]} invariante entre contextos e Σ d[5..8] invariante;
+      (iv) refinamento das 174 arestas F1.5: quantas têm apenas blocos <=B2 (perda por
+           permutação intra-bloco) vs >=1 bloco B3 compensado entre blocos no histograma.
+   c) Script novo ws2_h_endtoend.py: ligação ponta-a-ponta ao veredicto de C1' via
+      classificador congelado (cl.classificar) sobre: (1) a PRIMEIRA família colapso_total
+      do lote1 (ordem do ficheiro registado) reconstruída canonicamente (variante II, n=10);
+      (2) a PRIMEIRA família individua_ambas do lote1 (controlo, sem fusão esperada);
+      (3) a instância confirmatória cega 7bb0baab3a8ed7aa (JSON read-only).
+      Esperado: (1) e (3) fundem o núcleo por C1p; (2) não funde.
+   d) Relatório WS2-INFORMATION-LOSS.md + SHAS.txt (sha256 de todos os ficheiros do ws root).
+
+3. HIPOTESES/EXPECTATIVAS PRE-DECLARADAS DA RETOMA (exploratórias)
+   - Reprodução byte-idêntica dos 6 outputs arquivados (determinismo total).
+   - G(ii): equivalência exacta {estágio==F1_pc_pontual} == {tau ∈ ∩_r Iso(w_r)} nas
+     arestas L1 com dep>0 (29 esperadas).
+   - G(iii): 0 violações em 20000 arestas.
+   - H: fusões conforme esperado acima.
+
+4. REGRAS: escrever apenas no ws2 dir; nada de novo fora dele; instrumento congelado
+   apenas importado; nenhuma proposta de correção de C1'; rótulo POST-CONFIRMATORY /
+   EXPLORATORY em todos os ficheiros.

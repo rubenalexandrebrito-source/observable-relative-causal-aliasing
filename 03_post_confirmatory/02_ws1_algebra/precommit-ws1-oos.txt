@@ -1,0 +1,39 @@
+POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6, WS1 (álgebra do L1)
+PRECOMMIT DA VALIDAÇÃO FORA-DA-AMOSTRA (anti optional-stopping)
+Escrito ANTES de correr s13_oos.py e ANTES de levantar a firewall sobre a
+análise prévia (condicao_L1*.py/json, FASE6-AUTOPSIA, precommit-oos-condicaoL1.txt
+— nenhum lido até agora).
+
+SEMENTE: 910000005 (única; do intervalo atribuído a WS1, 910000005..910000009).
+N: 5000 famílias II elegíveis (alvo fixo), MAX_TENTATIVAS 200000.
+PROCEDIMENTO: loop idêntico ao gerador congelado (sample_theta_base no fluxo
+spawn(4)[0] → rejeitar pi0==pi1 → g.elegibilidade(th, False)); n=10 canónico.
+
+CONDIÇÃO PRÉ-FIXADA K(θ) por aresta canal→processador (Teorema 5 de
+NOTAS-DERIVACAO.md, texto congelado antes de qualquer teste, validado
+in-sample em s10/s11/s12 SEM alterações):
+  Φ_m(x,c) = R[x][π_m(c)] ⊕ σ[m]  (R=F0/σA para C_BA→A; R=G0/σB para C_AB→B)
+  W_m(a,b) = Σ_x pc(Φ_m(x,a)⊕Φ_m(x,b)); A_m=W_m(0,1)+W_m(2,3);
+  B_m=W_m(0,2)+W_m(1,3); V_m(w)=Σ_c W_m(w,c)
+  K ⟺ A_0=A_1 ∧ B_0=B_1 ∧ V_0=V_1 (4 igualdades pontuais)
+  [equivalente, pelo Lema 4: WM_0[ρ*(M1)]=WM_0[M1] ∧ WM_0[ρ*(M2)]=WM_0[M2] ∧
+   V_0∘ρ=V_0, com ρ=π_0⁻¹π_1]
+
+MÉTRICAS PRIMÁRIAS (por aresta; 2×5000=10000 arestas):
+  Verdade-terreno: nível pela maquinaria congelada (analisa_aresta, cópia literal).
+  TP = K ∧ L1 ; FP = K ∧ ¬L1 ; FN = ¬K ∧ L1 ; TN = ¬K ∧ ¬L1.
+  Reportar sensibilidade TP/(TP+FN), especificidade TN/(TN+FP),
+  precisão TP/(TP+FP), NPV TN/(TN+FN).
+MÉTRICAS SECUNDÁRIAS: igualdade exacta dos vectores d (fórmula vs congelado,
+  ambos os contextos), igualdade de nível (L1/L2/L3) e de dep; tabela por
+  classe de ρ; confusão ao nível de instância (colapso_total previsto vs real);
+  concordância L1∪L2 (previsão ordinal, Prop. 8).
+HIPÓTESE PRÉ-DECLARADA: sens=espec=prec=NPV=1.0 e 0 divergências (K⟺L1 é
+  teorema, não afirmação estatística). Qualquer desvio = erro de implementação
+  ou falha da teoria; será reportado tal e qual, sem ajustes pós-hoc.
+PARAGEM: nenhuma regra de paragem dependente dos resultados; o script corre
+  até N=5000 aceites ou MAX_TENTATIVAS.
+
+SEMENTES RESERVADAS: 910000006..910000009 NÃO serão usadas salvo necessidade
+documentada pós-firewall (p.ex. contra-exemplos à análise prévia); qualquer
+uso será precedido de novo ficheiro precommit-ws1-refutacao.txt neste ws dir.

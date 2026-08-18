@@ -1,0 +1,55 @@
+POST-CONFIRMATORY / EXPLORATORY — ws3 Script A (fam-20, n=12)
+id=7bb0baab3a8ed7aa  tipos=['C_BA', 'D2', 'A', 'B', 'D1', 'C_AB']  |orbita|=25  s0=1689
+core_bits = [0, 1, 2, 4, 5, 6, 7, 8, 9, 10]
+
+=== aresta C_AB->B (a=5 'C_AB', b=3 'B') ===
+ nivel=L1_d_iguais  dep_total=4608 (mult=128 x 36 celulas-sitio de 144)
+ d0=[0, 1024, 1024, 1024, 1024, 1792, 1280, 1536, 1536]
+ d1=[0, 1024, 1024, 1024, 1024, 1792, 1280, 1536, 1536]
+ orbita: m=0 em 15 estados, m=1 em 10 estados
+ CONFIG   : uniao=25 intersecao_estrita=0 | sitios uniao=54 estritos=0 -> UNIAO_APENAS_B1
+ NUCLEO   : uniao=23 intersecao=1 | sitios uniao=51 estritos=3 -> ESTRITO
+ (r,c)    : |C0|=11 |C1|=7 |I|=4 |U|=14 | sitios: totais=36 uniao=30 ESTRITOS=9 -> ESTRITO
+ I (celulas (r,c) em AMBOS os contextos): [(0, 1), (2, 0), (3, 1), (3, 3)]
+ OBS (sem cirurgia): pares=1 diferentes=1
+ testemunhas estritas (intervencao, (r,c), padrao m0 vs m1):
+   int#3 (mk=1024,vl=0) r=3 c=3 : 2 vs 0 (pesos 1 vs 0)
+   int#4 (mk=1024,vl=1024) r=0 c=1 : 0 vs 6 (pesos 0 vs 2)
+   int#4 (mk=1024,vl=1024) r=3 c=1 : 2 vs 0 (pesos 1 vs 0)
+   int#5 (mk=1025,vl=0) r=3 c=3 : 6 vs 4 (pesos 2 vs 1)
+   int#6 (mk=1025,vl=1) r=3 c=3 : 2 vs 0 (pesos 1 vs 0)
+   int#7 (mk=1025,vl=1024) r=0 c=1 : 6 vs 0 (pesos 2 vs 0)
+   int#7 (mk=1025,vl=1024) r=3 c=1 : 0 vs 2 (pesos 0 vs 1)
+   int#8 (mk=1025,vl=1025) r=0 c=1 : 0 vs 6 (pesos 0 vs 2)
+   int#8 (mk=1025,vl=1025) r=3 c=1 : 2 vs 0 (pesos 1 vs 0)
+   obs r=3 (c1=1,c2=3): O_m0=2 O_m1=0 difere=True
+
+=== aresta C_BA->A (a=0 'C_BA', b=2 'A') ===
+ nivel=L1_d_iguais  dep_total=4608 (mult=128 x 36 celulas-sitio de 144)
+ d0=[0, 1024, 1024, 1024, 1024, 1536, 1536, 1536, 1536]
+ d1=[0, 1024, 1024, 1024, 1024, 1536, 1536, 1536, 1536]
+ orbita: m=0 em 12 estados, m=1 em 13 estados
+ CONFIG   : uniao=25 intersecao_estrita=0 | sitios uniao=51 estritos=0 -> UNIAO_APENAS_B1
+ NUCLEO   : uniao=24 intersecao=0 | sitios uniao=48 estritos=0 -> UNIAO_APENAS_B1
+ (r,c)    : |C0|=8 |C1|=10 |I|=5 |U|=13 | sitios: totais=36 uniao=27 ESTRITOS=9 -> ESTRITO
+ I (celulas (r,c) em AMBOS os contextos): [(0, 0), (0, 3), (1, 0), (1, 3), (3, 2)]
+ OBS (sem cirurgia): pares=2 diferentes=1
+ testemunhas estritas (intervencao, (r,c), padrao m0 vs m1):
+   int#1 (mk=128,vl=0) r=1 c=3 : 5 vs 4 (pesos 2 vs 1)
+   int#2 (mk=128,vl=128) r=1 c=0 : 0 vs 1 (pesos 0 vs 1)
+   int#2 (mk=128,vl=128) r=3 c=2 : 0 vs 1 (pesos 0 vs 1)
+   int#5 (mk=384,vl=0) r=1 c=3 : 1 vs 0 (pesos 1 vs 0)
+   int#6 (mk=384,vl=128) r=1 c=0 : 0 vs 1 (pesos 0 vs 1)
+   int#6 (mk=384,vl=128) r=3 c=2 : 1 vs 0 (pesos 1 vs 0)
+   int#7 (mk=384,vl=256) r=1 c=3 : 5 vs 4 (pesos 2 vs 1)
+   int#8 (mk=384,vl=384) r=1 c=0 : 1 vs 0 (pesos 1 vs 0)
+   int#8 (mk=384,vl=384) r=3 c=2 : 0 vs 1 (pesos 0 vs 1)
+   obs r=0 (c1=0,c2=3): O_m0=1 O_m1=1 difere=False
+   obs r=1 (c1=0,c2=3): O_m0=1 O_m1=0 difere=True
+
+replicacao criterio OR (config, uniao): [51, 54]  (esperado {51,54})
+
+FALHAS DE CROSS-CHECK: nenhuma
+instancia: >=1 aresta ESTRITO (rc)? True | ambas? True
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws3-realized-dynamics/ws3-strict-fam20.json
+sha256_saida: e402dca36ba28c4bca53533e0ccbd5e3c76e48ccf69546731b01ac69e0f76c7e

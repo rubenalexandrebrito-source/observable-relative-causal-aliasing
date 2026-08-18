@@ -1,0 +1,60 @@
+alvos: 126 (G2=46 G3=40 G4=40)
+replay seed 910000001: 62/62 alvos verificados (theta_sha + elegibilidade)
+replay seed 910000002: 64/64 alvos verificados (theta_sha + elegibilidade)
+
+===== CROSS-CHECKS (252 arestas) =====
+  d_ok            : 132
+  d_presentes     : 132
+  dep_ok          : 252
+  formula_d_ok    : 252
+  formula_pat_ok  : 252
+  k_ok            : 252
+  nivel_ok        : 252
+  reducao_ok      : 252
+  total_arestas   : 252
+  FALHAS: nenhuma
+
+===== PREVALENCIA categoria (r,c) por grupo/aresta =====
+  G2_colapso              : {'ESTRITO': 74, 'UNIAO_APENAS_B2': 11, 'UNIAO_APENAS_B1': 6, 'SEM_DEP': 1}
+  G2_colapso/L1+L1        : {'ESTRITO': 46, 'UNIAO_APENAS_B2': 8, 'SEM_DEP': 1, 'UNIAO_APENAS_B1': 3}
+  G2_colapso/L1+L2        : {'UNIAO_APENAS_B2': 2, 'ESTRITO': 16, 'UNIAO_APENAS_B1': 2}
+  G2_colapso/L2+L2        : {'ESTRITO': 12, 'UNIAO_APENAS_B2': 1, 'UNIAO_APENAS_B1': 1}
+  G3_controlo_L3L3        : {'ESTRITO': 65, 'UNIAO_APENAS_B1': 15}
+  G4_misto                : {'UNIAO_APENAS_B1': 8, 'UNIAO_APENAS_B2': 8, 'ESTRITO': 64}
+===== PREVALENCIA categoria CONFIG por grupo/aresta =====
+  G2_colapso              : {'UNIAO_APENAS_B1': 73, 'ESTRITO': 15, 'UNIAO_APENAS_B2': 3, 'SEM_DEP': 1}
+  G2_colapso/L1+L1        : {'UNIAO_APENAS_B1': 45, 'ESTRITO': 10, 'UNIAO_APENAS_B2': 2, 'SEM_DEP': 1}
+  G2_colapso/L1+L2        : {'UNIAO_APENAS_B1': 17, 'ESTRITO': 3}
+  G2_colapso/L2+L2        : {'UNIAO_APENAS_B1': 11, 'UNIAO_APENAS_B2': 1, 'ESTRITO': 2}
+  G3_controlo_L3L3        : {'UNIAO_APENAS_B1': 65, 'ESTRITO': 15}
+  G4_misto                : {'UNIAO_APENAS_B1': 71, 'ESTRITO': 8, 'UNIAO_APENAS_B2': 1}
+===== por nivel de aresta (rc) =====
+  L1_d_iguais                 : {'ESTRITO': 75, 'UNIAO_APENAS_B2': 14, 'UNIAO_APENAS_B1': 7, 'SEM_DEP': 1}
+  L2_rank_igual_d_diferente   : {'ESTRITO': 29, 'UNIAO_APENAS_B1': 4, 'UNIAO_APENAS_B2': 2}
+  L3_rank_diferente           : {'ESTRITO': 99, 'UNIAO_APENAS_B1': 18, 'UNIAO_APENAS_B2': 3}
+===== instancias (>=1 / ambas ESTRITO rc) =====
+  G2_colapso          : {'ambas': 32, 'pelo_menos_uma': 10, 'nenhuma': 4, 'n': 46}
+  G3_controlo_L3L3    : {'ambas': 29, 'pelo_menos_uma': 7, 'nenhuma': 4, 'n': 40}
+  G4_misto            : {'ambas': 27, 'pelo_menos_uma': 10, 'nenhuma': 3, 'n': 40}
+===== |I| (celulas (r,c) em ambos os contextos) =====
+  G2_colapso/L1+L1        : {'n': 58, 'min': 0, 'mediana': 2.0, 'max': 10, 'media': 3.121}
+  G2_colapso/L1+L2        : {'n': 20, 'min': 0, 'mediana': 4.0, 'max': 6, 'media': 3.3}
+  G2_colapso/L2+L2        : {'n': 14, 'min': 0, 'mediana': 2.5, 'max': 9, 'media': 3.429}
+  G3_controlo_L3L3        : {'n': 80, 'min': 0, 'mediana': 3.0, 'max': 15, 'media': 3.85}
+  G4_misto                : {'n': 80, 'min': 0, 'mediana': 2.0, 'max': 10, 'media': 2.65}
+===== sitios estritos (rc) =====
+  G2_colapso/L1+L1        : {'n': 58, 'min': 0, 'mediana': 6.0, 'max': 40, 'media': 7.862}
+  G2_colapso/L1+L2        : {'n': 20, 'min': 0, 'mediana': 9.0, 'max': 18, 'media': 7.35}
+  G2_colapso/L2+L2        : {'n': 14, 'min': 0, 'mediana': 5.5, 'max': 27, 'media': 7.929}
+  G3_controlo_L3L3        : {'n': 80, 'min': 0, 'mediana': 11.5, 'max': 48, 'media': 12.787}
+  G4_misto                : {'n': 80, 'min': 0, 'mediana': 4.0, 'max': 34, 'media': 6.55}
+===== observacional =====
+  G2_colapso/L1+L1        : {'arestas': 58, 'com_pares': 26, 'com_par_diferente': 19}
+  G2_colapso/L1+L2        : {'arestas': 20, 'com_pares': 12, 'com_par_diferente': 7}
+  G2_colapso/L2+L2        : {'arestas': 14, 'com_pares': 8, 'com_par_diferente': 3}
+  G3_controlo_L3L3        : {'arestas': 80, 'com_pares': 48, 'com_par_diferente': 45}
+  G4_misto                : {'arestas': 80, 'com_pares': 36, 'com_par_diferente': 23}
+
+duracao: 1.3s
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws3-realized-dynamics/ws3-strict-bateria.json
+sha256_saida: e48f72a15ad92be559e5a903da9f6dc0554370569c31eaf6e024993bcf92b488

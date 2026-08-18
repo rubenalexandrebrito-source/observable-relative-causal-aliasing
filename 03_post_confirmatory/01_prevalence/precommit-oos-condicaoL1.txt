@@ -1,0 +1,7 @@
+# PRE-COMPROMISSO OOS - condicao K vs L1 (POST-CONFIRMATORY/EXPLORATORY)
+registado_em_UTC=2026-08-17T12:26:51Z
+condicao_K_fixada_ANTES_da_amostra=Wtil_0==Wtil_1 (tau isometria de W_M); derivada analiticamente e testada in-sample
+oos_semente=910000004_nova_nunca_usada
+oos_N=5000_fixo
+oos_script_sha256=62ad08e49ccac7d4b553cd8c8aa4c3da58ef6976f3bf948101ee1e5405281e34
+regra=reportar_confusao_completa_TP_FP_TN_FN_seja_qual_for_o_desfecho

@@ -1,0 +1,329 @@
+{
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "coord_b_fam20.py",
+ "fam20": {
+  "familia": 20,
+  "n": 12,
+  "tipos": [
+   "C_BA",
+   "D2",
+   "A",
+   "B",
+   "D1",
+   "C_AB"
+  ],
+  "orbita": 25,
+  "arestas": {
+   "C_AB->B": {
+    "d0": [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1792,
+     1280,
+     1536,
+     1536
+    ],
+    "d1": [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1792,
+     1280,
+     1536,
+     1536
+    ],
+    "d0==d1": true,
+    "d==esperado_WS1_F4": true,
+    "dep": 4608,
+    "const_por_celula": true,
+    "phi_bem_definida": true,
+    "Wtil0": [
+     [
+      0,
+      4,
+      5,
+      5
+     ],
+     [
+      4,
+      0,
+      3,
+      3
+     ],
+     [
+      5,
+      3,
+      0,
+      4
+     ],
+     [
+      5,
+      3,
+      4,
+      0
+     ]
+    ],
+    "Wtil0==Wtil1": true,
+    "V0": [
+     14,
+     10,
+     12,
+     12
+    ],
+    "|Iso(W)|": 2,
+    "iso_nao_triviais": [
+     [
+      0,
+      1,
+      3,
+      2
+     ]
+    ],
+    "equidistante": false,
+    "transportes_rho": [
+     {
+      "rho": [
+       0,
+       1,
+       3,
+       2
+      ],
+      "delta": 3
+     }
+    ],
+    "classe_rho": [
+     [
+      2,
+      1,
+      1
+     ]
+    ],
+    "|C0|": 11,
+    "|C1|": 7,
+    "I": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      3,
+      1
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "n_I": 4,
+    "sitios_estritos": 9,
+    "sitios_uniao": 30,
+    "testemunhas_observacionais_diferentes": [
+     {
+      "r": 3,
+      "c1": 1,
+      "c2": 3,
+      "O0": 2,
+      "O1": 0
+     }
+    ]
+   },
+   "C_BA->A": {
+    "d0": [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1536,
+     1536,
+     1536,
+     1536
+    ],
+    "d1": [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1536,
+     1536,
+     1536,
+     1536
+    ],
+    "d0==d1": true,
+    "d==esperado_WS1_F4": true,
+    "dep": 4608,
+    "const_por_celula": true,
+    "phi_bem_definida": true,
+    "Wtil0": [
+     [
+      0,
+      4,
+      4,
+      4
+     ],
+     [
+      4,
+      0,
+      4,
+      4
+     ],
+     [
+      4,
+      4,
+      0,
+      4
+     ],
+     [
+      4,
+      4,
+      4,
+      0
+     ]
+    ],
+    "Wtil0==Wtil1": true,
+    "V0": [
+     12,
+     12,
+     12,
+     12
+    ],
+    "|Iso(W)|": 24,
+    "iso_nao_triviais": [
+     [
+      0,
+      1,
+      3,
+      2
+     ],
+     [
+      0,
+      2,
+      1,
+      3
+     ],
+     [
+      0,
+      2,
+      3,
+      1
+     ]
+    ],
+    "equidistante": true,
+    "transportes_rho": [
+     {
+      "rho": [
+       0,
+       1,
+       3,
+       2
+      ],
+      "delta": 1
+     }
+    ],
+    "classe_rho": [
+     [
+      2,
+      1,
+      1
+     ]
+    ],
+    "|C0|": 8,
+    "|C1|": 10,
+    "I": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      3
+     ],
+     [
+      1,
+      0
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "n_I": 5,
+    "sitios_estritos": 9,
+    "sitios_uniao": 27,
+    "testemunhas_observacionais_diferentes": [
+     {
+      "r": 1,
+      "c1": 0,
+      "c2": 3,
+      "O0": 1,
+      "O1": 0
+     }
+    ]
+   }
+  },
+  "classificar_C1p_componentes": [
+   [
+    0,
+    1,
+    2,
+    3
+   ],
+   [
+    4
+   ],
+   [
+    5
+   ]
+  ],
+  "nucleo_fundido_C1p": true
+ },
+ "replay14155": {
+  "aceites_ate_14155_inclusive": 4160,
+  "indice_familia_0based": 4159,
+  "theta_sha_prefixo": "964a55337a7a502f",
+  "esperado_WS4": "964a55337a7a502f",
+  "classe_tau": [
+   2,
+   2
+  ],
+  "arestas": {
+   "C_AB->B": {
+    "nivel": "L1",
+    "dep": 0,
+    "V_de_W_M": [
+     14,
+     14,
+     14,
+     14
+    ],
+    "V_constante": true
+   },
+   "C_BA->A": {
+    "nivel": "L1",
+    "dep": 1152,
+    "V_de_W_M": [
+     14,
+     14,
+     14,
+     14
+    ],
+    "V_constante": true
+   }
+  },
+  "colapso_ambas_estado": true
+ }
+}

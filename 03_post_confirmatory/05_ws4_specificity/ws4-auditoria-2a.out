@@ -1,0 +1,7 @@
+A1: familias 25, arestas comparadas 50 falhas 0
+A2: {"alvos": [{"C_AB->B": {"dep_registado": 2176, "dep_replay": 2176, "nivel": "L3_rank_diferente", "ok": true}, "C_BA->A": {"dep_registado": 2176, "dep_replay": 2176, "nivel": "L3_rank_diferente", "ok": true}, "classe": "individua_ambas", "fam_registada": 0, "fam_replay": 0, "tentativa": 9, "theta_sha_ok": true}, {"C_AB->B": {"dep_registado": 2048, "dep_replay": 2048, "nivel": "L1_d_iguais", "ok": true}, "C_BA->A": {"dep_registado": 1536, "dep_replay": 1536, "nivel": "L1_d_iguais", "ok": true}, "classe": "colapso_total", "fam_registada": 289, "fam_replay": 289, "tentativa": 1003, "theta_sha_ok": true}], "wtil_pi": [{"aresta": "C_AB->B", "ok": true, "tentativa": 9}, {"aresta": "C_BA->A", "ok": true, "tentativa": 9}, {"aresta": "C_AB->B", "ok": true, "tentativa": 1003}, {"aresta": "C_BA->A", "ok": true, "tentativa": 1003}]}
+A3: {"ambas_pos": [45, 45], "arestas_dep_zero": [1, 1], "max": [2048, 2048], "mediana": [1152, 1152], "min": [0, 0], "n_arestas": [92, 92], "n_colapsos": [46, 46], "sem_dep_agregado_lotes": [7, 7], "todos_os_valores_iguais": true}
+FALHAS TOTAIS: 0
+duracao_s: 0.1
+sha256_saida: 8f95849ff7b32cb815fb75c244fb185340ff384a39d301df23918d390cf37ded
+sha256_script: abfc58def102d1765f5281123dcdc69419db47cbc7d37b44e5776ebe8f97f531

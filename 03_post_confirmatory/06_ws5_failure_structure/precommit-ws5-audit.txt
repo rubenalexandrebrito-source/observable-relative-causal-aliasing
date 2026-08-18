@@ -1,0 +1,13 @@
+# PRE-COMPROMISSO WS5 - auditoria de segunda passagem (ws5_audit_agent2.py)
+# POST-CONFIRMATORY / EXPLORATORY - Pre-registo A v8.3, Fase 6, ws5-failure-structure
+registado_antes_da_execucao=true
+semente=910000033 (intervalo WS5 910000030..39; nunca usada)
+uso=busca deterministica de contraexemplo da consequencia do teorema do
+    alinhamento (multiconjunto do perfil invariante e L2 impossivel em celula
+    alinhada), sobre 200 matrizes M arbitrarias x todos os tau alinhados.
+    NAO e amostra estatistica: nenhuma taxa/inferencia sera estimada desta
+    semente; qualquer falha e contraexemplo valido independentemente da
+    semente. N=200 fixo; sem repeticao.
+restante=a auditoria usa apenas REPLAY deterministico dos lotes registados
+    910000001/910000002 (nao e amostra nova) e leitura de ficheiros ja
+    publicados; nenhuma outra semente.

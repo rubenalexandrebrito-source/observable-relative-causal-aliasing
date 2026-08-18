@@ -1,0 +1,8 @@
+# Reserva de sementes exploratorias por workstream (novas; nunca usadas)
+ws1=910000005..910000009
+ws2=910000040..910000049
+ws3=910000010..910000019
+ws4=910000020..910000029
+ws5=910000030..910000039
+coordenador=910000050..910000059
+PROIBIDAS=3786434918,3786434919 e as 20 da lista congelada sementes-ja-usadas-auditoria.txt

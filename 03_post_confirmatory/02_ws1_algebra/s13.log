@@ -1,0 +1,13 @@
+=== s13 RESUMO (OOS, semente 910000005) ===
+aceites 5000 / tentativas 16890 em 7.4s
+K vs L1   : {"TP": 307, "FP": 0, "FN": 0, "TN": 9693, "sensibilidade": 1.0, "especificidade": 1.0, "precisao": 1.0, "NPV": 1.0}
+ord vs L12: {"TP": 404, "FP": 0, "FN": 0, "TN": 9596, "sensibilidade": 1.0, "especificidade": 1.0, "precisao": 1.0, "NPV": 1.0}
+colapso   : {"TP": 16, "FP": 0, "FN": 0, "TN": 4984, "sensibilidade": 1.0, "especificidade": 1.0, "precisao": 1.0, "NPV": 1.0}
+divergencias: {'d': 0, 'nivel': 0, 'dep': 0}
+niveis: {'L1_d_iguais': 307, 'L2_rank_igual_d_diferente': 97, 'L3_rank_diferente': 9596} dep_zero: 2
+classes: {'individua_ambas': 4612, 'individua_uma': 372, 'colapso_total': 16} {"('L1_d_iguais', 'L1_d_iguais')": 12, "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 2, "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 2}
+  3-ciclo       fam= 1847 L1/aresta=0.0057 colapso=0
+  4-ciclo       fam= 1257 L1/aresta=0.0068 colapso=0
+  V4            fam=  658 L1/aresta=0.0752 colapso=6
+  transposicao  fam= 1238 L1/aresta=0.0687 colapso=10
+sha256 out-s13.json: 5d748feefb0604462e8d1e6d895727961202cf055d855ec49bed5e722d8eed47

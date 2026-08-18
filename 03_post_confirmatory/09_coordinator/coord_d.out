@@ -1,0 +1,28 @@
+{
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "coord_d_fresh_III.py",
+ "seed": 910000051,
+ "N_aceites": 250,
+ "tentativas": 815,
+ "n_arestas": 500,
+ "duracao_s": 0.5,
+ "h1": {
+  "arestas_dep>0": 0,
+  "arestas_d0!=d1": 0,
+  "formula_divergencias": 0,
+  "teorema_III1": "OK"
+ },
+ "h2": {
+  "arestas_dep2>0": 500,
+  "fraccao": 1.0,
+  "niveis2": {
+   "L1": 3,
+   "L2": 82,
+   "L3": 415
+  },
+  "dep2_mediana": 1312,
+  "dep2_max": 2048,
+  "dep2_min_nao_nulo": 368,
+  "zeros": []
+ }
+}

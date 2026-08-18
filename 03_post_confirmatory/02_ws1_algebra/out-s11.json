@@ -1,0 +1,197 @@
+{
+ "arestas": {
+  "C_AB->B": {
+   "ABV0": {
+    "A": 8,
+    "B": 8,
+    "V": [
+     14,
+     10,
+     12,
+     12
+    ],
+    "WM3": 8
+   },
+   "ABV1": {
+    "A": 8,
+    "B": 8,
+    "V": [
+     14,
+     10,
+     12,
+     12
+    ],
+    "WM3": 8
+   },
+   "K": true,
+   "bits_a": [
+    0,
+    10
+   ],
+   "bits_b": [
+    4,
+    5,
+    6
+   ],
+   "cond_a": true,
+   "cond_b": true,
+   "cond_c": true,
+   "d_pred": [
+    [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1792,
+     1280,
+     1536,
+     1536
+    ],
+    [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1792,
+     1280,
+     1536,
+     1536
+    ]
+   ],
+   "dep_positivo": true,
+   "dep_pred": 4608,
+   "membits": [
+    4
+   ],
+   "rho_tipos": [
+    "2+1+1"
+   ],
+   "rhos_transporte": [
+    {
+     "delta": 3,
+     "rho": [
+      0,
+      1,
+      3,
+      2
+     ]
+    }
+   ],
+   "verificacoes": {
+    "d0_pred_eq_frozen": true,
+    "d0_pred_eq_registado": true,
+    "d1_pred_eq_frozen": true,
+    "d1_pred_eq_registado": true,
+    "dep_pred_eq_frozen": true,
+    "dep_pred_eq_registado": true,
+    "lema1_bem_definido": true,
+    "nivel_L1": true
+   }
+  },
+  "C_BA->A": {
+   "ABV0": {
+    "A": 8,
+    "B": 8,
+    "V": [
+     12,
+     12,
+     12,
+     12
+    ],
+    "WM3": 8
+   },
+   "ABV1": {
+    "A": 8,
+    "B": 8,
+    "V": [
+     12,
+     12,
+     12,
+     12
+    ],
+    "WM3": 8
+   },
+   "K": true,
+   "bits_a": [
+    7,
+    8
+   ],
+   "bits_b": [
+    1,
+    2,
+    9
+   ],
+   "cond_a": true,
+   "cond_b": true,
+   "cond_c": true,
+   "d_pred": [
+    [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1536,
+     1536,
+     1536,
+     1536
+    ],
+    [
+     0,
+     1024,
+     1024,
+     1024,
+     1024,
+     1536,
+     1536,
+     1536,
+     1536
+    ]
+   ],
+   "dep_positivo": true,
+   "dep_pred": 4608,
+   "membits": [
+    2
+   ],
+   "rho_tipos": [
+    "2+1+1"
+   ],
+   "rhos_transporte": [
+    {
+     "delta": 1,
+     "rho": [
+      0,
+      3,
+      2,
+      1
+     ]
+    }
+   ],
+   "verificacoes": {
+    "d0_pred_eq_frozen": true,
+    "d0_pred_eq_registado": true,
+    "d1_pred_eq_frozen": true,
+    "d1_pred_eq_registado": true,
+    "dep_pred_eq_frozen": true,
+    "dep_pred_eq_registado": true,
+    "lema1_bem_definido": true,
+    "nivel_L1": true
+   }
+  }
+ },
+ "id": "7bb0baab3a8ed7aa",
+ "n": 12,
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "s11_fam20_cega.py",
+ "tipos": [
+  "C_BA",
+  "D2",
+  "A",
+  "B",
+  "D1",
+  "C_AB"
+ ],
+ "todas_verificacoes_ok": true
+}

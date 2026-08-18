@@ -1,0 +1,4 @@
+=== s14 RESUMO (refutação activa) ===
+frente1: posto=6 det=-8 nucleo_trivial=True
+frente2: 414 instâncias construídas, níveis={'L1': 178, 'L2': 0, 'L3': 236}, W_nulo=92, contra-exemplos=0
+sha256 out-s14.json: ae4b62f0f9562e0080e5754aef5800ecffa1a451ee4f6fb934715dcbd6329880

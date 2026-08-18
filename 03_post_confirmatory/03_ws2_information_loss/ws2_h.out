@@ -1,0 +1,5 @@
+colapso_lote1_fam289 orbita 8 nucleo_fundido True componentes_multi [['A', 'B', 'C_AB', 'C_BA']]
+controlo_L3L3_fam0 orbita 28 nucleo_fundido False componentes_multi []
+confirmatoria_7bb0baab3a8ed7aa orbita 25 nucleo_fundido True componentes_multi [['A', 'B', 'C_AB', 'C_BA']]
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/ws2-endtoend.json
+sha256_saida: a0ab8a780cb7cb544cfb57a691635cbdf46f581da57428088bdae6a9f1ae6f61

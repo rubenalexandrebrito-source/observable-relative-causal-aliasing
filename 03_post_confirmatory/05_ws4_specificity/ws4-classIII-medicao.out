@@ -1,0 +1,27 @@
+progresso: 200 aceites, 686 tentativas, 1s
+progresso: 400 aceites, 1390 tentativas, 1s
+progresso: 600 aceites, 2023 tentativas, 1s
+progresso: 800 aceites, 2798 tentativas, 2s
+progresso: 1000 aceites, 3490 tentativas, 2s
+progresso: 1200 aceites, 4283 tentativas, 3s
+progresso: 1400 aceites, 4916 tentativas, 3s
+progresso: 1600 aceites, 5626 tentativas, 4s
+progresso: 1800 aceites, 6268 tentativas, 4s
+progresso: 2000 aceites, 6952 tentativas, 5s
+
+===== RESUMO WS4 (III, N=2000, seed 910000020) =====
+tentativas 6952, taxa aceitacao 0.288, duracao 4.8s
+P1 dep=0            : 4000/4000 arestas (dep>0: 0)
+P2 nivel L1         : 4000/4000 (nao-L1: 0; d0==d1: 4000)
+P3 formula exacta   : ok 4000 / falha 0
+P4 C2/C3 contexto   : efic_igual 4000, supp_igual 4000, falhas 0
+P5 baseline         : bdep ok 4000 / falha 0; bdep=512: 4000; sigma_diff: 4000
+P6 ambos contextos  : 4000/4000 (falhas 0)
+P7 orbita           : fact_ok 4000/falha 0; cnt_igual 0; S_igual 0; Snorm_igual 0; cnt_igual&S_dif 0
+d_max==0 (sanidade) : 0
+delta_norm orbita   : {"C_AB->B": {"n": 2000, "zeros": 0, "mediana": 0.530303, "p90": 1.0, "max": 2.0}, "C_BA->A": {"n": 2000, "zeros": 0, "mediana": 0.545455, "p90": 1.041667, "max": 2.0}}
+instancias com dep>0: 0  IC95 sup (se 0): 0.0014967448951882512
+anomalias           : 0
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws4-classIII-specificity/ws4-classIII-medicao.json
+sha256_saida: a1d256fbf9908e1325a47b378c68645395347d3260149dc638a031a14484b6e2
+sha256_script: 6a92aae8dd7957cb5986df147466bb51c0f8d2dc8d2b6c30f15f2a15704a1399

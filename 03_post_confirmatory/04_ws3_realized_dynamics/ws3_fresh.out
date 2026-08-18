@@ -1,0 +1,13 @@
+POST-CONFIRMATORY / EXPLORATORY — ws3 baseline fresco (seed 910000010)
+aceites=200 de 650 tentativas (taxa 0.308)
+niveis: {'L3_rank_diferente': 385, 'L1_d_iguais': 14, 'L2_rank_igual_d_diferente': 1}
+categoria (r,c): {'ESTRITO': 345, 'UNIAO_APENAS_B2': 14, 'UNIAO_APENAS_B1': 40, 'PURO_CONTRAFACTUAL': 1}
+categoria cfg: {'UNIAO_APENAS_B1': 347, 'ESTRITO': 46, 'UNIAO_APENAS_B2': 6, 'PURO_CONTRAFACTUAL': 1}
+instancias: {'ambas': 149, 'pelo_menos_uma': 47, 'nenhuma': 4, 'n': 200}
+IC95: {"aresta_ESTRITO_cfg": {"ic": [0.0873, 0.15], "k": 46, "n": 400}, "aresta_ESTRITO_rc": {"ic": [0.8253, 0.8928], "k": 345, "n": 400}, "instancia_ambas": {"ic": [0.6804, 0.8004], "k": 149, "n": 200}, "instancia_pelo_menos_uma": {"ic": [0.9497, 0.9922], "k": 196, "n": 200}}
+|I| rc: {'n': 400, 'min': 0, 'mediana': 3.0, 'max': 11, 'media': 3.252}
+sitios estritos rc: {'n': 400, 'min': 0, 'mediana': 9.0, 'max': 44, 'media': 10.745}
+orbita: {'n': 200, 'min': 6, 'mediana': 19.0, 'max': 61, 'media': 20.515}
+observacional: {'arestas': 400, 'com_pares': 217, 'com_par_diferente': 171}
+duracao: 0.8s
+sha256_saida: a86cc6a9717ec5465cc65d1890644c03ec672f539d6a09b81dace3e36df92a81

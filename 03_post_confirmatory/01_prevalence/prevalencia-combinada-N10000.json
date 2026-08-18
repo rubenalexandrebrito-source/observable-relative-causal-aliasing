@@ -1,0 +1,56 @@
+{
+ "combinacao": "lotes 1+2 pre-declarados (precommit-lote2.txt); N total fixado em 10000",
+ "consistencia_confirmatoria": {
+  "P_de_0_colapsos_em_50_II_E1": 0.7941,
+  "P_de_pelo_menos_1_colapso_em_25_II_E2": 0.1089,
+  "fam20_subtipo": "(L1,L1) - cancelamento exacto na soma de Hamming"
+ },
+ "instancias_total": 10000,
+ "lema_E1_E2": "d_E2 = 4*d_E1 provado e verificado (verifica_E1_E2.out): niveis identicos nos dois regimes",
+ "lote1": {
+  "colapsos": 22,
+  "n": 5000,
+  "semente": 910000001,
+  "sha_saida": "ver ficheiro proprio"
+ },
+ "lote2": {
+  "colapsos": 24,
+  "n": 5000,
+  "semente": 910000002
+ },
+ "por_ARESTA": {
+  "IC95_L1_mais_L2": [
+   0.043668,
+   0.049506
+  ],
+  "L1_d_iguais": 705,
+  "L2_rank_igual_d_diferente": 225,
+  "L3_rank_diferente": 19070,
+  "com_dependencia_ponto_a_ponto": 19993,
+  "dependencia_desaparece_apos_agregacao_L1_mais_L2": 930,
+  "prop_L1": 0.03525,
+  "prop_L1_mais_L2": 0.0465,
+  "prop_L2": 0.01125,
+  "prop_L3": 0.9535,
+  "sem_dependencia_ponto_a_ponto": 7,
+  "total_arestas": 20000
+ },
+ "por_INSTANCIA": {
+  "IC95_wilson": [
+   0.003451,
+   0.00613
+  ],
+  "P_falha_identificabilidade_C1p_dado_II": 0.0046,
+  "colapso_total_erro_C1p": 46,
+  "esperado_sob_independencia_das_arestas_q2": 0.002162,
+  "individua_ambas": 9116,
+  "individua_uma": 838,
+  "razao_observado_sobre_independencia": 2.13,
+  "subtipos_colapso_total": {
+   "('L1_d_iguais', 'L1_d_iguais')": 29,
+   "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 10,
+   "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 7
+  }
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY"
+}

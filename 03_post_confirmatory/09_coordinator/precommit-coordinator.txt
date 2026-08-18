@@ -1,0 +1,84 @@
+POST-CONFIRMATORY / EXPLORATORY — precommit-coordinator.txt
+Coordenador/red-team, Fase 6 multiagente, Pre-registo A v8.3.
+Escrito e enviado ao servidor ANTES de qualquer execucao dos scripts abaixo.
+O resultado confirmatorio (negativo; C1' 199/200; erro unico 7bb0baab3a8ed7aa) e
+imutavel e nao e recalculado nem reinterpretado por nada do que segue.
+
+OBJECTIVO: auditoria/red-team dos 5 workstreams — reexecucao de uma amostra das
+analises criticas de cada WS com scripts proprios do coordenador, e tentativa
+activa de falsificacao das conclusoes centrais. Nenhuma C1'' e formulada.
+
+SEMENTES NOVAS (intervalo do coordenador 910000050..910000059):
+- 910000050 — amostra fresca variante II, N=400 familias aceites, loop identico
+  ao gerador (rng = Generator(PCG64(SeedSequence(910000050).spawn(4)[0]));
+  contador de tentativas incrementado por CADA theta amostrado; rejeitar
+  th.pi[0]==th.pi[1]; aceitar sse g.elegibilidade(th, False)[0]).
+  Script: coord_c_fresh_II.py. Analises FIXADAS (por aresta canal->processador,
+  ambas as arestas, maquinaria congelada cl.* para d/dep/niveis + formula
+  propria a partir de theta):
+  a) d via fibra congelada == d via formula 32*sum_c W(pi_m c, pi_m sub_a c)
+     (reexecucao WS1/autopsia);
+  b) K (tau=pi1 o pi0^{-1} em Iso(W_M), computada tambem como Wtil_0==Wtil_1)
+     vs nivel L1 — matriz de confusao; criterio de refutacao: qualquer FP/FN;
+  c) impressao digital d=(0,a,a,b,b,v0..v3); invariancia do multiset d[5..8]
+     entre contextos; transporte (d_1 pares == 32*S(rho*(M1)),32*S(rho*(M2));
+     d_1[5+g]==32*V_0(rho g)) — refutacao: qualquer violacao;
+  d) em arestas L1: igualdade das somas por celula (k,c) nos dois contextos
+     (B4=0, reexecucao WS2) — refutacao: qualquer celula com somas diferentes;
+  e) estagios de perda F1/F1.5/F2 por aresta L1 (reexecucao WS2; fraccoes a
+     comparar com 4,2/24,9/70,9%);
+  f) quantum: toda a componente nao nula de Delta d multipla de 64 (n=10)
+     — refutacao: qualquer violacao;
+  g) alinhamento (reexecucao WS5): celula (tau,lam); refutacao do teorema do
+     alinhamento: QUALQUER aresta L2 com psi(tau)(lam)==lam; assinatura L2
+     (exactamente um par P alterado com valor novo 32*S(lam) em T_out/FC_oth;
+     dupla troca em C3; bloco D imovel);
+  h) realizacao estrita (r,c) (reexecucao WS3): categorias ESTRITO/UNIAO/
+     PURO_CONTRAFACTUAL/SEM_DEP por aresta + testemunha observacional;
+     comparacao com 86,3% [82,5-89,3] do baseline WS3;
+  i) M3 (reexecucao WS5): enumeracao dos 23 pi1' por familia; consistencia
+     (pi1 real em Eq <=> colapso observado) — refutacao: qualquer inconsistencia;
+     soma de probabilidades vs colapsos observados;
+  j) contra-exemplos para a Direccao 2 com lattice empobrecido: contagem de
+     arestas nao-L1 com Delta A=Delta B=0 (d truncado cego mas tau fora de
+     Iso(W)) — esperado >0 (falsifica a generalizacao "qualquer sub-lattice").
+- 910000051 — amostra fresca variante III, N=250 familias aceites, mesmo loop
+  de aceitacao. Script: coord_d_fresh_III.py. Analises FIXADAS:
+  k) h1: dep==0 e d_0==d_1 em TODAS as arestas canal->processador (Teorema
+     III-1, reexecucao WS4) — refutacao: qualquer aresta com dep>0 ou d_0!=d_1;
+  l) h1: d == formula 32*sum_c W_M(c,sub_a c) (pi=id);
+  m) h2 (T2 = T o T, implementacao propria por dupla aplicacao da tabela):
+     dep2 por aresta; fraccao dep2>0 (esperado ~99,9%); niveis a h2 via
+     rank_canonico (esperado L3~83%); para cada aresta com dep2==0: verificar
+     mem_rows_dif (linhas K/H complementares) — comparacao com o lema WS4.
+- 910000052..910000059 — RESERVADAS; NAO usadas.
+
+REPLAYS DETERMINISTICOS (nao sao amostras novas):
+- Lote registado 910000001 ate a tentativa 14155 (contador por theta amostrado)
+  para reconciliar as referencias "fam 4159" (WS1/WS2) e "t=14155" (WS3/WS5) e
+  verificar: aresta C_AB->B com dep=0, nivel L1, V constante, tau classe
+  dupla-transposicao (V4/DT), theta_sha prefixo 964a5533 (WS4), e colapso da
+  familia. Script: coord_b_fam20.py (parte 2).
+- Instancia confirmatoria 7bb0baab3a8ed7aa via copia read-only
+  (conf-e2/instancias/) + chave-e2.json (aberta na Fase 5), SEM sementes
+  confirmatorias: despermutacao da tabela cega; verificar orbita 25, d0=d1
+  (vectores exactos de WS1-F4), dep=4608/aresta, Wtil_0==Wtil_1, matrizes W
+  (equidistante-4 na C_BA->A; [[0,4,5,5],[4,0,3,3],[5,3,0,4],[5,3,4,0]] na
+  C_AB->B), |Iso| = 24 e 2 (com o argumento dos graus mostrado), transporte
+  rho' unico de classe transposicao igual a unica isometria nao trivial da
+  aresta C_AB->B, sitios estritos (r,c) 9/9 + testemunha observacional
+  (reexecucao WS3), fusao do nucleo por cl.classificar (reexecucao WS2-E7).
+  Script: coord_b_fam20.py (parte 1).
+
+SEM SEMENTES: coord_a_linear_toy.py — (i) sistema linear das 9 intervencoes
+sobre Delta (6 g.l.): rank, det, unicidade Delta=0 (auditoria B6 da Direccao 2);
+reconstrucao explicita de Wtil a partir de (A,B,V) com formulas impressas;
+lattice empobrecido (so bits isolados) -> rank 2 e base do nucleo; (ii) toy
+model minimo (M 2 linhas x 3 simbolos, 1 bit; W=(1,1,2); Iso={id,(12)};
+pi0=id, pi1=(12)) com verificacao por script das tabelas calculadas a mao
+(campos ponto-a-ponto, 8/18 sitios diferentes, d_0=d_1=(2,3,3)).
+
+REGRAS: sem multiprocessing; execucao unica por script (re-execucao apenas por
+bug do script do coordenador, registado no relatorio); nada fora de
+/root/causal-A-postconfirmatory-analysis/multiagent/coordinator/ e escrito no
+servidor; frozen-copy so importado; artefactos confirmatorios intactos.

@@ -1,0 +1,25 @@
+=== s12 RESUMO ===
+lote 910000001 aceites 5000 tentativas 17135 em 7.0 s
+  mismatch: {'d': 0, 'nivel': 0, 'dep': 0, 'K_vs_L1': 0}
+  reconciliacao: {'tentativas_ok': True, 'L1_ok': True, 'L2_ok': True, 'L3_ok': True, 'dep_zero_ok': True, 'colapsos_ok': True}
+  niveis: {'L1_d_iguais': 358, 'L2_rank_igual_d_diferente': 113, 'L3_rank_diferente': 9529} dep_zero: 4
+  classes: {'individua_ambas': 4551, 'individua_uma': 427, 'colapso_total': 22} {"('L1_d_iguais', 'L1_d_iguais')": 16, "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 4, "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 2}
+lote 910000002 aceites 5000 tentativas 16845 em 7.2 s
+  mismatch: {'d': 0, 'nivel': 0, 'dep': 0, 'K_vs_L1': 0}
+  reconciliacao: {'tentativas_ok': True, 'L1_ok': True, 'L2_ok': True, 'L3_ok': True, 'dep_zero_ok': True, 'colapsos_ok': True}
+  niveis: {'L1_d_iguais': 347, 'L2_rank_igual_d_diferente': 112, 'L3_rank_diferente': 9541} dep_zero: 3
+  classes: {'individua_ambas': 4565, 'individua_uma': 411, 'colapso_total': 24} {"('L1_d_iguais', 'L1_d_iguais')": 13, "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 6, "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 5}
+por_rho combinado:
+  3-ciclo       fam= 3451  L1/aresta=0.0067  L2=0.0046  L1L1/fam=0.00000  colapso=0
+  4-ciclo       fam= 2613  L1/aresta=0.0101  L2=0.0065  L1L1/fam=0.00038  colapso=3
+  V4            fam= 1321  L1/aresta=0.0783  L2=0.0000  L1L1/fam=0.00757  colapso=10
+  transposicao  fam= 2615  L1/aresta=0.0763  L2=0.0304  L1L1/fam=0.00688  colapso=33
+correlacao: {
+ "P_L1_aresta": 0.03525,
+ "P_L1L1_observado": 0.0029,
+ "P_L1L1_independencia_global": 0.0012425624999999997,
+ "P_L1L1_modelo_classe_condicional": 0.0023751219750788167,
+ "lift_observado": 2.3338866254212567,
+ "lift_modelo": 1.9114708315105415
+}
+sha256 out-s12.json: 72b776f606a4b89db363f2af21fb609c7c2d89c0c3aa7ab4100f9876990748d6

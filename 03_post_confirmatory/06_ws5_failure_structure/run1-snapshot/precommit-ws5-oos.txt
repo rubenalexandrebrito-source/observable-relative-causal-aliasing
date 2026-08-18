@@ -1,0 +1,55 @@
+# PRE-COMPROMISSO WS5 - validacao OOS da estrutura da classe de falha
+# POST-CONFIRMATORY / EXPLORATORY - Pre-registo A v8.3, Fase 6, ws5-failure-structure
+registado_antes_de_qualquer_execucao_das_sementes_abaixo=true
+
+## Amostra OOS elegivel (mesma lei do gerador congelado, elegibilidade incluida)
+oos_semente=910000030 (intervalo atribuido ao WS5; nunca usada)
+oos_N=5000 familias aceites, fixo; fluxo SeedSequence(910000030).spawn(4)[0]
+oos_regra_paragem=nenhuma alem de N=5000 e tecto 200000 tentativas
+
+## Amostra RAW (sem elegibilidade; controlo do acoplamento por condicionamento)
+raw_semente=910000031 (intervalo atribuido ao WS5; nunca usada)
+raw_N=20000 thetas com pi0!=pi1 (unica rejeicao), fixo
+
+## Estatisticas e formulas FIXADAS (identicas ao in-sample ws5_correlacao.py):
+# celulas = orbitas de rho=pi0^-1 pi1 sob conjugacao por D4=Stab(M_C):
+#   T_in,T_out,DT_lam,DT_oth,FC_lam,FC_oth,C3
+# nivel por aresta via formula W exacta (equivalencia com a maquinaria ja
+#   verificada em 20164 arestas sem falha; re-auditada aqui por regra abaixo)
+# M2(cell) = sum_cell n_cell_OOS * qB_cell * qA_cell   com q FIXOS do in-sample
+# M3       = sum_f (iEq_f - 1)/23 ;  M3'(L1) = sum_f (iIso_f - 1)/23
+
+## q_por_celula (estado=L1uL2) FIXOS do in-sample (ws5-correlacao.json,
+## sha256 b24c09790aacd99ecf714281216e7d652af2484078eda2ffa64df2920c36e181):
+# cell    qB_est    qA_est
+# C3      0.011011  0.011591
+# DT_lam  0.088729  0.076739
+# DT_oth  0.079646  0.073009
+# FC_lam  0.012291  0.014525
+# FC_oth  0.020373  0.016298
+# T_in    0.091018  0.070659
+# T_out   0.115730  0.121910
+
+## PREDICOES PRE-DECLARADAS (a reportar tal como sairem):
+# P1 (TEOREMA WS5, exacto): 0 arestas L2 nas celulas com psi(tau) a fixar lam:
+#    T_in, DT_lam, DT_oth, FC_lam. Qualquer excepcao refuta o teorema.
+# P2: taxas de estado por celula compativeis com q fixados acima (z por celula
+#    e z global; referencia |z|<3).
+# P3: colapso duplo (estado ambas): observado vs M2(q fixos) e vs M3;
+#    referencia: M3 dentro de |z|<3 com sd binomial sum p(1-p).
+# P4: both-L1 observado vs M3'; mesma referencia.
+# P5 (TEOREMA, exacto em lei): taxa de estado igual em DT_lam vs DT_oth
+#    (a accao de V4 nos matchings e trivial); Fisher p reportado.
+# P6: replicacao do sinal-lam em L2: taxa L2 em T_out > 0 e FC_oth > 0,
+#    com T_out a maior taxa L2 de todas as celulas (in-sample: B 0.0382,
+#    A 0.0511 em T_out; FC_oth B 0.0128, A 0.0070; C3 ~0.004).
+# P7 (controlo RAW): na amostra RAW, M3'_raw/N e M1_raw/N (classe) coincidem
+#    dentro do erro amostral (independencia exacta sem condicionamento);
+#    a diferenca in-sample M3-M1 e atribuivel ao condicionamento por
+#    elegibilidade se e so se desaparecer no RAW.
+
+## Auditoria de maquinaria DENTRO da execucao OOS (regra deterministica):
+# familias com indice_aceite % 500 == 0 e TODAS as familias de colapso duplo:
+# tabela de transicao completa + fibra congelada; exigir d == 32*S e nivel igual.
+
+## Sem paragem opcional: os numeros saem como sairem e sao reportados.

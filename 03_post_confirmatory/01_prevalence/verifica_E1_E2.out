@@ -1,0 +1,27 @@
+fam | aresta   | d12==4*d10 | dep12==4*dep10 | ranks iguais | nivel igual | nivel | dep10 -> dep12
+  0 | C_AB->B  | True | True | True | True | L3 | 2304 -> 9216
+  0 | C_BA->A  | True | True | True | True | L3 | 2048 -> 8192
+  1 | C_AB->B  | True | True | True | True | L3 | 1792 -> 7168
+  1 | C_BA->A  | True | True | True | True | L3 | 1920 -> 7680
+  2 | C_AB->B  | True | True | True | True | L3 | 2048 -> 8192
+  2 | C_BA->A  | True | True | True | True | L3 | 1664 -> 6656
+  3 | C_AB->B  | True | True | True | True | L3 | 1408 -> 5632
+  3 | C_BA->A  | True | True | True | True | L3 | 2048 -> 8192
+  4 | C_AB->B  | True | True | True | True | L3 | 2048 -> 8192
+  4 | C_BA->A  | True | True | True | True | L3 | 2304 -> 9216
+  5 | C_AB->B  | True | True | True | True | L3 | 1536 -> 6144
+  5 | C_BA->A  | True | True | True | True | L3 | 2048 -> 8192
+  6 | C_AB->B  | True | True | True | True | L3 | 2048 -> 8192
+  6 | C_BA->A  | True | True | True | True | L3 | 1280 -> 5120
+  7 | C_AB->B  | True | True | True | True | L3 | 1536 -> 6144
+  7 | C_BA->A  | True | True | True | True | L3 | 1152 -> 4608
+  8 | C_AB->B  | True | True | True | True | L3 | 768 -> 3072
+  8 | C_BA->A  | True | True | True | True | L3 | 1920 -> 7680
+  9 | C_AB->B  | True | True | True | True | L3 | 1920 -> 7680
+  9 | C_BA->A  | True | True | True | True | L3 | 1920 -> 7680
+
+familias verificadas: 10 (tentativas: 41 )
+LEMA d_E2 = 4*d_E1: CONFIRMADO em todas as arestas/famílias
+nota fam-20 confirmatoria: dep observado n=12 foi 4608 por aresta
+=> o lema preve dep nuclear n=10 = 1152 (4608/4), consistente.
+sha256_script: 522e5e2533d7f3803d08b26602bd412032b751bba172d51c9809aae54e73b577

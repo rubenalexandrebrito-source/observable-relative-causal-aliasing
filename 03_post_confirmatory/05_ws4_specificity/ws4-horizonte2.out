@@ -1,0 +1,20 @@
+progresso: 400 aceites, 1390 tentativas, 1s
+progresso: 800 aceites, 2798 tentativas, 2s
+progresso: 1200 aceites, 4283 tentativas, 3s
+progresso: 1600 aceites, 5626 tentativas, 4s
+progresso: 2000 aceites, 6952 tentativas, 5s
+
+===== RESUMO WS4 HORIZONTE 2 (III, N=2000, seed 910000020) =====
+corrente identica 1a passagem: 2000 / 2000
+PH1 dep2>0 por aresta      : 3996/4000 (0.9990) IC95 [0.997442, 0.999727]
+PH1 por instancia (alguma) : 2000/2000 IC95 [0.998157, 1.000000]
+PH1 por instancia (ambas)  : 1996/2000 IC95 [0.994887, 0.999455]
+PH2 formula2 exacta        : ok 4000 / falha 0
+PH3 niveis2                : {"C_AB->B": {"L1_d_iguais": 23, "L2_rank_igual_d_diferente": 318, "L3_rank_diferente": 1659}, "C_BA->A": {"L1_d_iguais": 11, "L2_rank_igual_d_diferente": 314, "L3_rank_diferente": 1675}}
+PH4 dep2 quantis           : {"C_AB->B": {"max": 2176, "mediana": 1312, "min": 0, "p25": 1088, "p75": 1536}, "C_BA->A": {"max": 2176, "mediana": 1344, "min": 0, "p25": 1088, "p75": 1536}}
+dep2==0 detalhe (n=4)     : [{"fam": 968, "theta_sha": "45710a837664a52da0433bf0db380dfc9415756b0a1f5bb7a5ea766685cc2476", "aresta": "C_BA->A", "nivel2": "L1_d_iguais", "mem_rows_dif": 4, "sigma_diff": true, "d2_0": [0, 448, 448, 192, 192, 480, 768, 512, 480], "d2_1": [0, 448, 448, 192, 192, 480, 768, 512, 480]}, {"fam": 1323, "theta_sha": "f1fea4d6860c031dcb60aa811937d03a6e7f1818912760aba414dafd360b4f22", "aresta": "C_AB->B", "nivel2": "L1_d_iguais", "mem_rows_dif": 4, "sigma_diff": true, "d2_0": [0, 320, 320, 288, 288, 544, 432, 464, 576], "d2_1": [0, 320, 320, 288, 288, 544, 432, 464, 576]}, {"fam": 1912, "theta_sha": "d21420cf5aa0fbdc4e78c4d24ceab6fe22eeeeed923d4477f072d741c28811c7", "aresta": "C_AB->B", "nivel2": "L1_d_iguais", "mem_rows_dif": 4, "sigma_diff": true, "d2_0": [0, 352, 352, 256, 256, 400, 560, 560, 400], "d2_1": [0, 352, 352, 256, 256, 400, 560, 560, 400]}, {"fam": 1970, "theta_sha": "8621db9b5f6
+anomalias                  : 0
+duracao_s: 4.9
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws4-classIII-specificity/ws4-horizonte2.json
+sha256_saida: 35d13add155f1156fe13bc33bf12647b8038fe9b884788be1db461ba408e6938
+sha256_script: 668090a50225b2600270f135f703ca1b563bf8d1bb444d9f6b3c369c161e0b80

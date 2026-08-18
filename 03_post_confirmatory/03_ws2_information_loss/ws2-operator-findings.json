@@ -1,0 +1,230 @@
+{
+ "F1_caracterizacao": {
+  "confusao": {
+   "isoall_com_s1_pos": 0,
+   "nem_um_nem_outro": 669,
+   "s1_0_e_isoall": 36,
+   "s1_0_sem_isoall": 0
+  },
+  "definicao": "iso_all := tau \u2208 \u2229_r Iso(w_r); previsao: s1==0 \u27fa iso_all",
+  "estagios_das_arestas_iso_all": {
+   "F1_pc_pontual": 29,
+   "sem_dep": 7
+  },
+  "tamanho_grupo_\u2229Iso(w_r)_nas_L1": {
+   "1": 609,
+   "2": 78,
+   "4": 17,
+   "8": 1
+  }
+ },
+ "corolarios_somas_linha": {
+  "arestas": 20000,
+  "bloco_completo_pontualmente_mudado_por_nivel": {
+   "L3": 17448
+  },
+  "nota": "multiset{d[5..8]} e \u03a3d[5..8] sao invariantes exactos entre contextos (lema: bloco completo de m=1 e permutacao rho do de m=0); esperado 0 e 0; em L2 esperado bloco fixo pontualmente",
+  "violacoes_multiset_bloco_completo": 0,
+  "violacoes_soma_bloco_completo": 0
+ },
+ "descricao": "operador F por nivel: testemunhas, caracterizacao F1, corolarios somas-linha, refinamento F1.5, fibra L2",
+ "fibra_L2": {
+  "max_vetores_num_padrao": 8,
+  "n_arestas": 225,
+  "padroes_rank_L2": 51,
+  "pares_(d0,d1)_distintos": 140,
+  "vetores_distintos_por_padrao": {
+   "2": 21,
+   "3": 1,
+   "4": 15,
+   "5": 4,
+   "6": 5,
+   "7": 1,
+   "8": 4
+  }
+ },
+ "refinamento_F15_F2": {
+  "F1.5_com_bloco_B3_compensado_entre_blocos": 0,
+  "F1.5_so_permutacao_intra_bloco(B<=B2)": 174,
+  "F1.5_total": 174,
+  "F2_com_algum_bloco_B2": 333,
+  "F2_n_intervencoes_igual_so_na_soma_dist": {
+   "2": 136,
+   "4": 258,
+   "5": 4,
+   "6": 93,
+   "7": 2,
+   "8": 2
+  },
+  "F2_total": 495
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "testemunhas": {
+  "B1_pc_pontual": {
+   "X0": 2,
+   "X1": 1,
+   "aresta": {
+    "fam": 380,
+    "nome": "C_BA->A",
+    "seed": 910000001
+   },
+   "celula": {
+    "c": 1,
+    "k": 1,
+    "r": 1,
+    "sub_k": [
+     1,
+     0
+    ]
+   },
+   "nota": "padroes de bits diferentes, popcount igual: F_pc destroi a identidade dos bits",
+   "pc": 1
+  },
+  "B2_permutacao_intra_bloco": {
+   "aresta": {
+    "fam": 380,
+    "nome": "C_AB->B",
+    "seed": 910000001
+   },
+   "bloco": {
+    "c": 1,
+    "k": 1,
+    "sub_k": [
+     1,
+     0
+    ]
+   },
+   "nota": "vetor de pc por r difere; multiconjunto igual: a soma na fibra e cega a permutacoes de sitios",
+   "pc_por_r_m0": [
+    0,
+    1,
+    2,
+    0
+   ],
+   "pc_por_r_m1": [
+    2,
+    0,
+    1,
+    0
+   ]
+  },
+  "B3_cancelamento_na_soma": {
+   "aresta": {
+    "fam": 289,
+    "nome": "C_AB->B",
+    "seed": 910000001
+   },
+   "bloco": {
+    "c": 3,
+    "k": 1,
+    "sub_k": [
+     1,
+     0
+    ]
+   },
+   "nota": "multiconjuntos de pc diferem; somas iguais: perda estritamente na agregacao linear",
+   "pc_por_r_m0": [
+    1,
+    2,
+    0,
+    0
+   ],
+   "pc_por_r_m1": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "soma_bloco": 3
+  },
+  "L2_ordinalizacao": {
+   "aresta": {
+    "fam": 1910,
+    "nome": "C_BA->A",
+    "seed": 910000001
+   },
+   "d0": [
+    0,
+    256,
+    256,
+    320,
+    320,
+    576,
+    448,
+    448,
+    448
+   ],
+   "d1": [
+    0,
+    256,
+    256,
+    384,
+    384,
+    576,
+    448,
+    448,
+    448
+   ],
+   "deltas": [
+    64,
+    64
+   ],
+   "k_mudados": [
+    3,
+    4
+   ],
+   "nota": "d0 != d1; rank_canonico identico: F_rank destroi magnitude cardinal dentro da mesma celula de ordem",
+   "rank_comum": [
+    0,
+    1,
+    1,
+    2,
+    2,
+    4,
+    3,
+    3,
+    3
+   ]
+  },
+  "hist_global_diferente_soma_igual": {
+   "aresta": {
+    "fam": 289,
+    "nome": "C_AB->B",
+    "seed": 910000001
+   },
+   "d0": 160,
+   "d1": 160,
+   "hist0": [
+    384,
+    96,
+    32
+   ],
+   "hist1": [
+    352,
+    160,
+    0
+   ],
+   "k": 1
+  },
+  "hist_global_igual_pc_pontual_diferente": {
+   "aresta": {
+    "fam": 380,
+    "nome": "C_AB->B",
+    "seed": 910000001
+   },
+   "d": 192,
+   "hist0": [
+    352,
+    128,
+    32
+   ],
+   "hist1": [
+    352,
+    128,
+    32
+   ],
+   "k": 1,
+   "s1_sitios_pc_diferente": 160
+  }
+ }
+}

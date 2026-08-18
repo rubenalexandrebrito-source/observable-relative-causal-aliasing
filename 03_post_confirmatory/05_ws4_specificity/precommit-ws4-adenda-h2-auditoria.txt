@@ -1,0 +1,139 @@
+POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente
+WS4 — ESPECIFICIDADE NA CLASSE III — ADENDA AO PRECOMMIT (2.ª passagem)
+Data (UTC): 2026-08-17 (após a 1.ª passagem desta área, cujos artefactos
+verificam contra SHAS.txt 8/8; esta adenda é depositada ANTES de qualquer
+execução da 2.ª passagem)
+Área: /root/causal-A-postconfirmatory-analysis/multiagent/ws4-classIII-specificity/
+
+O resultado confirmatório permanece NEGATIVO e imutável (C1' 199/200; único
+erro 7bb0baab3a8ed7aa, fam 20, II, Estrato 2). Nada aqui o recalcula.
+Sem multiprocessing. Nenhuma escrita fora desta área. Nenhuma proposta de
+C1'' nem de regra de decisão.
+
+=======================================================================
+A. AUDITORIA DA 1.ª PASSAGEM (determinística; SEM amostragem nova)
+=======================================================================
+A0. Já verificado por leitura antes desta adenda: sha256 frozen-copy 12/12
+    vs MANIFEST; SHAS.txt da área 8/8; leitura integral de
+    medicao_ws4_classIII.py e contraste_II_ws4.py (maquinaria congelada,
+    fluxo de semente, alinhamento de fibras por enumeração idêntica dos
+    bits livres em estados_da_fibra).
+A1. Reprodução determinística de fatia: repetir o fluxo da semente 910000020
+    (SeedSequence(910000020).spawn(4)[0]; rejeitar pi0==pi1; aceitar sse
+    elegibilidade(th,False)[0]) até às primeiras 25 famílias aceites;
+    recomputar por aresta dep_sites, nivel, bdep, d0, d1, V0, V1 e comparar
+    com os registos correspondentes de ws4-classIII-medicao.json.
+    Critério: igualdade exacta em todos os campos comparados.
+A2. Validação end-to-end do dep em regime NÃO-nulo (fecha a lacuna: em III o
+    dep é 0 por teorema, logo a 1.ª passagem nunca exercitou dep>0):
+    REPLAY de famílias REGISTADAS do lote 1 (semente registada 910000001,
+    alheia ao WS4; replay de dados registados conforme o procedimento do
+    briefing, NÃO é amostra nova): fam 289 (tentativa 1003, colapso_total)
+    e fam 0 (tentativa 9, individua_ambas). Sobre a tabela II canónica de
+    cada uma, com a MESMA função analisa_aresta_completa da 1.ª passagem:
+    reproduzir theta_sha e, por aresta, d0, d1 (quando registados), nivel e
+    dep_sites, comparando exactamente com prevalencia-cancelamento-II.json.
+    Adicionalmente: verificar nas mesmas arestas II a fórmula prévia do
+    agente único com pi (d_m == 32*sum_c Wtil_m(c,sub(c)),
+    Wtil_m(c1,c2)=sum_r pc2(M[r][pi_m(c1)]^M[r][pi_m(c2)])) — auditoria da
+    derivação prévia no caso pi0!=pi1, que a 1.ª passagem só auditou no caso
+    degenerado pi=id (P3).
+    Critério: igualdade exacta; qualquer discrepância => parar e reportar.
+A3. Recontagem independente dos agregados do contraste: reler os dois
+    ficheiros de prevalência e recontar (46 colapsos, 92 arestas, min/
+    quantis/max de dep_sites, nº de arestas dep=0 nos colapsos, nº de
+    instâncias com ambas as arestas dep>0, 4+3=7 arestas dep=0 no agregado)
+    comparando com ws4-contraste-II.json.
+
+=======================================================================
+B. EXTENSÃO HORIZONTE 2 (medição nova sobre a MESMA amostra determinística)
+=======================================================================
+Motivação de mandato (tarefa 4: vias H/K; tarefa 5): a 1.ª passagem afirmou
+em INFERENCE que "observáveis da dinâmica de memória H/K" seriam via de
+ambiguidade, sem derivação nem medição. Esta extensão deriva e mede.
+
+B1. Amostra: a MESMA corrente determinística da 1.ª passagem — semente
+    910000020, N=2000 famílias aceites, mesmo loop congelado. Nenhuma
+    semente nova é consumida; nenhuma selecção condicionada a resultados;
+    o N e as famílias ficaram fixados pelo precommit original. A identidade
+    da corrente é verificada por comparação de theta_sha com os 2000
+    registos da 1.ª passagem (critério: 2000/2000 iguais).
+B2. Estatístico novo (exploratório; NÃO pertence ao instrumento congelado,
+    cuja semântica intervencional é "substituir bits e aplicar UMA transição
+    global"): aplicar a MESMA maquinaria congelada (extractor, popcount_tab,
+    intervencoes, estados_da_fibra, rank_canonico) à tabela composta
+    T2 = T∘T (via indexação T[T]) nas duas arestas canal->processador.
+    Definições idênticas às de horizonte 1: xr2 por ponto alinhado, vector
+    d2_m, dep2_sites (nº de pares intervenção x ponto com xr2 diferente
+    entre m=0 e m=1), níveis L1/L2/L3 sobre (d2_0, d2_1).
+
+B3. DERIVAÇÃO (Teorema III-2, enunciada AQUI, antes de medir).
+    Aresta C_AB->B, ponto da fibra z=(x,mA,y,mB=m,cAB=c,cBA), intervenção
+    substitui c por c*=sub(c) e nada mais; sB:=sigmaB.
+    t=1: y1 = G0[y][c]^sB[m]; mB1 = K[m][y]; cAB1 = x; e (x1, mA1, cBA1=y)
+         não afectados pela intervenção.
+    t=2, campos do receptor B:
+         y2  = G0[y1][cAB1]^sB[mB1] = G0[ G0[y][c]^sB[m] ][x] ^ sB[K[m][y]]
+         mB2 = K[mB1][y1]           = K[ K[m][y] ][ G0[y][c]^sB[m] ]
+    XOR intervencional (o termo aditivo sB[mB1] CANCELA, porque mB1 é igual
+    nos dois ramos; mas sB[m] SOBREVIVE dentro dos índices de linha, pela
+    não-linearidade da composição, e K[m][y] selecciona a linha de K):
+      xr2(z) = ( G0[G0[y][c*]^sB[m]][x] ^ G0[G0[y][c]^sB[m]][x] )
+             | ( ( K[K[m][y]][G0[y][c*]^sB[m]] ^ K[K[m][y]][G0[y][c]^sB[m]] ) << 2 )
+    => xr2 depende de (x,y,c) e, GENERICAMENTE, de m: a memória entra por
+    DUAS vias — deslocamento sigma do índice de linha (sB[m], com
+    sB[0]!=sB[1] garantido por E1+E5 em famílias elegíveis) e selecção de
+    linha de K (K[m][y]). São exactamente as estruturas cujo cancelamento
+    exacto a horizonte 1 dá o Teorema III-1. Simétrico na C_BA->A com
+    (F0, H, sigmaA): xr2 = (F0[F0[x][c*]^sA[m]][y]^F0[F0[x][c]^sA[m]][y])
+             | ((H[H[m][x]][F0[x][c*]^sA[m]]^H[H[m][x]][F0[x][c]^sA[m]])<<2).
+    Multiplicidade: xr2 depende só de (o,r,c) com o=índice exterior (x na
+    C_AB->B; y na C_BA->A), r=estado do receptor, c=valor do canal; bits
+    livres restantes = 3 (mA+cBA na C_AB->B; mB+cAB na C_BA->A) => 8 pontos
+    por (o,r,c). Forma fechada:
+      d2_m(a) = 8 * sum_{o,r,c em 0..3} [ pc2( M[M[r][sub_a(c)]^s_m][o]
+                                              ^ M[M[r][c]^s_m][o] )
+                                        + pc1( Kx[k_m(r)][M[r][sub_a(c)]^s_m]
+                                              ^ Kx[k_m(r)][M[r][c]^s_m] ) ]
+      com (M,Kx,s_m,k_m(r)) = (G0,K,sigmaB[m],K[m][r]) na C_AB->B
+      e (F0,H,sigmaA[m],H[m][r]) na C_BA->A.
+    Condição de nulidade estrutural: se sB[0]==sB[1] E K[0][.]==K[1][.]
+    (memória inerte), os contextos são isomorfos e dep2=0 forçosamente; em
+    famílias ELEGÍVEIS sB[0]!=sB[1] sempre, logo qualquer dep2=0 observado
+    será degenerescência combinatória de (M,Kx), a caracterizar.
+
+B4. PREVISÕES (fixadas antes de medir):
+    PH1: dep2_sites > 0 na MAIORIA das arestas (sem valor exacto a priori;
+         quantificar prevalência com IC de Clopper-Pearson bilateral 95%).
+         Zeros, se existirem, devem correlacionar com degenerescências de
+         (G0,K)/(F0,H) — registar mem_rows_dif e inspeccionar os casos.
+    PH2: forma fechada de B3 reproduz d2_m EXACTAMENTE em todas as arestas
+         e ambos os m (guarda de implementação + prova da derivação).
+    PH3: genericamente d2_0 != d2_1 (níveis L2/L3 dominantes a horizonte 2);
+         quantificar a distribuição de níveis.
+    PH4: magnitudes: dep2_sites da mesma ordem do dep_sites horizonte-1 do
+         lado II registado (mediana ~10^3 na escala n=10) — comparação
+         qualitativa apenas, para fundamentar "ambiguidade em princípio".
+    Interpretação PRÉ-FIXADA: dep2>0 em III NÃO é sinal do instrumento (o
+    instrumento congelado é horizonte-1 por definição); é a demonstração de
+    que a classe "funcionais do campo XOR-intervencional em fibra completa"
+    só é segura com UMA aplicação da transição: recuperação de informação
+    que itere a dinâmica (horizonte >=2) introduziria ambiguidade do lado
+    III. NENHUMA proposta de recuperação/correcção é feita nem será.
+
+B5. Estatísticas por aresta a registar (lista FECHADA): dep2_sites, d2_0,
+    d2_1, nivel2, formula2_ok, mem_rows_dif (K ou H), sigma_diff; por
+    instância: theta_sha (cruzado com 1.ª passagem), fam, tentativa.
+    Agregados: prevalência dep2>0 por aresta e por instância (IC 95%),
+    distribuição de níveis2, quantis de dep2_sites, cruzamento dep2=0 vs
+    mem_rows_dif, contagem formula2_ok.
+
+Scripts a depositar nesta área: auditoria_ws4_2a.py (A1-A3),
+horizonte2_ws4.py (B). Saídas: ws4-auditoria-2a.json/.out,
+ws4-horizonte2.json/.out. Relatório: WS4-CLASSIII-SPECIFICITY.md
+actualizado (2.ª passagem integra auditoria + Teorema III-2 + medição h2,
+preservando e citando a 1.ª passagem). SHAS.txt regenerado no fim (o sha da
+versão 1.ª passagem do relatório fica citado no corpo do relatório).
+Sementes: NENHUMA nova (910000020 reproduzida; 910000001 apenas replay de
+famílias registadas). Rótulo em todos os ficheiros: POST-CONFIRMATORY /
+EXPLORATORY.

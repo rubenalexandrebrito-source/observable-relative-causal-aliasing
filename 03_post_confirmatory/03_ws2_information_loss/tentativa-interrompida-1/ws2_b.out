@@ -1,0 +1,4 @@
+arestas analisadas: 116
+resumo: {"L1": {"F1_pc_pontual": 3, "F1.5_histograma": 22, "F2_soma_por_bloco": 47, "F2_global_INESPERADO": 0, "sem_dep": 1}, "verif_sitio_falhas_total": 0, "verif_reg_falhas": 0, "K_incoerencias_L1": 0}
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/ws2-cases-sitelevel.json
+sha256_saida: 3dfb4da6b55e86d1426f3146ab41a7f70c85f27077f4080ae695573fa1fb0905

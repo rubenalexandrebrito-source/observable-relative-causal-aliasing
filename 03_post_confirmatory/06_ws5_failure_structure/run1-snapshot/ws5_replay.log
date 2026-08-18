@@ -1,0 +1,97 @@
+registos armazenados carregados: 126 dos quais colapsos: 46
+seed 910000001: aceites=5000 tentativas=17135 t=2.7s
+seed 910000002: aceites=5000 tentativas=16845 t=5.4s
+CONJUNTO DOS 46 COLAPSOS COINCIDE com o registado
+{
+ "auditorias": {
+  "cell_agree_falha": 0,
+  "cell_agree_ok": 10000,
+  "coset_falha": 0,
+  "coset_ok": 80,
+  "estado_consistente_falha": 0,
+  "estado_consistente_ok": 20000,
+  "maquinaria_falha": 0,
+  "maquinaria_ok": 164,
+  "sha_falha": 0,
+  "sha_ok": 126,
+  "stored_match_falha": 0,
+  "stored_match_ok": 126
+ },
+ "contagens_celula": {
+  "C3": 3451,
+  "DT_lam": 417,
+  "DT_oth": 904,
+  "FC_lam": 895,
+  "FC_oth": 1718,
+  "T_in": 835,
+  "T_out": 1780
+ },
+ "contagens_instancia": {
+  "colapso_total": 46,
+  "individua_ambas": 9116,
+  "individua_uma": 838
+ },
+ "contagens_nivel": {
+  "A": {
+   "L1": 335,
+   "L2": 120,
+   "L3": 9545
+  },
+  "B": {
+   "L1": 370,
+   "L2": 105,
+   "L3": 9525
+  }
+ },
+ "duracao_s": 5.4,
+ "n_casos_colapso": 46,
+ "n_familias": 10000,
+ "nota_replay": "replay deterministico de lotes ja registados; nao e amostra nova",
+ "resultado_confirmatorio": "negativo (imutavel; nada aqui o altera)",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "seeds_replay": [
+  910000001,
+  910000002
+ ],
+ "subs_canal": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   3
+  ]
+ ],
+ "ws": "ws5-failure-structure"
+}
+sha256 familias: fd54fe74ff7281d82df9c822369c6a401349a3cfe13d6f9a95314ac39f8656c9
+sha256 casos46 : 4b164c8e9baf332f01894622e92c1c01bb60e2c870325c58d20ffc1474081750

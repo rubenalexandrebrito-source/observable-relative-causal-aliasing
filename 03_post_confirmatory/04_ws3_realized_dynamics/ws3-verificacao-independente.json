@@ -1,0 +1,132 @@
+{
+ "comparacoes_total": 4312,
+ "counts_classe_datasets": {
+  "910000001/colapso_total": 22,
+  "910000001/individua_ambas": 20,
+  "910000001/individua_uma": 20,
+  "910000002/colapso_total": 24,
+  "910000002/individua_ambas": 20,
+  "910000002/individua_uma": 20
+ },
+ "duracao_s": 1.4,
+ "fam20": {
+  "comparacoes_ok": true,
+  "core_bits": [
+   0,
+   1,
+   2,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "n": 12,
+  "orbita": 25,
+  "tipos": [
+   "C_BA",
+   "D2",
+   "A",
+   "B",
+   "D1",
+   "C_AB"
+  ]
+ },
+ "mismatches": [],
+ "proporcoes": {
+  "edges_ESTRITO_cfg": {
+   "G2_colapso": {
+    "ic95": [
+     0.1014,
+     0.2517
+    ],
+    "k": 15,
+    "n": 92,
+    "prop": 0.163
+   },
+   "G3_controlo_L3L3": {
+    "ic95": [
+     0.1171,
+     0.2866
+    ],
+    "k": 15,
+    "n": 80,
+    "prop": 0.1875
+   },
+   "G4_misto": {
+    "ic95": [
+     0.0515,
+     0.1851
+    ],
+    "k": 8,
+    "n": 80,
+    "prop": 0.1
+   }
+  },
+  "edges_ESTRITO_rc": {
+   "G2_colapso": {
+    "ic95": [
+     0.7118,
+     0.8725
+    ],
+    "k": 74,
+    "n": 92,
+    "prop": 0.8043
+   },
+   "G3_controlo_L3L3": {
+    "ic95": [
+     0.7134,
+     0.8829
+    ],
+    "k": 65,
+    "n": 80,
+    "prop": 0.8125
+   },
+   "G4_misto": {
+    "ic95": [
+     0.6995,
+     0.873
+    ],
+    "k": 64,
+    "n": 80,
+    "prop": 0.8
+   }
+  },
+  "instancias": {
+   "G2_colapso": {
+    "ambas": 32,
+    "ic95_pelo_menos_uma": [
+     0.7968,
+     0.9657
+    ],
+    "n": 46,
+    "pelo_menos_uma_ou_ambas": 42
+   },
+   "G3_controlo_L3L3": {
+    "ambas": 29,
+    "ic95_pelo_menos_uma": [
+     0.7695,
+     0.9604
+    ],
+    "n": 40,
+    "pelo_menos_uma_ou_ambas": 36
+   },
+   "G4_misto": {
+    "ambas": 27,
+    "ic95_pelo_menos_uma": [
+     0.8014,
+     0.9742
+    ],
+    "n": 40,
+    "pelo_menos_uma_ou_ambas": 37
+   }
+  }
+ },
+ "proposito": "verificacao independente (rota testemunhas-realizadas) da tentativa-interrompida-1",
+ "reafirmacao": "resultado_confirmatorio_A = negativo (fechado, imutavel)",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "sha256_instancia": "8747188e0c3dd360b348f45e7809d488403edbc963ad12758406a9a58c77cede",
+ "veredicto": "VERIFICADO_SEM_DISCREPANCIAS"
+}

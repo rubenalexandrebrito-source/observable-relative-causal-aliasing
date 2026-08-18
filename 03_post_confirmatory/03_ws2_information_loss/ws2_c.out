@@ -1,0 +1,19 @@
+seed 910000001: 1000 aceites, 3405 tentativas, 0s
+seed 910000001: 2000 aceites, 6670 tentativas, 1s
+seed 910000001: 3000 aceites, 10139 tentativas, 1s
+seed 910000001: 4000 aceites, 13577 tentativas, 1s
+seed 910000001: 5000 aceites, 17135 tentativas, 2s
+seed 910000002: 1000 aceites, 3548 tentativas, 2s
+seed 910000002: 2000 aceites, 6978 tentativas, 3s
+seed 910000002: 3000 aceites, 10169 tentativas, 3s
+seed 910000002: 4000 aceites, 13365 tentativas, 3s
+seed 910000002: 5000 aceites, 16845 tentativas, 4s
+niveis: {'L1': 705, 'L2': 225, 'L3': 19070}
+estagios_L1: {'F1_pc_pontual': 29, 'F1.5_histograma': 174, 'F2_soma_por_bloco': 495, 'F2_global_INESPERADO': 0, 'sem_dep': 7}
+blocos_L1: {'B0': 12604, 'B1': 616, 'B2': 4728, 'B3': 4612, 'B4': 0}
+nk_L1: {'igual_S0': 854, 'igual_S1_pc': 224, 'igual_S1.5_hist': 2650, 'igual_so_S2_soma': 1912, 'desigual_S2': 0}
+confusao: {'C_AB->B': {'TP': 370, 'FP': 0, 'TN': 9630, 'FN': 0}, 'C_BA->A': {'TP': 335, 'FP': 0, 'TN': 9665, 'FN': 0}}
+instancias: {'individua_ambas': 9116, 'individua_uma': 838, 'colapso_total': 46} subtipos: {"('L1', 'L1')": 29, "('L1', 'L2')": 10, "('L2', 'L2')": 7}
+verif exemplos: {'exemplos_encontrados': 126, 'exemplos_sha_ok': 126, 'exemplos_dados_ok': 252}
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/ws2-population-stages.json
+sha256_saida: eb8ca898cffc72669eec733168b93fb7a9a01f3ca393873169f902ef6a01b311

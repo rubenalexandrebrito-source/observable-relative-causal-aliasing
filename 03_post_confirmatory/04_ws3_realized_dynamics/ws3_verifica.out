@@ -1,0 +1,96 @@
+Parte 1 (fam-20): 137 comparacoes, mismatches ate agora: 0
+replay proprio: 126 thetas verificados por sha
+comparacoes totais: 4312
+MISMATCHES: nenhum
+veredicto: VERIFICADO_SEM_DISCREPANCIAS
+proporcoes: {
+ "edges_ESTRITO_cfg": {
+  "G2_colapso": {
+   "ic95": [
+    0.1014,
+    0.2517
+   ],
+   "k": 15,
+   "n": 92,
+   "prop": 0.163
+  },
+  "G3_controlo_L3L3": {
+   "ic95": [
+    0.1171,
+    0.2866
+   ],
+   "k": 15,
+   "n": 80,
+   "prop": 0.1875
+  },
+  "G4_misto": {
+   "ic95": [
+    0.0515,
+    0.1851
+   ],
+   "k": 8,
+   "n": 80,
+   "prop": 0.1
+  }
+ },
+ "edges_ESTRITO_rc": {
+  "G2_colapso": {
+   "ic95": [
+    0.7118,
+    0.8725
+   ],
+   "k": 74,
+   "n": 92,
+   "prop": 0.8043
+  },
+  "G3_controlo_L3L3": {
+   "ic95": [
+    0.7134,
+    0.8829
+   ],
+   "k": 65,
+   "n": 80,
+   "prop": 0.8125
+  },
+  "G4_misto": {
+   "ic95": [
+    0.6995,
+    0.873
+   ],
+   "k": 64,
+   "n": 80,
+   "prop": 0.8
+  }
+ },
+ "instancias": {
+  "G2_colapso": {
+   "ambas": 32,
+   "ic95_pelo_menos_uma": [
+    0.7968,
+    0.9657
+   ],
+   "n": 46,
+   "pelo_menos_uma_ou_ambas": 42
+  },
+  "G3_controlo_L3L3": {
+   "ambas": 29,
+   "ic95_pelo_menos_uma": [
+    0.7695,
+    0.9604
+   ],
+   "n": 40,
+   "pelo_menos_uma_ou_ambas": 36
+  },
+  "G4_misto": {
+   "ambas": 27,
+   "ic95_pelo_menos_uma": [
+    0.8014,
+    0.9742
+   ],
+   "n": 40,
+   "pelo_menos_uma_ou_ambas": 37
+  }
+ }
+}
+duracao: 1.4s
+sha256_saida: 7542cb201fed3c021b714c5fda2c93b1f0c64653767322add7592c6cc45da709

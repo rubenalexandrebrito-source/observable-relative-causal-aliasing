@@ -1,0 +1,13 @@
+{
+ "contagens": {
+  "c1p_canal_proc": 252,
+  "err_c1p_canal_proc": 0,
+  "err_fusao": 0,
+  "err_proc_canal": 0,
+  "fusao_ok": 126,
+  "proc_canal_estado": 252
+ },
+ "erros": [],
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "s12b_classificar_real.py"
+}

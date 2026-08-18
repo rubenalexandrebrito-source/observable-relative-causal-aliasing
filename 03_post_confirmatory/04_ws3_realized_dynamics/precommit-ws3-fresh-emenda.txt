@@ -1,0 +1,34 @@
+PRECOMMIT WS3 — EMENDA 1: BASELINE POPULACIONAL FRESCO
+ROTULO: POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente, ws3.
+Data (UTC): 2026-08-17. Emenda POSTERIOR a precommit-ws3-strict.txt e ANTERIOR a
+qualquer uso de sementes novas, como esse precommit exige. Escrita ANTES da execução.
+O resultado confirmatório permanece NEGATIVO e imutável (C1' 199/200); nada aqui o recalcula.
+
+MOTIVO: os grupos G3/G4 da bateria são amostras CONDICIONADAS às classes registadas
+(individua_ambas / individua_uma). Para contexto populacional não-condicionado das
+categorias estrita/união/contrafactual, fixa-se um baseline fresco de famílias II
+elegíveis, com semente da reserva ws3.
+
+PLANO FIXADO (antes de correr; execução única; sem paragem opcional):
+  Semente: 910000010 (única; da reserva ws3 910000010..910000019; nenhuma outra).
+  N: 200 famílias ACEITES, variante II canónica (n=10), fluxo idêntico ao gerador:
+     rng = Generator(PCG64(SeedSequence(910000010).spawn(4)[0])); em loop:
+     th = g.sample_theta_base(rng); rejeitar se th.pi[0]==th.pi[1];
+     aceitar se g.elegibilidade(th, False)[0]; parar às 200 aceites.
+  Análise por família: EXATAMENTE as definições D1-D10 de precommit-ws3-strict.txt
+     (órbita transiente+ciclo; granularidades configuração e (r,c); sítios D6;
+     observacional D7; categorias D8; instância D9), implementação
+     ws3_indep.analisa_aresta_indep — verificada nesta fase com 0 discrepâncias
+     em 4312 comparações contra a implementação da tentativa-interrompida-1
+     (ws3-verificacao-independente.json).
+  Métricas registadas: por aresta: nivel L1/L2/L3, categoria_cfg, categoria_rc,
+     |C0|,|C1|,|I|, sítios estritos/união/totais (r,c), sítios cfg, obs (pares,
+     pares_diferentes), mem_reach; por instância: |órbita|, categoria D9.
+  Agregação: contagens e proporções com IC95 Wilson; distribuição de |I| e de
+     sítios estritos; distribuição de níveis (consistência com 3,53%/1,13%/95,35%
+     de N=10000, rotulada EXPLORATÓRIA).
+  Saídas: ws3-fresh-baseline.json + ws3_fresh.out no ws3 dir. Comparações
+     bateria-vs-baseline são EXPLORATÓRIAS e descritivas; nenhuma correção de C1'
+     é proposta.
+PROIBIÇÕES REAFIRMADAS: sementes proibidas nunca usadas; nada fora do ws3 dir;
+artefactos confirmatórios intocados.

@@ -1,0 +1,10 @@
+=== s10 RESUMO ===
+comparacoes: {'niveis_ok': 252, 'niveis_err': 0, 'd_reg_ok': 132, 'd_reg_err': 0, 'd_frozen_ok': 252, 'd_frozen_err': 0, 'dep_ok': 252, 'dep_err': 0, 'sha_ok': 126, 'sha_err': 0}
+colapsos por (rho, niveis):
+   ('4-ciclo', ('L1_d_iguais', 'L1_d_iguais')) 1
+   ('4-ciclo', ('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')) 2
+   ('V4', ('L1_d_iguais', 'L1_d_iguais')) 10
+   ('transposicao', ('L1_d_iguais', 'L1_d_iguais')) 18
+   ('transposicao', ('L1_d_iguais', 'L2_rank_igual_d_diferente')) 10
+   ('transposicao', ('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')) 5
+sha256 out-s10.json: d7693f36f4b19a2c77f3d3c4a4f73c721d4f7db1e27b635bb7aa98bf67bfb240

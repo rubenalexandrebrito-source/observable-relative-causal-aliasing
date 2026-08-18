@@ -1,0 +1,122 @@
+{
+ "A1": {
+  "arestas_comparadas": 50,
+  "campos_comparados_por_aresta": [
+   "dep_sites",
+   "nivel",
+   "bdep",
+   "V0",
+   "V1"
+  ],
+  "exemplos_d0d1_comparados": 6,
+  "falhas": [],
+  "familias_reproduzidas": 25
+ },
+ "A2": {
+  "alvos": [
+   {
+    "C_AB->B": {
+     "dep_registado": 2176,
+     "dep_replay": 2176,
+     "nivel": "L3_rank_diferente",
+     "ok": true
+    },
+    "C_BA->A": {
+     "dep_registado": 2176,
+     "dep_replay": 2176,
+     "nivel": "L3_rank_diferente",
+     "ok": true
+    },
+    "classe": "individua_ambas",
+    "fam_registada": 0,
+    "fam_replay": 0,
+    "tentativa": 9,
+    "theta_sha_ok": true
+   },
+   {
+    "C_AB->B": {
+     "dep_registado": 2048,
+     "dep_replay": 2048,
+     "nivel": "L1_d_iguais",
+     "ok": true
+    },
+    "C_BA->A": {
+     "dep_registado": 1536,
+     "dep_replay": 1536,
+     "nivel": "L1_d_iguais",
+     "ok": true
+    },
+    "classe": "colapso_total",
+    "fam_registada": 289,
+    "fam_replay": 289,
+    "tentativa": 1003,
+    "theta_sha_ok": true
+   }
+  ],
+  "wtil_pi": [
+   {
+    "aresta": "C_AB->B",
+    "ok": true,
+    "tentativa": 9
+   },
+   {
+    "aresta": "C_BA->A",
+    "ok": true,
+    "tentativa": 9
+   },
+   {
+    "aresta": "C_AB->B",
+    "ok": true,
+    "tentativa": 1003
+   },
+   {
+    "aresta": "C_BA->A",
+    "ok": true,
+    "tentativa": 1003
+   }
+  ]
+ },
+ "A3": {
+  "ambas_pos": [
+   45,
+   45
+  ],
+  "arestas_dep_zero": [
+   1,
+   1
+  ],
+  "max": [
+   2048,
+   2048
+  ],
+  "mediana": [
+   1152,
+   1152
+  ],
+  "min": [
+   0,
+   0
+  ],
+  "n_arestas": [
+   92,
+   92
+  ],
+  "n_colapsos": [
+   46,
+   46
+  ],
+  "sem_dep_agregado_lotes": [
+   7,
+   7
+  ],
+  "todos_os_valores_iguais": true
+ },
+ "duracao_s": 0.1,
+ "falhas": [],
+ "falhas_total": 0,
+ "fase": "adenda 2a passagem \u2014 auditoria",
+ "precommit": "precommit-ws4-adenda-h2-auditoria.txt",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "sha256_script": "abfc58def102d1765f5281123dcdc69419db47cbc7d37b44e5776ebe8f97f531",
+ "workstream": "ws4-classIII-specificity"
+}

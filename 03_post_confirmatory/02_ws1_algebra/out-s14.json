@@ -1,0 +1,75 @@
+{
+ "frente1_equivalencia_formal": {
+  "det_Bareiss": -8,
+  "matriz": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    1,
+    0,
+    1
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  ],
+  "nucleo_trivial": true,
+  "posto": 6
+ },
+ "frente2_cantos_construidos": {
+  "W_nulo": 92,
+  "contra_exemplos": [],
+  "instancias_construidas": 414,
+  "niveis": {
+   "L1": 178,
+   "L2": 0,
+   "L3": 236
+  }
+ },
+ "frente3_busca_em_30000_arestas": {
+  "K_e_nao_L1": 0,
+  "L1_e_nao_K": 0,
+  "fonte": "out-s12.json (20000 in-sample) + out-s13.json (10000 OOS)",
+  "nota": "0 excepcoes; busca de contra-exemplos falhou"
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "s14_refutacao.py (pos-firewall)"
+}

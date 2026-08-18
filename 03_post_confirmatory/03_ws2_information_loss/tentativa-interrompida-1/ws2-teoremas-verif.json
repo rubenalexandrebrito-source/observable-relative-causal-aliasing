@@ -1,0 +1,63 @@
+{
+ "L1_comp_hist_entre_blocos": 459,
+ "T1_empates_estruturais": {
+  "falhas": 0,
+  "vetores": 39295
+ },
+ "T2_inversao_d_para_Wpares": {
+  "erro_max": 0.0,
+  "valores": 1392
+ },
+ "T3_paridade_somas_agregadas": {
+  "falhas": 0
+ },
+ "T4_agregados_por_nivel": {
+  "L1": {
+   "dep": 909184,
+   "n": 705,
+   "s1": 745984,
+   "sw": 163200
+  },
+  "L2": {
+   "dep": 334208,
+   "n": 225,
+   "s1": 264256,
+   "sw": 69952
+  },
+  "L3": {
+   "dep": 32317952,
+   "n": 19070,
+   "s1": 26893696,
+   "sw": 5424256
+  }
+ },
+ "T4_blocos_L2": {
+  "B0": 3996,
+  "B1": 8,
+  "B2": 120,
+  "B3": 120,
+  "B4": 2956
+ },
+ "T4_nk_L2": {
+  "desigual_S2": 514,
+  "igual_S0": 324,
+  "igual_S1.5_hist": 633,
+  "igual_S1_pc": 2,
+  "igual_so_S2_soma": 327
+ },
+ "blocos_L2_top": {
+  "B0": 3996,
+  "B1": 8,
+  "B2": 120,
+  "B3": 120,
+  "B4": 2956
+ },
+ "blocos_L3_top": {
+  "B0": 277248,
+  "B1": 4630,
+  "B2": 26072,
+  "B3": 26476,
+  "B4": 275814
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY"
+}

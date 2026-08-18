@@ -1,0 +1,389 @@
+{
+ "A5_fisher_FC_oth": 0.01791,
+ "A6_dep": {
+  "A": [
+   384,
+   2048
+  ],
+  "B": [
+   0,
+   2048
+  ]
+ },
+ "A6_dep0": [
+  [
+   910000001,
+   14155,
+   "DT_oth",
+   "B"
+  ]
+ ],
+ "A6_orbitas": {
+  "max": 40,
+  "mediana": 21,
+  "min": 7
+ },
+ "A6_sigmaA_distintos": 11,
+ "A6b_populacao_L2_assinaturas": {
+  "C3|(1, 2, 3, 4)": 32,
+  "FC_oth|(1, 2)": 19,
+  "FC_oth|(3, 4)": 15,
+  "T_out|(1, 2)": 77,
+  "T_out|(3, 4)": 82
+ },
+ "A7_dep_presente_combinada": "n/d",
+ "F5_forced24": {
+  "iso24": {
+   "A": 32,
+   "B": 28
+  },
+  "iso24_e_L1": {
+   "A": 32,
+   "B": 28
+  }
+ },
+ "F5_iso_hist_A": {
+  "1": 5046,
+  "2": 4081,
+  "4": 503,
+  "6": 175,
+  "8": 163,
+  "24": 32
+ },
+ "F5_iso_hist_B": {
+  "1": 5010,
+  "2": 4102,
+  "4": 534,
+  "6": 169,
+  "8": 157,
+  "24": 28
+ },
+ "F5_sym_mas_falhou": {
+  "A": 4619,
+  "B": 4620
+ },
+ "F5_tilt": {
+  "L1_A": [
+   362.7,
+   335
+  ],
+  "L1_B": [
+   360.5,
+   370
+  ],
+  "est_A": [
+   462.8,
+   455
+  ],
+  "est_B": [
+   467.9,
+   475
+  ]
+ },
+ "F6_escada": {
+  "bothL1": {
+   "M0": 12.39,
+   "M1": 23.65,
+   "M2": 23.67,
+   "M3l": 28.04,
+   "obs": 29
+  },
+  "estado": {
+   "M0": 21.61,
+   "M1": 39.01,
+   "M2": 39.75,
+   "M3": 44.0,
+   "obs": 46,
+   "sd_M3": 6.34
+  }
+ },
+ "checks": {
+  "A0_estrutura_P1P1P2P2_D_e_M2_cega": {
+   "ok": true
+  },
+  "A0_subs_iguais_nas_duas_arestas": {
+   "ok": true
+  },
+  "A0_subs_ordem_congelada": {
+   "detalhe": [
+    [
+     0,
+     0
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     0
+    ],
+    [
+     2,
+     2
+    ],
+    [
+     3,
+     0
+    ],
+    [
+     3,
+     1
+    ],
+    [
+     3,
+     2
+    ],
+    [
+     3,
+     3
+    ]
+   ],
+   "ok": true
+  },
+  "A1_alinhado_multiconjunto_igual_e_sem_L2_(200_W_x_tau)": {
+   "ok": true
+  },
+  "A1_alinhado_sse_celula_alinhada_(69_combos)": {
+   "ok": true
+  },
+  "A2_lema_necessidade_rank6": {
+   "detalhe": 6,
+   "ok": true
+  },
+  "A3_celulas_populacao": {
+   "detalhe": {
+    "C3": 3451,
+    "DT_lam": 417,
+    "DT_oth": 904,
+    "FC_lam": 895,
+    "FC_oth": 1718,
+    "T_in": 835,
+    "T_out": 1780
+   },
+   "ok": true
+  },
+  "A3_familias_stored_n": {
+   "detalhe": 10000,
+   "ok": true
+  },
+  "A3_linhas_familias_identicas_10000": {
+   "detalhe": 0,
+   "ok": true
+  },
+  "A4_casos46_identicos": {
+   "detalhe": {
+    "falha": 0,
+    "ok": 46
+   },
+   "ok": true
+  },
+  "A4_casos_stored_n": {
+   "detalhe": 46,
+   "ok": true
+  },
+  "A4_maquinaria_ok": {
+   "detalhe": {
+    "falha": 0,
+    "ok": 195
+   },
+   "ok": true
+  },
+  "A5_correlacao_json_coincide": {
+   "ok": true
+  },
+  "A5_fisher_FC_oth_0018": {
+   "detalhe": 0.01791,
+   "ok": true
+  },
+  "A5_niveis_por_lado": {
+   "detalhe": {
+    "A": {
+     "L1": 335,
+     "L2": 120,
+     "L3": 9545
+    },
+    "B": {
+     "L1": 370,
+     "L2": 105,
+     "L3": 9525
+    }
+   },
+   "ok": true
+  },
+  "A5_totais_niveis_705_225_19070": {
+   "detalhe": {
+    "L1": 705,
+    "L2": 225,
+    "L3": 19070
+   },
+   "ok": true
+  },
+  "A6_L2_24colapsos_assinatura_um_par_P": {
+   "detalhe": {
+    "n": 24
+   },
+   "ok": true
+  },
+  "A6_relatorio_orbitas_dep_sigma": {
+   "detalhe": {
+    "dep": {
+     "A": [
+      384,
+      2048
+     ],
+     "B": [
+      0,
+      2048
+     ]
+    },
+    "dep0": [
+     [
+      910000001,
+      14155,
+      "DT_oth",
+      "B"
+     ]
+    ],
+    "orb": {
+     "max": 40,
+     "mediana": 21,
+     "min": 7
+    },
+    "sigA": 11
+   },
+   "ok": true
+  },
+  "A6b_L2_225_assinaturas_por_celula_teoria": {
+   "detalhe": {
+    "n": 225
+   },
+   "ok": true
+  },
+  "A6b_L2_bloco_D_nunca_alterado": {
+   "ok": true
+  },
+  "A6b_L2_valor_novo_eh_soma_lam_(T_out,FC_oth)": {
+   "ok": true
+  },
+  "F5_forced_total_60_de_705": {
+   "detalhe": {
+    "A": 32,
+    "B": 28
+   },
+   "ok": true
+  },
+  "F5_iso24_sempre_L1": {
+   "detalhe": {
+    "forced": {
+     "A": 32,
+     "B": 28
+    },
+    "forced_L1": {
+     "A": 32,
+     "B": 28
+    }
+   },
+   "ok": true
+  },
+  "F5_iso_hist_B_relatorio": {
+   "detalhe": {
+    "1": 5010,
+    "2": 4102,
+    "4": 534,
+    "6": 169,
+    "8": 157,
+    "24": 28
+   },
+   "ok": true
+  },
+  "F5_sym_fail_4620_4619": {
+   "detalhe": {
+    "A": 4619,
+    "B": 4620
+   },
+   "ok": true
+  },
+  "F5_tilt_valores_relatorio": {
+   "detalhe": {
+    "L1_A": [
+     362.7,
+     335
+    ],
+    "L1_B": [
+     360.5,
+     370
+    ],
+    "est_A": [
+     462.8,
+     455
+    ],
+    "est_B": [
+     467.9,
+     475
+    ]
+   },
+   "ok": true
+  },
+  "F6_escada_relatorio": {
+   "detalhe": {
+    "bothL1": {
+     "M0": 12.39,
+     "M1": 23.65,
+     "M2": 23.67,
+     "M3l": 28.04,
+     "obs": 29
+    },
+    "estado": {
+     "M0": 21.61,
+     "M1": 39.01,
+     "M2": 39.75,
+     "M3": 44.0,
+     "obs": 46,
+     "sd_M3": 6.34
+    }
+   },
+   "ok": true
+  },
+  "F7_L2_Tout_FCoth_C3": {
+   "detalhe": {
+    "A": {
+     "C3": 17,
+     "FC_oth": 12,
+     "T_out": 91
+    },
+    "B": {
+     "C3": 15,
+     "FC_oth": 22,
+     "T_out": 68
+    }
+   },
+   "ok": true
+  },
+  "F7_zero_L2_celulas_alinhadas_insample": {
+   "detalhe": {
+    "A": {
+     "C3": 17,
+     "FC_oth": 12,
+     "T_out": 91
+    },
+    "B": {
+     "C3": 15,
+     "FC_oth": 22,
+     "T_out": 68
+    }
+   },
+   "ok": true
+  }
+ },
+ "duracao_s": 5.4,
+ "falhas": [],
+ "n_falhas": 0,
+ "resultado_confirmatorio": "negativo (imutavel)",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "ws": "ws5 (auditoria segunda passagem)"
+}

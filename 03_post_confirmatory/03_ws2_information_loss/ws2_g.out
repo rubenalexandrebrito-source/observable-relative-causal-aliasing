@@ -1,0 +1,63 @@
+{
+ "F1_caracterizacao": {
+  "definicao": "iso_all := tau \u2208 \u2229_r Iso(w_r); previsao: s1==0 \u27fa iso_all",
+  "confusao": {
+   "s1_0_e_isoall": 36,
+   "s1_0_sem_isoall": 0,
+   "isoall_com_s1_pos": 0,
+   "nem_um_nem_outro": 669
+  },
+  "estagios_das_arestas_iso_all": {
+   "F1_pc_pontual": 29,
+   "sem_dep": 7
+  },
+  "tamanho_grupo_\u2229Iso(w_r)_nas_L1": {
+   "1": 609,
+   "2": 78,
+   "4": 17,
+   "8": 1
+  }
+ },
+ "corolarios_somas_linha": {
+  "arestas": 20000,
+  "violacoes_multiset_bloco_completo": 0,
+  "violacoes_soma_bloco_completo": 0,
+  "bloco_completo_pontualmente_mudado_por_nivel": {
+   "L3": 17448
+  },
+  "nota": "multiset{d[5..8]} e \u03a3d[5..8] sao invariantes exactos entre contextos (lema: bloco completo de m=1 e permutacao rho do de m=0); esperado 0 e 0; em L2 esperado bloco fixo pontualmente"
+ },
+ "refinamento_F15_F2": {
+  "F1.5_total": 174,
+  "F1.5_so_permutacao_intra_bloco(B<=B2)": 174,
+  "F1.5_com_bloco_B3_compensado_entre_blocos": 0,
+  "F2_total": 495,
+  "F2_com_algum_bloco_B2": 333,
+  "F2_n_intervencoes_igual_so_na_soma_dist": {
+   "2": 136,
+   "4": 258,
+   "5": 4,
+   "6": 93,
+   "7": 2,
+   "8": 2
+  }
+ },
+ "fibra_L2": {
+  "n_arestas": 225,
+  "pares_(d0,d1)_distintos": 140,
+  "padroes_rank_L2": 51,
+  "vetores_distintos_por_padrao": {
+   "2": 21,
+   "3": 1,
+   "4": 15,
+   "5": 4,
+   "6": 5,
+   "7": 1,
+   "8": 4
+  },
+  "max_vetores_num_padrao": 8
+ }
+}
+testemunhas: ['B1_pc_pontual', 'B2_permutacao_intra_bloco', 'B3_cancelamento_na_soma', 'L2_ordinalizacao', 'hist_global_diferente_soma_igual', 'hist_global_igual_pc_pontual_diferente']
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/ws2-operator-findings.json
+sha256_saida: 7f5e6d9a5aba8d44bdbbf12c276807be92ff0ee470946f639d2c3a10e4d008ff

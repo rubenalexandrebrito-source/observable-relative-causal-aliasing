@@ -1,0 +1,231 @@
+{
+ "colapso_lote1_fam289": {
+  "E_S_C1p": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    3,
+    0
+   ]
+  ],
+  "arestas": {
+   "0->2": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "1->3": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "2->1": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "3->0": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   }
+  },
+  "componentes_multi": [
+   [
+    "A",
+    "B",
+    "C_AB",
+    "C_BA"
+   ]
+  ],
+  "nucleo_fundido": true,
+  "orbita": 8,
+  "seed": 910000001,
+  "tentativa": 1003,
+  "theta_sha": "de645dadfa59d18d0e88dceeb23d9c549c6a27a40241411acce258207bf04162"
+ },
+ "confirmatoria_7bb0baab3a8ed7aa": {
+  "E_S_C1p": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    0,
+    4
+   ],
+   [
+    2,
+    1
+   ],
+   [
+    2,
+    4
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    3,
+    0
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    3,
+    4
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    5,
+    3
+   ],
+   [
+    5,
+    4
+   ]
+  ],
+  "arestas": {
+   "0->1": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "0->2": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "0->4": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "2->1": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "2->4": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "2->5": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "3->0": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "3->1": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "3->4": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "5->1": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "5->3": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "5->4": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   }
+  },
+  "componentes_multi": [
+   [
+    "A",
+    "B",
+    "C_AB",
+    "C_BA"
+   ]
+  ],
+  "nucleo_fundido": true,
+  "orbita": 25,
+  "tipos": [
+   "C_BA",
+   "D2",
+   "A",
+   "B",
+   "D1",
+   "C_AB"
+  ]
+ },
+ "controlo_L3L3_fam0": {
+  "E_S_C1p": [
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    3
+   ]
+  ],
+  "arestas": {
+   "0->2": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "1->3": {
+    "C1p": "estado",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "2->1": {
+    "C1p": "sinal",
+    "C2": "estado",
+    "C3": "estado"
+   },
+   "3->0": {
+    "C1p": "sinal",
+    "C2": "estado",
+    "C3": "estado"
+   }
+  },
+  "componentes_multi": [],
+  "nucleo_fundido": false,
+  "orbita": 28,
+  "seed": 910000001,
+  "tentativa": 9,
+  "theta_sha": "52cab2ddd7faf1672eaa859184a9888c54148676b1d90251160ad17747e9a7e8"
+ },
+ "descricao": "cl.classificar ponta-a-ponta: colapso, controlo, confirmatoria",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY"
+}

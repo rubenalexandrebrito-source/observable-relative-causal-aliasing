@@ -1,0 +1,2514 @@
+{
+ "aceites_total_instancias": 5000,
+ "ambiente": {
+  "numpy": "2.5.2",
+  "plataforma": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4"
+ },
+ "anomalias_mem_reach": 0,
+ "contagens_por_ARESTA": {
+  "L1_d_iguais": 358,
+  "L2_rank_igual_d_diferente": 113,
+  "L3_rank_diferente": 9529,
+  "com_dependencia_ponto_a_ponto": 9996,
+  "dependencia_desaparece_apos_agregacao_L1_mais_L2": 471,
+  "sem_dependencia_ponto_a_ponto": 4,
+  "total_arestas": 10000
+ },
+ "contagens_por_INSTANCIA": {
+  "colapso_total_erro_C1p": 22,
+  "individua_ambas": 4551,
+  "individua_uma": 427,
+  "subtipos_colapso_total": {
+   "('L1_d_iguais', 'L1_d_iguais')": 16,
+   "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 4,
+   "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 2
+  }
+ },
+ "duracao_s": 7.3,
+ "exclusoes_respeitadas": "distinta das 20 da auditoria e das confirmatorias 3786434918/3786434919",
+ "exemplos": {
+  "colapso_total": [
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       160,
+       160,
+       160,
+       160,
+       288,
+       160,
+       224,
+       288
+      ],
+      "d1": [
+       0,
+       160,
+       160,
+       160,
+       160,
+       288,
+       160,
+       224,
+       288
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       512,
+       384,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       512,
+       384,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 289,
+    "tentativa": 1003,
+    "theta_sha": "de645dadfa59d18d0e88dceeb23d9c549c6a27a40241411acce258207bf04162"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       320,
+       320,
+       320,
+       320
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       320,
+       320,
+       320,
+       320
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       128,
+       128,
+       320,
+       320,
+       320,
+       320
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       128,
+       128,
+       320,
+       320,
+       320,
+       320
+      ],
+      "dep_sites": 384,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 380,
+    "tentativa": 1304,
+    "theta_sha": "6d13a5c0611aed7de39cbcc6afd14950d655b82ba5d1568696d939078d3aebba"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       416,
+       352,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       416,
+       352,
+       352,
+       352
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 383,
+    "tentativa": 1318,
+    "theta_sha": "043c629e23256c8d4653e3429edcb0885ce1e782c4b2e61d82830246653039e2"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       352,
+       352,
+       288
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       352,
+       352,
+       288
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       416,
+       544
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       416,
+       544
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 495,
+    "tentativa": 1649,
+    "theta_sha": "79e8799c1efda8b08626b49a3d494088c756ebb89c0d01e2a2d7f120b3747941"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       288,
+       288,
+       288
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       288,
+       288,
+       288
+      ],
+      "dep_sites": 1024,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1024,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 685,
+    "tentativa": 2373,
+    "theta_sha": "0607fc921e46d34f9f11d95ec0cb79868baa909ad17d227a00c73145ecbbe9fa"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       416,
+       416,
+       480,
+       416
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       416,
+       416,
+       480,
+       416
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       320,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       320,
+       384
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 830,
+    "tentativa": 2862,
+    "theta_sha": "e3e97847c4fb3d06729ae3c753bb792b0ce49b9b590aa9cac802f505055323b7"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       384,
+       384,
+       256,
+       256,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       384,
+       384,
+       256,
+       256,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       256,
+       256,
+       384,
+       384,
+       320,
+       576
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       256,
+       256,
+       384,
+       384,
+       320,
+       576
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 863,
+    "tentativa": 2977,
+    "theta_sha": "207a595abdba229f102c060c1e607c9a1ebc755ffb6bb03dd693486f38952792"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       416,
+       480,
+       288,
+       416
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       416,
+       480,
+       288,
+       416
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       384,
+       448
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       384,
+       448
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 1352,
+    "tentativa": 4548,
+    "theta_sha": "31babfc576e41aba49db1676dd51e45af1810a8ee264ef899307cedad20c4967"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       320,
+       384,
+       384,
+       320
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       320,
+       384,
+       384,
+       320
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 1379,
+    "tentativa": 4646,
+    "theta_sha": "8d6f7be8810bf86dcdba285e3abc97cc1ad226b9e738ec5d2068ff0893ccb0e9"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       320,
+       576,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       320,
+       576,
+       384
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       288,
+       416,
+       480,
+       288
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       288,
+       416,
+       480,
+       288
+      ],
+      "dep_sites": 1024,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 1426,
+    "tentativa": 4808,
+    "theta_sha": "1eeec8a9b5b964f076d6e83d9808d96403f56f82b8800ceab83d3c93f35bffab"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       96,
+       96,
+       352,
+       352,
+       416,
+       352,
+       416,
+       416
+      ],
+      "d1": [
+       0,
+       96,
+       96,
+       352,
+       352,
+       416,
+       352,
+       416,
+       416
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       320,
+       320,
+       576,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       384,
+       384,
+       576,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1152,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 1910,
+    "tentativa": 6365,
+    "theta_sha": "4f4e95a128ec14daddc5c552ea6be6ab9d964a28564415f52ae29d7f435660dc"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       160,
+       160,
+       288,
+       288,
+       352,
+       288,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       352,
+       288,
+       352,
+       352
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       288,
+       288,
+       288,
+       480
+      ],
+      "d1": [
+       0,
+       160,
+       160,
+       288,
+       288,
+       288,
+       288,
+       288,
+       480
+      ],
+      "dep_sites": 768,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 2601,
+    "tentativa": 8784,
+    "theta_sha": "6589a623472815b48b89e1704b8af56b1c6fec583cdb3f5237ebfd416a23bb8c"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       224,
+       224,
+       352,
+       288,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       160,
+       160,
+       352,
+       288,
+       352,
+       352
+      ],
+      "dep_sites": 1152,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       544,
+       352,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       544,
+       352,
+       352,
+       352
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 2695,
+    "tentativa": 9062,
+    "theta_sha": "5c6245d0df16ce6081d959b3833d625de12382f771f2be4e79b5960b1a90b2bd"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       384,
+       384,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       384,
+       384,
+       448,
+       448
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 3064,
+    "tentativa": 10354,
+    "theta_sha": "3c5fafcd89e3348e7c395440999d345304204c02182fd4bb78a261b4205f79f0"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1920,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       384,
+       384,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       384,
+       384,
+       192,
+       192,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 2048,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 3461,
+    "tentativa": 11738,
+    "theta_sha": "642ed805f9420d041a3ca5843a507eeb58da15c4e0397c899901846c6561bb69"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       352,
+       352,
+       416,
+       480,
+       480,
+       480
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       352,
+       352,
+       416,
+       480,
+       480,
+       480
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       384,
+       384,
+       512,
+       448,
+       384,
+       448
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       384,
+       384,
+       512,
+       448,
+       384,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 3496,
+    "tentativa": 11838,
+    "theta_sha": "b3ec4b9785b1f00f878a2d1b6352c4265d3ebe630973858ada4208648e7ddb00"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       320,
+       320,
+       192,
+       192,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       192,
+       192,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 0,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4159,
+    "tentativa": 14155,
+    "theta_sha": "964a55337a7a502f564510b3b5edf448ad69c36a03d48629322d4b74c8c57e20"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       320,
+       320,
+       256,
+       256,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       256,
+       256,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4311,
+    "tentativa": 14664,
+    "theta_sha": "b836f5e237f80027618a83fca9c55d96f89b098c51e5fbeeb66678db36559a12"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       224,
+       224,
+       352,
+       544,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       224,
+       224,
+       352,
+       544,
+       352,
+       352
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       384,
+       384,
+       384,
+       576,
+       384,
+       448
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       384,
+       384,
+       384,
+       576,
+       384,
+       448
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4632,
+    "tentativa": 15822,
+    "theta_sha": "1df0149d8179f5ef63b9dc03695e6e07d992fc8afd8fe9b65a44423d34683049"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       352,
+       352,
+       544,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       352,
+       352,
+       544,
+       352
+      ],
+      "dep_sites": 384,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       448,
+       448,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       448,
+       448,
+       384,
+       384
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4648,
+    "tentativa": 15886,
+    "theta_sha": "4a417bc513596140b5af4a7a50b1e22802e4bd210c2ec36bffc21a421a681a60"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384,
+       448,
+       448
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       256,
+       256,
+       192,
+       192,
+       384,
+       384,
+       320,
+       320
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       192,
+       192,
+       384,
+       384,
+       320,
+       320
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4678,
+    "tentativa": 15995,
+    "theta_sha": "9ff51d600736a391efa92731f041dbc6b1c261fa4f41c450424624176e5e0701"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       448,
+       320,
+       320,
+       320
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       448,
+       320,
+       320,
+       320
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       448,
+       448,
+       320,
+       320,
+       512,
+       512,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       448,
+       448,
+       192,
+       192,
+       512,
+       512,
+       448,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "colapso_total",
+    "fam": 4817,
+    "tentativa": 16512,
+    "theta_sha": "d6f381636199030c6b084f3a8a6835c23081a4e700d174a714ae8289064b6f82"
+   }
+  ],
+  "individua_ambas": [
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2176,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2176,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 0,
+    "tentativa": 9,
+    "theta_sha": "52cab2ddd7faf1672eaa859184a9888c54148676b1d90251160ad17747e9a7e8"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1792,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1920,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 1,
+    "tentativa": 10,
+    "theta_sha": "f556037beaeabf46f0bfbf257f412b6403f949d8e8cc68da5dd55cd337bc06c8"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 2,
+    "tentativa": 19,
+    "theta_sha": "a291a1f51a5b224669499f03b06e87b1f21161bfc527b78e4955414d0e218959"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2432,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2304,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 3,
+    "tentativa": 21,
+    "theta_sha": "199775ab43960da01d4636b483f6fbfae9aded5eec508be8521d6ec6d0f80c11"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2304,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1792,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 4,
+    "tentativa": 24,
+    "theta_sha": "66d2df91feeecfbac3d3fc2d8275c1ff8dc08158d13b07ff0f7146be28107dfa"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1664,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1920,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 5,
+    "tentativa": 29,
+    "theta_sha": "437660234cb818de8458aaa9a7e186f8e4bac0b35dcc8a908166ba6eab5c71f0"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2048,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 6,
+    "tentativa": 32,
+    "theta_sha": "656a8aec8efee8aac422b9d333b3954cef79e005adbc032b6f82dc63ca549fff"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1408,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2304,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 7,
+    "tentativa": 33,
+    "theta_sha": "97df7a4f6bfaf1da7332d9a20a7ad2a41c5f4e55f9f4c5c0d72622b895147c07"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2176,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1408,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 8,
+    "tentativa": 34,
+    "theta_sha": "5f30dc226939a0c9ae333bfd3b176ce6f0cf1d6c36bab41ee51f60f4eb0f955d"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 9,
+    "tentativa": 36,
+    "theta_sha": "6e0a083ced008236b71fff3e84ff702b10eddab89c3a3ed24115ce3c7290ee03"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1408,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 11,
+    "tentativa": 41,
+    "theta_sha": "2fa1a5a47050dfafbbea3a1308253f0c16661c63d443fee43d44b5da4b47d790"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 12,
+    "tentativa": 42,
+    "theta_sha": "2892af5a710ae2b9897b3b3fdd84da01c8b02896cdee2a7cba0db395624fa4f3"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2432,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2432,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 13,
+    "tentativa": 44,
+    "theta_sha": "fb0e4d8d3807fa751d9e6090217b36e0d83df99ee4b883d05146afee6399c5b9"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2432,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 14,
+    "tentativa": 48,
+    "theta_sha": "2ad1ef4adaa8926963a2ad61730fd388123f4c689a396a2539cdf884239e1eb2"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 384,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 15,
+    "tentativa": 64,
+    "theta_sha": "87faa5eff0d2bf0c00a8808b486e0ba3594c90a6a40173b034075780b3602dee"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1024,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 16,
+    "tentativa": 66,
+    "theta_sha": "3bf94fb1c1dc5bf51a9c70d93435a002009b9a32f2561e7922d0f86e884108a2"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2560,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1792,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 17,
+    "tentativa": 67,
+    "theta_sha": "e7ff82109ffb5223ad13b2c5a6340a3a46465d55dc51e55ddc4b98ed2f8753e0"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1792,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2432,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 18,
+    "tentativa": 68,
+    "theta_sha": "f72d2cd4ac39849617a357bce9dcd9518fe628ca33471d0eb5bb353963474322"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2304,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 2176,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 19,
+    "tentativa": 71,
+    "theta_sha": "944413cef34c26479dc0dec67105b233c8238de99e2a6a0c7c0be418f1b897b4"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1920,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1664,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_ambas",
+    "fam": 20,
+    "tentativa": 79,
+    "theta_sha": "7441fffc3297081017c1fb80e66591beff9ce2c0b17c52aaacc2ec3d0b48b352"
+   }
+  ],
+  "individua_uma": [
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       352,
+       352,
+       160,
+       160,
+       352,
+       416,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       352,
+       352,
+       224,
+       224,
+       352,
+       416,
+       352,
+       352
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 384,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 10,
+    "tentativa": 39,
+    "theta_sha": "c8237253c172bdec4e1c40bab717a644eb0cb6b4a59e811f79de3fe7806d3ea4"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 1024,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 76,
+    "tentativa": 310,
+    "theta_sha": "ce247124be44435f3b0081c6a879058eb39f065d833ff08527a6e6615096f34d"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 1920,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 2048,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 85,
+    "tentativa": 330,
+    "theta_sha": "954768293ff9c327de19c7977b8050d5f6afe6f91d71d74c56292950c9edd1aa"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       288,
+       352,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       288,
+       352,
+       352,
+       352
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 105,
+    "tentativa": 381,
+    "theta_sha": "dddade42ac42b2ab5ec656df220c7f5e0f79ba611ebd28a2069fe22c374c30a1"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       480,
+       416,
+       480
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       480,
+       416,
+       480
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 107,
+    "tentativa": 390,
+    "theta_sha": "c4bbfebdf506bc633fe77de1c520faa9e0021ddb51135ac80ab4365e5776f2c2"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2176,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       480,
+       416,
+       416,
+       416
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       480,
+       416,
+       416,
+       416
+      ],
+      "dep_sites": 2176,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 122,
+    "tentativa": 445,
+    "theta_sha": "01f93dcd6180bf42682a2b539fe39b04a41e8beb9ee448f3dc0720c167d8c5c0"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       384,
+       320
+      ],
+      "d1": [
+       0,
+       256,
+       256,
+       256,
+       256,
+       448,
+       384,
+       384,
+       320
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 1024,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 127,
+    "tentativa": 476,
+    "theta_sha": "cc809e9cbb9ac1f958e7afedf5d3db3f436218ac86d1fa027c566482034aac09"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       320,
+       320,
+       192,
+       192,
+       512,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       192,
+       192,
+       512,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 768,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 129,
+    "tentativa": 482,
+    "theta_sha": "c2850a1a4a0d3501c30654f90b8d95bd0460c8cfc68a665b2caa5740f8311bfc"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       288,
+       288,
+       224,
+       224,
+       352,
+       416,
+       416,
+       416
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       224,
+       224,
+       352,
+       416,
+       416,
+       416
+      ],
+      "dep_sites": 1152,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 133,
+    "tentativa": 502,
+    "theta_sha": "be346812b1630d4f2f2dde6711dd938f0fe9947a0ed67eafb4c9be5ced7d8987"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       416,
+       416,
+       160,
+       160,
+       416,
+       480,
+       416,
+       416
+      ],
+      "d1": [
+       0,
+       416,
+       416,
+       288,
+       288,
+       416,
+       480,
+       416,
+       416
+      ],
+      "dep_sites": 1152,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 144,
+    "tentativa": 532,
+    "theta_sha": "fffefb323ceffba768377e472895799aba21c003957fe4e9459295dea2655c32"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       224,
+       224,
+       288,
+       288,
+       288,
+       352,
+       352,
+       352
+      ],
+      "d1": [
+       0,
+       160,
+       160,
+       288,
+       288,
+       288,
+       352,
+       352,
+       352
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 150,
+    "tentativa": 548,
+    "theta_sha": "0745beea511bc24bcb0b91c3163352a4d64890beeddd04ea3d498f67f5a44c9b"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       352,
+       352,
+       352,
+       352,
+       480,
+       544,
+       480,
+       480
+      ],
+      "d1": [
+       0,
+       352,
+       352,
+       352,
+       352,
+       480,
+       544,
+       480,
+       480
+      ],
+      "dep_sites": 2048,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 2048,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 154,
+    "tentativa": 565,
+    "theta_sha": "e3752aa6113d65a07b8908f210cebd23957c67143e354fb5fa55c4b720931ba9"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       384,
+       384,
+       512,
+       384
+      ],
+      "d1": [
+       0,
+       320,
+       320,
+       320,
+       320,
+       384,
+       384,
+       512,
+       384
+      ],
+      "dep_sites": 1024,
+      "nivel": "L1_d_iguais"
+     },
+     "C_BA->A": {
+      "dep_sites": 2048,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 158,
+    "tentativa": 572,
+    "theta_sha": "3b94f960a72f707f5a9d39be8c135713f5b4383f8201a4f60b67ed7853f7529c"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "d0": [
+       0,
+       192,
+       192,
+       384,
+       384,
+       448,
+       448,
+       448,
+       448
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       448,
+       448,
+       448,
+       448
+      ],
+      "dep_sites": 768,
+      "nivel": "L2_rank_igual_d_diferente"
+     },
+     "C_BA->A": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 171,
+    "tentativa": 603,
+    "theta_sha": "5ce958484a8c701227ef0c0d60b9832724c06224a86eb1e38a4bd0bdbada2d2c"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 512,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       416,
+       288
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       416,
+       288
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 176,
+    "tentativa": 621,
+    "theta_sha": "5781c41b478fbd3408ca50a0c9120c37bfbbbce633a16e122e1b2881c4d6ba04"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 768,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       192,
+       192,
+       320,
+       320,
+       384,
+       384,
+       384,
+       384
+      ],
+      "d1": [
+       0,
+       192,
+       192,
+       256,
+       256,
+       384,
+       384,
+       384,
+       384
+      ],
+      "dep_sites": 768,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 185,
+    "tentativa": 652,
+    "theta_sha": "8576167393746a735bb243f6363d59780f8abab575c5cdef0e545b0f61363b99"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       352,
+       352,
+       160,
+       160,
+       416,
+       416,
+       352,
+       416
+      ],
+      "d1": [
+       0,
+       352,
+       352,
+       288,
+       288,
+       416,
+       416,
+       352,
+       416
+      ],
+      "dep_sites": 1536,
+      "nivel": "L2_rank_igual_d_diferente"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 196,
+    "tentativa": 698,
+    "theta_sha": "70c701d167447ad38f47eb7699fb4942671c35f9df49586941f3d982dfad51e2"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 2048,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       288,
+       224,
+       352
+      ],
+      "d1": [
+       0,
+       224,
+       224,
+       224,
+       224,
+       352,
+       288,
+       224,
+       352
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 205,
+    "tentativa": 720,
+    "theta_sha": "d2ecca28246b6cb0ec9cd7f92354d69f695df45942393f260c59ae06639f4c4f"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1536,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       128,
+       128,
+       192,
+       192,
+       256,
+       256,
+       256,
+       256
+      ],
+      "d1": [
+       0,
+       128,
+       128,
+       192,
+       192,
+       256,
+       256,
+       256,
+       256
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 219,
+    "tentativa": 784,
+    "theta_sha": "b479aa202767a1d280e0e3b4bf48e4a8c44d8fd0da8f823ce4190f4e1418e8f1"
+   },
+   {
+    "arestas": {
+     "C_AB->B": {
+      "dep_sites": 1152,
+      "nivel": "L3_rank_diferente"
+     },
+     "C_BA->A": {
+      "d0": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       480,
+       480
+      ],
+      "d1": [
+       0,
+       288,
+       288,
+       288,
+       288,
+       352,
+       416,
+       480,
+       480
+      ],
+      "dep_sites": 1536,
+      "nivel": "L1_d_iguais"
+     }
+    },
+    "classe": "individua_uma",
+    "fam": 293,
+    "tentativa": 1013,
+    "theta_sha": "5ae1984be671e2022c356cf43d212871ad37acdd9ac8a238f929ae98233aefcb"
+   }
+  ]
+ },
+ "fam20_confirmatoria_referencia": {
+  "C_AB->B": {
+   "d0": [
+    0,
+    1024,
+    1024,
+    1024,
+    1024,
+    1792,
+    1280,
+    1536,
+    1536
+   ],
+   "d1": [
+    0,
+    1024,
+    1024,
+    1024,
+    1024,
+    1792,
+    1280,
+    1536,
+    1536
+   ],
+   "dep_sites": 4608,
+   "nivel": "L1_d_iguais"
+  },
+  "C_BA->A": {
+   "d0": [
+    0,
+    1024,
+    1024,
+    1024,
+    1024,
+    1536,
+    1536,
+    1536,
+    1536
+   ],
+   "d1": [
+    0,
+    1024,
+    1024,
+    1024,
+    1024,
+    1536,
+    1536,
+    1536,
+    1536
+   ],
+   "dep_sites": 4608,
+   "nivel": "L1_d_iguais"
+  }
+ },
+ "fluxo": "SeedSequence(910000001).spawn(4)[0] = theta nuclear (como gerar_lote); [1..3] nao usados",
+ "n_alvo": 5000,
+ "objectivo": "prevalencia do cancelamento por agregacao em novas II",
+ "parou_por_tempo": false,
+ "rejeicoes": {
+  "E1(I)": 4277,
+  "E1(II)": 292,
+  "E1(III)": 117,
+  "E2(I)": 14,
+  "E3(I)": 238,
+  "E4(I)": 2067,
+  "E4(II)": 290,
+  "E4(III)": 186,
+  "E5(I)": 3906,
+  "E6(II)": 8,
+  "pi_identicas": 740
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "semente_exploratoria": 910000001,
+ "sha256_script": "48825a604ffcb19c59c2c301a53a188f3ac3a2b6bb82802a638d74d1e001a77d",
+ "taxa_aceitacao": 0.29180040852057193,
+ "tentativas": 17135
+}

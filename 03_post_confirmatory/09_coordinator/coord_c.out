@@ -1,0 +1,257 @@
+{
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "coord_c_fresh_II.py",
+ "seed": 910000050,
+ "N_aceites": 400,
+ "tentativas": 1342,
+ "n_arestas": 800,
+ "duracao_s": 0.7,
+ "niveis": {
+  "L1": 35,
+  "L2": 11,
+  "L3": 754
+ },
+ "niveis_por_aresta": {
+  "B": {
+   "L1": 17,
+   "L2": 7,
+   "L3": 376
+  },
+  "A": {
+   "L1": 18,
+   "L2": 4,
+   "L3": 378
+  }
+ },
+ "K_vs_L1_excepcoes": 0,
+ "violacoes": {
+  "formula": 0,
+  "K_vs_L1": 0,
+  "fingerprint": 0,
+  "multiset": 0,
+  "transporte": 0,
+  "celula_L1": 0,
+  "quantum64": 0,
+  "L2_alinhada": 0,
+  "L2_assinatura": 0,
+  "M3_inconsistente": 0,
+  "B4_em_L1": 0
+ },
+ "violacoes_detalhe": {},
+ "estagios_L1": {
+  "F1": 4,
+  "F15": 9,
+  "F2": 22,
+  "dep0": 0
+ },
+ "estagios_fraccoes_dep>0": {
+  "F1": 0.114,
+  "F15": 0.257,
+  "F2": 0.629
+ },
+ "estrito": {
+  "cat": {
+   "ESTRITO": 685,
+   "UNIAO": 114,
+   "PURO_CTF": 1,
+   "SEM_DEP": 0
+  },
+  "fraccao_ESTRITO": 0.8562,
+  "inst_ge1": 379,
+  "inst_both": 306
+ },
+ "obs_testemunha_diferente_arestas": 349,
+ "classes_tau": {
+  "DT": {
+   "arestas": 114,
+   "L1": 11,
+   "L2": 0,
+   "taxa_L1": 0.0965
+  },
+  "C3": {
+   "arestas": 258,
+   "L1": 1,
+   "L2": 4,
+   "taxa_L1": 0.0039
+  },
+  "T": {
+   "arestas": 220,
+   "L1": 20,
+   "L2": 7,
+   "taxa_L1": 0.0909
+  },
+  "FC": {
+   "arestas": 208,
+   "L1": 3,
+   "L2": 0,
+   "taxa_L1": 0.0144
+  }
+ },
+ "colapsos_observados": 2,
+ "colapsos": [
+  {
+   "tent": 811,
+   "niveis": {
+    "B": "L1",
+    "A": "L2"
+   },
+   "classe_tau": "T",
+   "alinhada": false
+  },
+  {
+   "tent": 1333,
+   "niveis": {
+    "B": "L1",
+    "A": "L1"
+   },
+   "classe_tau": "DT",
+   "alinhada": true
+  }
+ ],
+ "M3_soma_prob": 1.565,
+ "L2_assinaturas": [
+  {
+   "tent": 50,
+   "aresta": "B",
+   "classe": "C3",
+   "mudadas": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "novo_par_valor": 256,
+   "S_lam_x32": 320,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 119,
+   "aresta": "B",
+   "classe": "T",
+   "mudadas": [
+    1,
+    2
+   ],
+   "novo_par_valor": 160,
+   "S_lam_x32": 160,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 416,
+   "aresta": "A",
+   "classe": "T",
+   "mudadas": [
+    1,
+    2
+   ],
+   "novo_par_valor": 320,
+   "S_lam_x32": 320,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 487,
+   "aresta": "A",
+   "classe": "C3",
+   "mudadas": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "novo_par_valor": 256,
+   "S_lam_x32": 192,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 504,
+   "aresta": "B",
+   "classe": "C3",
+   "mudadas": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "novo_par_valor": 320,
+   "S_lam_x32": 192,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 811,
+   "aresta": "A",
+   "classe": "T",
+   "mudadas": [
+    3,
+    4
+   ],
+   "novo_par_valor": 160,
+   "S_lam_x32": 160,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 816,
+   "aresta": "B",
+   "classe": "T",
+   "mudadas": [
+    3,
+    4
+   ],
+   "novo_par_valor": 160,
+   "S_lam_x32": 160,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 836,
+   "aresta": "A",
+   "classe": "C3",
+   "mudadas": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "novo_par_valor": 256,
+   "S_lam_x32": 192,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 873,
+   "aresta": "B",
+   "classe": "T",
+   "mudadas": [
+    1,
+    2
+   ],
+   "novo_par_valor": 320,
+   "S_lam_x32": 320,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 1041,
+   "aresta": "B",
+   "classe": "T",
+   "mudadas": [
+    1,
+    2
+   ],
+   "novo_par_valor": 192,
+   "S_lam_x32": 192,
+   "assinatura_ok": true
+  },
+  {
+   "tent": 1271,
+   "aresta": "B",
+   "classe": "T",
+   "mudadas": [
+    1,
+    2
+   ],
+   "novo_par_valor": 320,
+   "S_lam_x32": 320,
+   "assinatura_ok": true
+  }
+ ],
+ "lattice_truncado_contraexemplos_naoL1_com_dA=dB=0": 202,
+ "iso_gt1_arestas": 405,
+ "equidistantes": 3
+}

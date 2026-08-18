@@ -1,0 +1,14 @@
+C_AB->B nivel L1 estagio F2_soma_por_bloco dep 4608 s1 3840 swap 768 cel_dif 36 mult128 True membit0 True
+  blocos {'B0': 20, 'B1': 0, 'B2': 6, 'B3': 6, 'B4': 0} K_eff True equid False
+  W0 [[0, 4, 5, 5], [4, 0, 3, 3], [5, 3, 0, 4], [5, 3, 4, 0]]
+  W1 [[0, 4, 5, 5], [4, 0, 3, 3], [5, 3, 0, 4], [5, 3, 4, 0]]
+  d0 [0, 1024, 1024, 1024, 1024, 1792, 1280, 1536, 1536]
+  eq_hist por k: [True, True, True, False, False, True, True, False, False]
+C_BA->A nivel L1 estagio F2_soma_por_bloco dep 4608 s1 3072 swap 1536 cel_dif 36 mult128 True membit0 True
+  blocos {'B0': 20, 'B1': 0, 'B2': 0, 'B3': 12, 'B4': 0} K_eff True equid True
+  W0 [[0, 4, 4, 4], [4, 0, 4, 4], [4, 4, 0, 4], [4, 4, 4, 0]]
+  W1 [[0, 4, 4, 4], [4, 0, 4, 4], [4, 4, 0, 4], [4, 4, 4, 0]]
+  d0 [0, 1024, 1024, 1024, 1024, 1536, 1536, 1536, 1536]
+  eq_hist por k: [True, False, False, True, True, True, True, True, True]
+saida: /root/causal-A-postconfirmatory-analysis/multiagent/ws2-information-loss/ws2-fam20-sitelevel.json
+sha256_saida: b432484c1f7acd80c63d59863af9a56216c67308bfe85047f5ce8a3da237f0a3

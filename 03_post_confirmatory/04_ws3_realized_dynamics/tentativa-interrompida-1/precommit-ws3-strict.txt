@@ -1,0 +1,91 @@
+PRECOMMIT WS3 — STRICT REALIZED DYNAMICS
+ROTULO: POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente, ws3.
+Data (UTC): 2026-08-17. Escrito ANTES de qualquer execução da análise estrita.
+O resultado confirmatório permanece NEGATIVO e imutável (C1' 199/200; erro único:
+7bb0baab3a8ed7aa, fam 20, II, E2). Nada aqui recalcula ou reinterpreta esse resultado.
+
+PERGUNTA: a dependência de memória do mecanismo II está realizada em configurações
+COMPARÁVEIS visitadas pela órbita em AMBOS os contextos de memória (critério estrito,
+interseção), e não apenas na união dos suportes (critério OR anterior: 51 e 54
+sítios/aresta na fam-20) ou na fibra contrafactual completa?
+
+BATERIA (fixada agora; deterministicamente definida; SEM amostragem nova):
+  G1  fam-20: instância confirmatória 7bb0baab3a8ed7aa (n=12, tabela cega em
+      conf-e2/instancias/, tipos de módulo via chave-e2.json + pt._tipos_e2).
+  G2  TODOS os exemplos 'colapso_total' de prevalencia-cancelamento-II.json
+      (seed registada 910000001; esperados 22) e -lote2.json (seed registada
+      910000002; esperados 24). Total esperado 46 (29 L1/L1, 10 L1/L2, 7 L2/L2).
+  G3  Controlos L3/L3: TODOS os exemplos 'individua_ambas' dos dois lotes (20+20=40).
+  G4  Mistos: TODOS os exemplos 'individua_uma' dos dois lotes (20+20=40).
+Replay de G2-G4 por (seed do lote, tentativa) com verificação OBRIGATÓRIA de
+theta_sha (126/126); replay usa exclusivamente as sementes REGISTADAS dos lotes
+para reproduzir famílias já registadas. SEM SEMENTES NOVAS nesta análise; a reserva
+ws3 (910000010..910000019) fica por usar salvo emenda precommit posterior a este
+ficheiro e anterior ao uso.
+
+DEFINIÇÕES CONGELADAS PARA ESTA ANÁLISE (por aresta canal a -> processador b;
+arestas C_AB->B e C_BA->A; maquinaria congelada cl.* importada de frozen-copy):
+  D1. Órbita = cl.orbita(T, s0): trajetória realizada desde o estado inicial até
+      à primeira repetição (transiente + ciclo). "Realizado" = visitado pela órbita.
+  D2. Fibras alinhadas Z0, Z1 = cl.estados_da_fibra(n, membits_b, m), m=0,1;
+      eixo livre idêntico (emparelhamento contrafactual congelado).
+  D3. Nível CONFIGURAÇÃO: R_m = {j do eixo livre : Z_m[j] pertence à órbita}.
+      Interseção ESTRITA R0∩R1; união R0∪R1 (=critério OR do teste anterior).
+      Nota analítica: j em R0∩R1 <=> existe par de estados da órbita que difere
+      EXATAMENTE no bit de memória do receptor.
+  D4. Coordenadas relevantes (r,c): r = extractor(bits de b sem memória),
+      c = extractor(bits de a). REDUÇÃO a provar analiticamente e verificar
+      exaustivamente (0 exceções exigidas) ANTES de usar: a resposta
+      intervencional xr e o próximo-estado observado eB[T[.]] dependem do ponto
+      da fibra apenas através de (r,c) [dado m]; componente de memória de xr = 0.
+  D5. Nível (r,c): C_m = {(r,c) realizados em estados da órbita com mem_b = m}.
+      ESTRITO I = C_0 ∩ C_1; união U = C_0 ∪ C_1.
+  D6. Sítio de dependência (convenção congelada = prevalencia/autopsia step3b):
+      par (intervenção, j) com xr_0[j] != xr_1[j] (padrão, não peso).
+      Nível (r,c): (intervenção, célula) com padrão_0 != padrão_1.
+      dep_total (fibra completa) tem de reproduzir dep_sites do dataset.
+  D7. Contraste OBSERVACIONAL (sem cirurgia): para pares (r,c1),(r,c2) ambos em I
+      com c1<c2: O_m = eB[T[s(r,c1,m)]] XOR eB[T[s(r,c2,m)]] (bem definido por D4;
+      sigma e componente de memória cancelam). Sítio observacional: O_0 != O_1.
+  D8. CATEGORIAS por aresta, atribuídas em cada granularidade (config e (r,c)):
+      ESTRITO             : >=1 sítio de dependência com suporte na interseção estrita.
+      UNIAO_APENAS        : 0 sítios estritos e >=1 sítio com suporte na união.
+                            Sub-caso B1: interseção vazia; B2: interseção não vazia
+                            mas sem sítio diferente nela.
+      PURO_CONTRAFACTUAL  : 0 sítios na união e dep_total > 0.
+      SEM_DEP             : dep_total = 0.
+      SEM_CONTRASTE       : mem_reach do receptor não é {0,1} (não esperado; E1(II)
+                            garante ambas as memórias na órbita).
+  D9. Nível de instância: par das categorias das duas arestas; "mecanismo II
+      estritamente realizado na instância" sse >=1 aresta ESTRITO (primário);
+      "ambas as arestas ESTRITO" reportado a par.
+  D10. GRANULARIDADE PRIMÁRIA da resposta final: (r,c), justificada pela redução D4
+      (a comparabilidade por configuração completa exige igualdade de bits provada
+      irrelevante para a resposta comparada, e não é invariante E1<->E2).
+      Nível configuração completa reportado como sensibilidade ultra-estrita; na
+      fam-20 (n=12) reporta-se também o nível intermédio "configuração nuclear"
+      (bits do núcleo sem o bit de memória do receptor, excluindo D1/D2).
+
+CROSS-CHECKS OBRIGATÓRIOS (qualquer falha => parar a linha e reportar; regra 10):
+  X1. Replay: theta_sha == registado, 126/126; elegibilidade True em todos.
+  X2. nivel e dep_sites recomputados == dataset, 252/252 arestas (G2-G4).
+  X3. d0/d1 recomputados == dataset onde registados (arestas nivel != L3).
+  X4. fam-20: nivel L1/L1 e dep_total 4608/4608 reproduzidos; critério OR
+      (união, nível configuração, n=12) reproduz {51, 54} sítios por aresta.
+  X5. Redução (r,c): xr e eB[T[.]] constantes dentro de cada célula (r,c), para
+      todas as intervenções, ambos os contextos, todas as arestas da bateria: 0 exceções.
+  X6. d_m via fórmula (r,c) a partir de theta (G2-G4) == d_m via fibra congelada;
+      padrões por célula via theta == padrões via tabela. Auditoria K (tau isometria
+      de W_M <=> L1) reverificada nas 252 arestas.
+
+QUANTIFICAÇÃO (descritiva, sem testes confirmatórios): contagens e proporções das
+categorias por grupo (G2 por subtipo, G3, G4, e por tipo de aresta L1/L2/L3);
+distribuições de |I|, |C_0|, |C_1|, sítios estritos/união/totais; IC95 Wilson
+quando proporções; comparações colapso vs controlo rotuladas EXPLORATÓRIAS.
+
+SAÍDAS (todas em /root/causal-A-postconfirmatory-analysis/multiagent/ws3-realized-dynamics/):
+  ws3-strict-fam20.json, ws3-strict-bateria.json, WS3-STRICT-REALIZED-DYNAMICS.md,
+  SHAS.txt (sha256 de scripts, precommit, outputs, relatório).
+PROIBIÇÕES REAFIRMADAS: nada fora do ws3 dir é escrito; nenhum artefacto
+confirmatório é tocado; nenhuma correção de C1' é proposta; sementes proibidas
+nunca usadas.

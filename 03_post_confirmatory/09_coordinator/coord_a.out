@@ -1,0 +1,291 @@
+{
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "coord_a_linear_toy.py",
+ "sistema_completo": {
+  "det": "-8",
+  "rank": 6,
+  "conclusao": "nucleo trivial => d0=d1 força Delta=0 entrada a entrada"
+ },
+ "reconstrucao_Wtil_de_(A,B,V0..V3)": {
+  "colunas_entrada": [
+   "A",
+   "B",
+   "V0",
+   "V1",
+   "V2",
+   "V3"
+  ],
+  "linhas_saida": [
+   "e01",
+   "e02",
+   "e03",
+   "e12",
+   "e13",
+   "e23"
+  ],
+  "matriz_inversa": [
+   [
+    "1/2",
+    "0",
+    "1/4",
+    "1/4",
+    "-1/4",
+    "-1/4"
+   ],
+   [
+    "0",
+    "1/2",
+    "1/4",
+    "-1/4",
+    "1/4",
+    "-1/4"
+   ],
+   [
+    "-1/2",
+    "-1/2",
+    "1/2",
+    "0",
+    "0",
+    "1/2"
+   ],
+   [
+    "-1/2",
+    "-1/2",
+    "0",
+    "1/2",
+    "1/2",
+    "0"
+   ],
+   [
+    "0",
+    "1/2",
+    "-1/4",
+    "1/4",
+    "-1/4",
+    "1/4"
+   ],
+   [
+    "1/2",
+    "0",
+    "-1/4",
+    "-1/4",
+    "1/4",
+    "1/4"
+   ]
+  ]
+ },
+ "reconstrucao_verificada": "200/200",
+ "lattice_empobrecido": {
+  "equacoes": [
+   "e01+e23=0",
+   "e02+e13=0"
+  ],
+  "rank": 2,
+  "dim_nucleo": 4,
+  "base_nucleo_exemplos": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "conclusao": "sem as 4 intervencoes do(c=g), a reciproca (cegueira=>isometria) FALHA (nucleo nao trivial)"
+ },
+ "lattice_so_full": {
+  "rank": 4,
+  "dim_nucleo": 2
+ },
+ "toy": {
+  "M": [
+   [
+    0,
+    0,
+    1
+   ],
+   [
+    0,
+    1,
+    0
+   ]
+  ],
+  "W": [
+   [
+    0,
+    1,
+    1
+   ],
+   [
+    1,
+    0,
+    2
+   ],
+   [
+    1,
+    2,
+    0
+   ]
+  ],
+  "Iso(W)": [
+   [
+    0,
+    1,
+    2
+   ],
+   [
+    0,
+    2,
+    1
+   ]
+  ],
+  "tau": [
+   0,
+   2,
+   1
+  ],
+  "pi0": [
+   0,
+   1,
+   2
+  ],
+  "pi1": [
+   0,
+   2,
+   1
+  ],
+  "campos_X0": {
+   "v0c0": [
+    0,
+    0
+   ],
+   "v0c1": [
+    0,
+    1
+   ],
+   "v0c2": [
+    1,
+    0
+   ],
+   "v1c0": [
+    0,
+    1
+   ],
+   "v1c1": [
+    0,
+    0
+   ],
+   "v1c2": [
+    1,
+    1
+   ],
+   "v2c0": [
+    1,
+    0
+   ],
+   "v2c1": [
+    1,
+    1
+   ],
+   "v2c2": [
+    0,
+    0
+   ]
+  },
+  "campos_X1": {
+   "v0c0": [
+    0,
+    0
+   ],
+   "v0c1": [
+    1,
+    0
+   ],
+   "v0c2": [
+    0,
+    1
+   ],
+   "v1c0": [
+    1,
+    0
+   ],
+   "v1c1": [
+    0,
+    0
+   ],
+   "v1c2": [
+    1,
+    1
+   ],
+   "v2c0": [
+    0,
+    1
+   ],
+   "v2c1": [
+    1,
+    1
+   ],
+   "v2c2": [
+    0,
+    0
+   ]
+  },
+  "celulas_ponto_a_ponto_diferentes": [
+   [
+    0,
+    1
+   ],
+   [
+    0,
+    2
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    2,
+    0
+   ]
+  ],
+  "n_sitios_linha_diferentes": 8,
+  "d0": [
+   2,
+   3,
+   3
+  ],
+  "d1": [
+   2,
+   3,
+   3
+  ],
+  "d0==d1": true,
+  "totais_por_celula_iguais": true,
+  "conclusao": "X0!=X1 em 4/9 celulas (8/18 sitios-linha) e mesmo assim d0==d1; a perda e a LOCALIZACAO r (troca de linha que responde)"
+ }
+}

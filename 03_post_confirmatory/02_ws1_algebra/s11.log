@@ -1,0 +1,11 @@
+=== s11 RESUMO (fam20 cega) ===
+C_AB->B verificacoes: {'lema1_bem_definido': True, 'd0_pred_eq_registado': True, 'd1_pred_eq_registado': True, 'd0_pred_eq_frozen': True, 'd1_pred_eq_frozen': True, 'dep_pred_eq_registado': True, 'dep_pred_eq_frozen': True, 'nivel_L1': True}
+   ABV0: {'A': 8, 'B': 8, 'V': [14, 10, 12, 12], 'WM3': 8}
+   ABV1: {'A': 8, 'B': 8, 'V': [14, 10, 12, 12], 'WM3': 8}
+   K: True dep_pred: 4608 rho tipos: ['2+1+1'] n rhos: 1
+C_BA->A verificacoes: {'lema1_bem_definido': True, 'd0_pred_eq_registado': True, 'd1_pred_eq_registado': True, 'd0_pred_eq_frozen': True, 'd1_pred_eq_frozen': True, 'dep_pred_eq_registado': True, 'dep_pred_eq_frozen': True, 'nivel_L1': True}
+   ABV0: {'A': 8, 'B': 8, 'V': [12, 12, 12, 12], 'WM3': 8}
+   ABV1: {'A': 8, 'B': 8, 'V': [12, 12, 12, 12], 'WM3': 8}
+   K: True dep_pred: 4608 rho tipos: ['2+1+1'] n rhos: 1
+TODAS OK: True
+sha256 out-s11.json: 62c03fb571ff43aa83ee7fed6ade405ddc3fc49871df70546c2544d1d0cbf413

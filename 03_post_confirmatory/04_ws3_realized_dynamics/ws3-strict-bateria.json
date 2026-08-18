@@ -1,0 +1,9962 @@
+{
+ "bateria": {
+  "G2": 46,
+  "G3": 40,
+  "G4": 40,
+  "n_familias": 126
+ },
+ "cross_checks": {
+  "d_ok": 132,
+  "d_presentes": 132,
+  "dep_ok": 252,
+  "formula_d_ok": 252,
+  "formula_pat_ok": 252,
+  "k_ok": 252,
+  "nivel_ok": 252,
+  "reducao_ok": 252,
+  "total_arestas": 252
+ },
+ "cross_checks_falhas": [],
+ "dist_sitios_estritos_rc": {
+  "G2_colapso/L1+L1": {
+   "max": 40,
+   "media": 7.862,
+   "mediana": 6.0,
+   "min": 0,
+   "n": 58
+  },
+  "G2_colapso/L1+L2": {
+   "max": 18,
+   "media": 7.35,
+   "mediana": 9.0,
+   "min": 0,
+   "n": 20
+  },
+  "G2_colapso/L2+L2": {
+   "max": 27,
+   "media": 7.929,
+   "mediana": 5.5,
+   "min": 0,
+   "n": 14
+  },
+  "G3_controlo_L3L3": {
+   "max": 48,
+   "media": 12.787,
+   "mediana": 11.5,
+   "min": 0,
+   "n": 80
+  },
+  "G4_misto": {
+   "max": 34,
+   "media": 6.55,
+   "mediana": 4.0,
+   "min": 0,
+   "n": 80
+  }
+ },
+ "dist_tamanho_I_rc": {
+  "G2_colapso/L1+L1": {
+   "max": 10,
+   "media": 3.121,
+   "mediana": 2.0,
+   "min": 0,
+   "n": 58
+  },
+  "G2_colapso/L1+L2": {
+   "max": 6,
+   "media": 3.3,
+   "mediana": 4.0,
+   "min": 0,
+   "n": 20
+  },
+  "G2_colapso/L2+L2": {
+   "max": 9,
+   "media": 3.429,
+   "mediana": 2.5,
+   "min": 0,
+   "n": 14
+  },
+  "G3_controlo_L3L3": {
+   "max": 15,
+   "media": 3.85,
+   "mediana": 3.0,
+   "min": 0,
+   "n": 80
+  },
+  "G4_misto": {
+   "max": 10,
+   "media": 2.65,
+   "mediana": 2.0,
+   "min": 0,
+   "n": 80
+  }
+ },
+ "duracao_s": 1.3,
+ "instancias_estrito_rc": {
+  "G2_colapso": {
+   "ambas": 32,
+   "n": 46,
+   "nenhuma": 4,
+   "pelo_menos_uma": 10
+  },
+  "G3_controlo_L3L3": {
+   "ambas": 29,
+   "n": 40,
+   "nenhuma": 4,
+   "pelo_menos_uma": 7
+  },
+  "G4_misto": {
+   "ambas": 27,
+   "n": 40,
+   "nenhuma": 3,
+   "pelo_menos_uma": 10
+  }
+ },
+ "observacional": {
+  "G2_colapso/L1+L1": {
+   "arestas": 58,
+   "com_par_diferente": 19,
+   "com_pares": 26
+  },
+  "G2_colapso/L1+L2": {
+   "arestas": 20,
+   "com_par_diferente": 7,
+   "com_pares": 12
+  },
+  "G2_colapso/L2+L2": {
+   "arestas": 14,
+   "com_par_diferente": 3,
+   "com_pares": 8
+  },
+  "G3_controlo_L3L3": {
+   "arestas": 80,
+   "com_par_diferente": 45,
+   "com_pares": 48
+  },
+  "G4_misto": {
+   "arestas": 80,
+   "com_par_diferente": 23,
+   "com_pares": 36
+  }
+ },
+ "precommit": "precommit-ws3-strict.txt (sha registada no SHAS.txt)",
+ "prevalencia_categoria_cfg_por_grupo": {
+  "G2_colapso": {
+   "ESTRITO": 15,
+   "SEM_DEP": 1,
+   "UNIAO_APENAS_B1": 73,
+   "UNIAO_APENAS_B2": 3
+  },
+  "G2_colapso/L1+L1": {
+   "ESTRITO": 10,
+   "SEM_DEP": 1,
+   "UNIAO_APENAS_B1": 45,
+   "UNIAO_APENAS_B2": 2
+  },
+  "G2_colapso/L1+L2": {
+   "ESTRITO": 3,
+   "UNIAO_APENAS_B1": 17
+  },
+  "G2_colapso/L2+L2": {
+   "ESTRITO": 2,
+   "UNIAO_APENAS_B1": 11,
+   "UNIAO_APENAS_B2": 1
+  },
+  "G3_controlo_L3L3": {
+   "ESTRITO": 15,
+   "UNIAO_APENAS_B1": 65
+  },
+  "G4_misto": {
+   "ESTRITO": 8,
+   "UNIAO_APENAS_B1": 71,
+   "UNIAO_APENAS_B2": 1
+  }
+ },
+ "prevalencia_categoria_rc_por_grupo": {
+  "G2_colapso": {
+   "ESTRITO": 74,
+   "SEM_DEP": 1,
+   "UNIAO_APENAS_B1": 6,
+   "UNIAO_APENAS_B2": 11
+  },
+  "G2_colapso/L1+L1": {
+   "ESTRITO": 46,
+   "SEM_DEP": 1,
+   "UNIAO_APENAS_B1": 3,
+   "UNIAO_APENAS_B2": 8
+  },
+  "G2_colapso/L1+L2": {
+   "ESTRITO": 16,
+   "UNIAO_APENAS_B1": 2,
+   "UNIAO_APENAS_B2": 2
+  },
+  "G2_colapso/L2+L2": {
+   "ESTRITO": 12,
+   "UNIAO_APENAS_B1": 1,
+   "UNIAO_APENAS_B2": 1
+  },
+  "G3_controlo_L3L3": {
+   "ESTRITO": 65,
+   "UNIAO_APENAS_B1": 15
+  },
+  "G4_misto": {
+   "ESTRITO": 64,
+   "UNIAO_APENAS_B1": 8,
+   "UNIAO_APENAS_B2": 8
+  }
+ },
+ "prevalencia_categoria_rc_por_nivel_aresta": {
+  "L1_d_iguais": {
+   "ESTRITO": 75,
+   "SEM_DEP": 1,
+   "UNIAO_APENAS_B1": 7,
+   "UNIAO_APENAS_B2": 14
+  },
+  "L2_rank_igual_d_diferente": {
+   "ESTRITO": 29,
+   "UNIAO_APENAS_B1": 4,
+   "UNIAO_APENAS_B2": 2
+  },
+  "L3_rank_diferente": {
+   "ESTRITO": 99,
+   "UNIAO_APENAS_B1": 18,
+   "UNIAO_APENAS_B2": 3
+  }
+ },
+ "reafirmacao": "resultado_confirmatorio_A = negativo (fechado, imutavel)",
+ "registos": [
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 32,
+      "uniao": 8
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5
+      ],
+      "n_C0": 4,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 6,
+      "sitios_estritos": 4,
+      "sitios_totais": 64,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 4,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 20,
+      "uniao": 8
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2
+      ],
+      "n_C0": 3,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 289,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 8,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 1003
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 27,
+      "uniao": 14
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       12
+      ],
+      "n_C0": 7,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 12,
+      "uniao": 14
+     },
+     "dep_total": 384,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 3,
+      "sitios_totais": 12,
+      "sitios_uniao": 9
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 380,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 14,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 1304
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 88,
+      "uniao": 22
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       8,
+       9
+      ],
+      "n_C0": 11,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 13,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 52
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 80,
+      "uniao": 22
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       6,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 4,
+      "n_I": 3,
+      "n_U": 12,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 40
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 383,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 22,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 1318
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 88,
+      "uniao": 31
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       6,
+       7,
+       13,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 11,
+      "n_I": 6,
+      "n_U": 15,
+      "sitios_estritos": 16,
+      "sitios_totais": 48,
+      "sitios_uniao": 48
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 18,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 124,
+      "uniao": 31
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 6,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       3,
+       4,
+       5,
+       7,
+       11
+      ],
+      "n_C0": 9,
+      "n_C1": 14,
+      "n_I": 7,
+      "n_U": 16,
+      "sitios_estritos": 28,
+      "sitios_totais": 64,
+      "sitios_uniao": 64
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 495,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 31,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 1649
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 23,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 56,
+      "uniao": 36
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       4,
+       6,
+       7,
+       8,
+       11
+      ],
+      "n_C0": 9,
+      "n_C1": 14,
+      "n_I": 7,
+      "n_U": 16,
+      "sitios_estritos": 8,
+      "sitios_totais": 32,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 26,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 84,
+      "uniao": 36
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 7,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       1,
+       4,
+       5,
+       6,
+       7,
+       9,
+       12,
+       14
+      ],
+      "n_C0": 13,
+      "n_C1": 9,
+      "n_I": 8,
+      "n_U": 14,
+      "sitios_estritos": 20,
+      "sitios_totais": 32,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 685,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 36,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 2373
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 11,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 36,
+      "uniao": 16
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       11,
+       12,
+       15
+      ],
+      "n_C0": 5,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 12,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 39,
+      "uniao": 17
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11,
+       14
+      ],
+      "n_C0": 8,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 830,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 17,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 2862
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 63,
+      "uniao": 21
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 14,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 42
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       8,
+       11,
+       15
+      ],
+      "n_C0": 10,
+      "n_C1": 7,
+      "n_I": 3,
+      "n_U": 14,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 863,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 2977
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 11,
+      "intersecao_estrita": 3,
+      "sitios_estritos": 12,
+      "sitios_uniao": 76,
+      "uniao": 19
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       5,
+       7,
+       11,
+       13,
+       15
+      ],
+      "n_C0": 5,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 9,
+      "sitios_estritos": 20,
+      "sitios_totais": 64,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 88,
+      "uniao": 22
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       6,
+       13,
+       15
+      ],
+      "n_C0": 6,
+      "n_C1": 4,
+      "n_I": 3,
+      "n_U": 7,
+      "sitios_estritos": 12,
+      "sitios_totais": 64,
+      "sitios_uniao": 28
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1352,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 22,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 4548
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 2,
+      "R1": 38,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 124,
+      "uniao": 40
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       11
+      ],
+      "n_C0": 2,
+      "n_C1": 14,
+      "n_I": 2,
+      "n_U": 14,
+      "sitios_estritos": 8,
+      "sitios_totais": 48,
+      "sitios_uniao": 44
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 22,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 160,
+      "uniao": 40
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 8,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       3,
+       6,
+       7,
+       9,
+       10,
+       11,
+       13,
+       14
+      ],
+      "n_C0": 12,
+      "n_C1": 13,
+      "n_I": 10,
+      "n_U": 15,
+      "sitios_estritos": 40,
+      "sitios_totais": 64,
+      "sitios_uniao": 60
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1379,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 40,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 4646
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 9,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 44,
+      "uniao": 15
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3
+      ],
+      "n_C0": 6,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 10,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 11,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 16,
+      "uniao": 15
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       10,
+       15
+      ],
+      "n_C0": 8,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 0,
+      "sitios_totais": 32,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1426,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 15,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 4808
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 16,
+      "R1": 16,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 27,
+      "uniao": 32
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       6,
+       12,
+       14,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 15,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 26,
+      "R1": 6,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 66,
+      "uniao": 31
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       3,
+       8,
+       9,
+       12
+      ],
+      "n_C0": 14,
+      "n_C1": 5,
+      "n_I": 5,
+      "n_U": 14,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1910,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 32,
+   "seed": 910000001,
+   "subtipo": "L1+L2",
+   "tentativa": 6365
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 19,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 114,
+      "uniao": 38
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 12,
+      "pares_diferentes": 8
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       11
+      ],
+      "n_C0": 12,
+      "n_C1": 12,
+      "n_I": 9,
+      "n_U": 15,
+      "sitios_estritos": 27,
+      "sitios_totais": 48,
+      "sitios_uniao": 45
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B2",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 20,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 0,
+      "sitios_uniao": 54,
+      "uniao": 37
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 7,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       4,
+       8,
+       9,
+       10,
+       11,
+       12
+      ],
+      "n_C0": 10,
+      "n_C1": 13,
+      "n_I": 8,
+      "n_U": 15,
+      "sitios_estritos": 9,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 2601,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 38,
+   "seed": 910000001,
+   "subtipo": "L2+L2",
+   "tentativa": 8784
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 10
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1
+      ],
+      "n_C0": 4,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 6,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 9,
+      "uniao": 10
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 4,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 8,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 9
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 2695,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 10,
+   "seed": 910000001,
+   "subtipo": "L1+L2",
+   "tentativa": 9062
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 1,
+      "n_U": 13,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B2",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 8,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 17
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6,
+       7,
+       10,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 7,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3064,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 18,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 10354
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 28,
+      "uniao": 9
+     },
+     "dep_total": 1920,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3
+      ],
+      "n_C0": 3,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 6,
+      "sitios_estritos": 3,
+      "sitios_totais": 60,
+      "sitios_uniao": 19
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 9
+     },
+     "dep_total": 2048,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8,
+       12
+      ],
+      "n_C0": 3,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 5,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 19
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 3461,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 9,
+   "seed": 910000001,
+   "subtipo": "L2+L2",
+   "tentativa": 11738
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 16,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 90,
+      "uniao": 30
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       2,
+       3,
+       5,
+       9,
+       12,
+       13
+      ],
+      "n_C0": 9,
+      "n_C1": 10,
+      "n_I": 6,
+      "n_U": 13,
+      "sitios_estritos": 18,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 26,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 90,
+      "uniao": 30
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       7,
+       12
+      ],
+      "n_C0": 4,
+      "n_C1": 13,
+      "n_I": 3,
+      "n_U": 14,
+      "sitios_estritos": 9,
+      "sitios_totais": 48,
+      "sitios_uniao": 42
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 3496,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 30,
+   "seed": 910000001,
+   "subtipo": "L1+L2",
+   "tentativa": 11838
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "SEM_DEP",
+     "categoria_rc": "SEM_DEP",
+     "cfg": {
+      "R0": 8,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 0,
+      "uniao": 18
+     },
+     "dep_total": 0,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5,
+       14
+      ],
+      "n_C0": 5,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 0,
+      "sitios_totais": 0,
+      "sitios_uniao": 0
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B2",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 13,
+      "R1": 5,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 17
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       5
+      ],
+      "n_C0": 9,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4159,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 18,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 14155
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 25,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 33
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       8,
+       14
+      ],
+      "n_C0": 7,
+      "n_C1": 12,
+      "n_I": 4,
+      "n_U": 15,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 78,
+      "uniao": 33
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       3,
+       6,
+       8,
+       9,
+       13
+      ],
+      "n_C0": 9,
+      "n_C1": 13,
+      "n_I": 7,
+      "n_U": 15,
+      "sitios_estritos": 18,
+      "sitios_totais": 36,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4311,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 33,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 14664
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 7,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 6,
+      "uniao": 10
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       9
+      ],
+      "n_C0": 5,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 6
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 7,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 10
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 6,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 8,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4632,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 10,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 15822
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 22,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 15,
+      "uniao": 23
+     },
+     "dep_total": 384,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 14,
+      "n_C1": 1,
+      "n_I": 1,
+      "n_U": 14,
+      "sitios_estritos": 3,
+      "sitios_totais": 12,
+      "sitios_uniao": 9
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 9,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 57,
+      "uniao": 22
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       7,
+       8,
+       11,
+       12
+      ],
+      "n_C0": 10,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4648,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 23,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 15886
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 8,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 15
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2
+      ],
+      "n_C0": 6,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 11,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 45,
+      "uniao": 15
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       8,
+       10,
+       13
+      ],
+      "n_C0": 8,
+      "n_C1": 3,
+      "n_I": 3,
+      "n_U": 8,
+      "sitios_estritos": 9,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4678,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 15,
+   "seed": 910000001,
+   "subtipo": "L1+L1",
+   "tentativa": 15995
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 22,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 39,
+      "uniao": 29
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       11,
+       12,
+       13
+      ],
+      "n_C0": 13,
+      "n_C1": 4,
+      "n_I": 4,
+      "n_U": 13,
+      "sitios_estritos": 9,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 87,
+      "uniao": 29
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 6,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       3
+      ],
+      "n_C0": 8,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 15,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 45
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 4817,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 29,
+   "seed": 910000001,
+   "subtipo": "L1+L2",
+   "tentativa": 16512
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 16,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 116,
+      "uniao": 28
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       1,
+       8,
+       9,
+       11,
+       13,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 10,
+      "n_I": 6,
+      "n_U": 14,
+      "sitios_estritos": 24,
+      "sitios_totais": 68,
+      "sitios_uniao": 61
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 119,
+      "uniao": 28
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       4,
+       5,
+       7,
+       13
+      ],
+      "n_C0": 12,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 18,
+      "sitios_totais": 68,
+      "sitios_uniao": 59
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 0,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 28,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 9
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 28,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 168,
+      "uniao": 47
+     },
+     "dep_total": 1792,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 14,
+      "pares_diferentes": 10
+     },
+     "rc": {
+      "I": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       15
+      ],
+      "n_C0": 14,
+      "n_C1": 14,
+      "n_I": 12,
+      "n_U": 16,
+      "sitios_estritos": 44,
+      "sitios_totais": 56,
+      "sitios_uniao": 56
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 23,
+      "R1": 25,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 175,
+      "uniao": 47
+     },
+     "dep_total": 1920,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 14,
+      "pares_diferentes": 10
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       8,
+       9,
+       12,
+       13,
+       14,
+       15
+      ],
+      "n_C0": 14,
+      "n_C1": 14,
+      "n_I": 12,
+      "n_U": 16,
+      "sitios_estritos": 44,
+      "sitios_totais": 60,
+      "sitios_uniao": 60
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 48,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 10
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 4,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 15,
+      "uniao": 7
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 4,
+      "n_C1": 3,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 6,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 7
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 5,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 2,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 7,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 19
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 17,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 137,
+      "uniao": 30
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       4,
+       6,
+       12
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 23,
+      "sitios_totais": 76,
+      "sitios_uniao": 61
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 19,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 133,
+      "uniao": 30
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       1,
+       4,
+       8,
+       9,
+       11,
+       13
+      ],
+      "n_C0": 11,
+      "n_C1": 9,
+      "n_I": 6,
+      "n_U": 14,
+      "sitios_estritos": 28,
+      "sitios_totais": 72,
+      "sitios_uniao": 63
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 3,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 30,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 21
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 13,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 74,
+      "uniao": 16
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 9,
+      "n_C1": 3,
+      "n_I": 0,
+      "n_U": 12,
+      "sitios_estritos": 0,
+      "sitios_totais": 72,
+      "sitios_uniao": 56
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 52,
+      "uniao": 16
+     },
+     "dep_total": 1792,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       3
+      ],
+      "n_C0": 8,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 56,
+      "sitios_uniao": 40
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 4,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 16,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 24
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 61,
+      "uniao": 19
+     },
+     "dep_total": 1664,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       10,
+       11,
+       12
+      ],
+      "n_C0": 10,
+      "n_C1": 7,
+      "n_I": 4,
+      "n_U": 13,
+      "sitios_estritos": 13,
+      "sitios_totais": 52,
+      "sitios_uniao": 42
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 71,
+      "uniao": 19
+     },
+     "dep_total": 1920,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       10,
+       11
+      ],
+      "n_C0": 11,
+      "n_C1": 6,
+      "n_I": 3,
+      "n_U": 14,
+      "sitios_estritos": 11,
+      "sitios_totais": 60,
+      "sitios_uniao": 53
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 5,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 19,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 29
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 11,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 96,
+      "uniao": 24
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       3,
+       8,
+       10,
+       12
+      ],
+      "n_C0": 9,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 20,
+      "sitios_totais": 64,
+      "sitios_uniao": 52
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 17,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 25
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       3,
+       10,
+       13,
+       14
+      ],
+      "n_C0": 6,
+      "n_C1": 12,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 6,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 25,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 32
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 96,
+      "uniao": 35
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       1,
+       4,
+       5,
+       7,
+       8,
+       9,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 10,
+      "n_I": 7,
+      "n_U": 14,
+      "sitios_estritos": 17,
+      "sitios_totais": 44,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 15,
+      "R1": 20,
+      "intersecao_estrita": 3,
+      "sitios_estritos": 15,
+      "sitios_uniao": 150,
+      "uniao": 32
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       5,
+       7,
+       12,
+       14,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 25,
+      "sitios_totais": 72,
+      "sitios_uniao": 61
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 7,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 35,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 33
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 2,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 8
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 2,
+      "n_C1": 5,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 68,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 6,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 23,
+      "uniao": 8
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 5,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 44,
+      "sitios_uniao": 20
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 8,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 8,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 34
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 11
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11
+      ],
+      "n_C0": 5,
+      "n_C1": 2,
+      "n_I": 1,
+      "n_U": 6,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 11
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       10
+      ],
+      "n_C0": 2,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 9,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 11,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 36
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 5,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 27,
+      "uniao": 7
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 4,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 44,
+      "sitios_uniao": 22
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 2,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 8,
+      "uniao": 7
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 2,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 4
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 11,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 7,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 41
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 8,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 33,
+      "uniao": 16
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       6,
+       13
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 3,
+      "n_U": 11,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 51,
+      "uniao": 17
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       12,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 12,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 17,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 42
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 25,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 165,
+      "uniao": 35
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       4,
+       6,
+       8,
+       9,
+       11
+      ],
+      "n_C0": 8,
+      "n_C1": 14,
+      "n_I": 7,
+      "n_U": 15,
+      "sitios_estritos": 33,
+      "sitios_totais": 76,
+      "sitios_uniao": 71
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 23,
+      "R1": 13,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 9,
+      "sitios_uniao": 162,
+      "uniao": 34
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       4,
+       6,
+       10,
+       13,
+       15
+      ],
+      "n_C0": 13,
+      "n_C1": 9,
+      "n_I": 8,
+      "n_U": 14,
+      "sitios_estritos": 38,
+      "sitios_totais": 76,
+      "sitios_uniao": 66
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 13,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 36,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 44
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 69,
+      "uniao": 14
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       7,
+       8,
+       10
+      ],
+      "n_C0": 4,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 11,
+      "sitios_estritos": 15,
+      "sitios_totais": 76,
+      "sitios_uniao": 54
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 39,
+      "uniao": 14
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       4
+      ],
+      "n_C0": 8,
+      "n_C1": 3,
+      "n_I": 2,
+      "n_U": 9,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 14,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 14,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 48
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 28,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 46
+     },
+     "dep_total": 384,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 8,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       3,
+       5,
+       7,
+       9,
+       10,
+       11,
+       13,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 16,
+      "n_I": 10,
+      "n_U": 16,
+      "sitios_estritos": 6,
+      "sitios_totais": 12,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 21,
+      "R1": 25,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 3,
+      "sitios_uniao": 84,
+      "uniao": 44
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       3,
+       4,
+       6,
+       7,
+       8,
+       11,
+       12,
+       14
+      ],
+      "n_C0": 11,
+      "n_C1": 13,
+      "n_I": 8,
+      "n_U": 16,
+      "sitios_estritos": 15,
+      "sitios_totais": 36,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 15,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 46,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 64
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 44,
+      "uniao": 13
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6
+      ],
+      "n_C0": 6,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 10,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 20,
+      "uniao": 13
+     },
+     "dep_total": 1024,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3,
+       6
+      ],
+      "n_C0": 6,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 4,
+      "sitios_totais": 32,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 16,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 13,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 66
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 1,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 35,
+      "uniao": 7
+     },
+     "dep_total": 2560,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 1,
+      "n_C1": 6,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 80,
+      "sitios_uniao": 35
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 2,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 7
+     },
+     "dep_total": 1792,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 2,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 6,
+      "sitios_estritos": 3,
+      "sitios_totais": 56,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 17,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 7,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 67
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 15,
+      "intersecao_estrita": 3,
+      "sitios_estritos": 9,
+      "sitios_uniao": 59,
+      "uniao": 19
+     },
+     "dep_total": 1792,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       5,
+       6,
+       7,
+       12,
+       13
+      ],
+      "n_C0": 5,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 9,
+      "sitios_estritos": 15,
+      "sitios_totais": 56,
+      "sitios_uniao": 29
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 105,
+      "uniao": 22
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       3,
+       7,
+       9,
+       14,
+       15
+      ],
+      "n_C0": 7,
+      "n_C1": 7,
+      "n_I": 5,
+      "n_U": 9,
+      "sitios_estritos": 24,
+      "sitios_totais": 76,
+      "sitios_uniao": 43
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 18,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 22,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 68
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 11,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 56,
+      "uniao": 12
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 8,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 72,
+      "sitios_uniao": 41
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 51,
+      "uniao": 12
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       9,
+       11
+      ],
+      "n_C0": 4,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 9,
+      "sitios_estritos": 8,
+      "sitios_totais": 68,
+      "sitios_uniao": 38
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 19,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 12,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 71
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 16,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 104,
+      "uniao": 28
+     },
+     "dep_total": 1920,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       9,
+       10,
+       14,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 8,
+      "n_I": 6,
+      "n_U": 13,
+      "sitios_estritos": 23,
+      "sitios_totais": 60,
+      "sitios_uniao": 49
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 89,
+      "uniao": 28
+     },
+     "dep_total": 1664,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       5,
+       6,
+       9,
+       11
+      ],
+      "n_C0": 13,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 15,
+      "sitios_estritos": 12,
+      "sitios_totais": 52,
+      "sitios_uniao": 49
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 20,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 28,
+   "seed": 910000001,
+   "subtipo": "L3+L3",
+   "tentativa": 79
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 5,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 27,
+      "uniao": 9
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 5,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 5,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 3,
+      "uniao": 9
+     },
+     "dep_total": 384,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6
+      ],
+      "n_C0": 4,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 12,
+      "sitios_uniao": 3
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 10,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 9,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 39
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 44,
+      "uniao": 16
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 5,
+      "n_C1": 8,
+      "n_I": 1,
+      "n_U": 12,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 28,
+      "uniao": 16
+     },
+     "dep_total": 1024,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       5
+      ],
+      "n_C0": 9,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 4,
+      "sitios_totais": 32,
+      "sitios_uniao": 20
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 76,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 16,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 310
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 13,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 57,
+      "uniao": 14
+     },
+     "dep_total": 1920,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 6,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 60,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 14
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0
+      ],
+      "n_C0": 4,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 64,
+      "sitios_uniao": 26
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 85,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 14,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 330
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 14,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 9,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 13,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 15,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 3,
+      "sitios_uniao": 39,
+      "uniao": 19
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       4,
+       5,
+       14
+      ],
+      "n_C0": 5,
+      "n_C1": 13,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 105,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 21,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 381
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5,
+       9,
+       13
+      ],
+      "n_C0": 4,
+      "n_C1": 11,
+      "n_I": 3,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       5,
+       9,
+       11
+      ],
+      "n_C0": 10,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 107,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 18,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 390
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 24,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 151,
+      "uniao": 36
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       6,
+       9,
+       10,
+       13,
+       14,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 14,
+      "n_I": 8,
+      "n_U": 15,
+      "sitios_estritos": 34,
+      "sitios_totais": 68,
+      "sitios_uniao": 63
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 22,
+      "R1": 14,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 7,
+      "sitios_uniao": 139,
+      "uniao": 34
+     },
+     "dep_total": 2176,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 6,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       3,
+       6,
+       8,
+       10,
+       11,
+       12
+      ],
+      "n_C0": 12,
+      "n_C1": 10,
+      "n_I": 8,
+      "n_U": 14,
+      "sitios_estritos": 31,
+      "sitios_totais": 68,
+      "sitios_uniao": 59
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 122,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 36,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 445
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 21,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 76,
+      "uniao": 24
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       11,
+       15
+      ],
+      "n_C0": 3,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 10,
+      "sitios_estritos": 8,
+      "sitios_totais": 48,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B2",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 18,
+      "R1": 6,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 0,
+      "sitios_uniao": 32,
+      "uniao": 23
+     },
+     "dep_total": 1024,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       12,
+       13,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 5,
+      "n_I": 3,
+      "n_U": 11,
+      "sitios_estritos": 0,
+      "sitios_totais": 32,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 127,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 24,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 476
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 45,
+      "uniao": 23
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       4,
+       7,
+       11
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 16,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 39,
+      "uniao": 23
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5,
+       8,
+       13,
+       14
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 24,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 129,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 23,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 482
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6,
+       13
+      ],
+      "n_C0": 9,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       6,
+       7,
+       11,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 10,
+      "n_I": 6,
+      "n_U": 11,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 133,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 502
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 51,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       8
+      ],
+      "n_C0": 7,
+      "n_C1": 8,
+      "n_I": 4,
+      "n_U": 11,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       8,
+       9,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 6,
+      "n_I": 6,
+      "n_U": 11,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 144,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 532
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 78,
+      "uniao": 26
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5
+      ],
+      "n_C0": 7,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 12,
+      "intersecao_estrita": 4,
+      "sitios_estritos": 12,
+      "sitios_uniao": 66,
+      "uniao": 22
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       4,
+       6,
+       13,
+       14,
+       15
+      ],
+      "n_C0": 7,
+      "n_C1": 7,
+      "n_I": 5,
+      "n_U": 9,
+      "sitios_estritos": 15,
+      "sitios_totais": 48,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 150,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 26,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 548
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 2,
+      "R1": 18,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 80,
+      "uniao": 20
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8,
+       14
+      ],
+      "n_C0": 2,
+      "n_C1": 11,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 44
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 16,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 80,
+      "uniao": 20
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       2
+      ],
+      "n_C0": 3,
+      "n_C1": 12,
+      "n_I": 2,
+      "n_U": 13,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 52
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 154,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 20,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 565
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 16,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 20
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6
+      ],
+      "n_C0": 7,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 32,
+      "sitios_uniao": 20
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 80,
+      "uniao": 20
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11,
+       15
+      ],
+      "n_C0": 5,
+      "n_C1": 9,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 48
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 158,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 20,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 572
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 15,
+      "R1": 16,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 31
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       3,
+       4,
+       7,
+       8,
+       10,
+       11,
+       13
+      ],
+      "n_C0": 9,
+      "n_C1": 12,
+      "n_I": 8,
+      "n_U": 13,
+      "sitios_estritos": 12,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 22,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 93,
+      "uniao": 31
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       4,
+       13,
+       14
+      ],
+      "n_C0": 5,
+      "n_C1": 13,
+      "n_I": 3,
+      "n_U": 15,
+      "sitios_estritos": 9,
+      "sitios_totais": 48,
+      "sitios_uniao": 45
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 171,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 31,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 603
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 19,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 32,
+      "uniao": 24
+     },
+     "dep_total": 512,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3
+      ],
+      "n_C0": 8,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 11,
+      "sitios_estritos": 4,
+      "sitios_totais": 16,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 10,
+      "intersecao_estrita": 3,
+      "sitios_estritos": 12,
+      "sitios_uniao": 64,
+      "uniao": 21
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       8,
+       12,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 6,
+      "n_I": 3,
+      "n_U": 12,
+      "sitios_estritos": 8,
+      "sitios_totais": 48,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 176,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 621
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 7,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 12
+     },
+     "dep_total": 768,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5
+      ],
+      "n_C0": 5,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 12
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       9,
+       10
+      ],
+      "n_C0": 3,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 8,
+      "sitios_estritos": 6,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 185,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 12,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 652
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 8,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 33,
+      "uniao": 11
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11
+      ],
+      "n_C0": 3,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 12
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       14
+      ],
+      "n_C0": 5,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 196,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 12,
+   "seed": 910000001,
+   "subtipo": "L2+L3",
+   "tentativa": 698
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 76,
+      "uniao": 19
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7,
+       11
+      ],
+      "n_C0": 8,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 48
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 56,
+      "uniao": 19
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       10
+      ],
+      "n_C0": 6,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 205,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 19,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 720
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 52,
+      "uniao": 18
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       9,
+       11,
+       12
+      ],
+      "n_C0": 3,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 10,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 28
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 18
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       7,
+       8,
+       10,
+       12,
+       15
+      ],
+      "n_C0": 6,
+      "n_C1": 10,
+      "n_I": 6,
+      "n_U": 10,
+      "sitios_estritos": 16,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 219,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 18,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 784
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 21,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 24
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       5
+      ],
+      "n_C0": 2,
+      "n_C1": 11,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 24
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       8,
+       10
+      ],
+      "n_C0": 9,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 13,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 293,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000001,
+   "subtipo": "L1+L3",
+   "tentativa": 1013
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 1,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 12
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       15
+      ],
+      "n_C0": 1,
+      "n_C1": 8,
+      "n_I": 1,
+      "n_U": 8,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 9
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 12
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11,
+       15
+      ],
+      "n_C0": 8,
+      "n_C1": 2,
+      "n_I": 2,
+      "n_U": 8,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 171,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 12,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 609
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 7,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 21
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8,
+       10,
+       13,
+       14
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 63,
+      "uniao": 21
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       5,
+       6,
+       10,
+       11
+      ],
+      "n_C0": 9,
+      "n_C1": 7,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 225,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 21,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 780
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 16
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       10
+      ],
+      "n_C0": 10,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 9,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 16
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8
+      ],
+      "n_C0": 6,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 11,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 761,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 16,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 2751
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 1,
+      "R1": 20,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 60,
+      "uniao": 20
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8
+      ],
+      "n_C0": 1,
+      "n_C1": 10,
+      "n_I": 1,
+      "n_U": 10,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 15,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 63,
+      "uniao": 21
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       5,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 4,
+      "n_I": 3,
+      "n_U": 10,
+      "sitios_estritos": 9,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 911,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 3261
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 10,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 45,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7,
+       11
+      ],
+      "n_C0": 7,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 57,
+      "uniao": 19
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 958,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 19,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 3410
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 26,
+      "R1": 7,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 39,
+      "uniao": 32
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       4,
+       7,
+       8,
+       9,
+       10
+      ],
+      "n_C0": 12,
+      "n_C1": 6,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 6,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 13,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 42,
+      "uniao": 32
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       3,
+       6,
+       10,
+       14
+      ],
+      "n_C0": 13,
+      "n_C1": 8,
+      "n_I": 6,
+      "n_U": 15,
+      "sitios_estritos": 6,
+      "sitios_totais": 24,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1026,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 33,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 3637
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 19,
+      "R1": 9,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 81,
+      "uniao": 27
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       5,
+       10,
+       14
+      ],
+      "n_C0": 11,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 13,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 15,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 81,
+      "uniao": 27
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       6,
+       8,
+       9,
+       10,
+       12
+      ],
+      "n_C0": 9,
+      "n_C1": 10,
+      "n_I": 7,
+      "n_U": 12,
+      "sitios_estritos": 21,
+      "sitios_totais": 48,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1152,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 28,
+   "seed": 910000002,
+   "subtipo": "L2+L2",
+   "tentativa": 4094
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 6,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 12,
+      "uniao": 9
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3
+      ],
+      "n_C0": 5,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 1,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 9,
+      "uniao": 9
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 1,
+      "n_C1": 5,
+      "n_I": 0,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 6
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1239,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 9,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 4363
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 59,
+      "uniao": 15
+     },
+     "dep_total": 1920,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3,
+       8,
+       11
+      ],
+      "n_C0": 7,
+      "n_C1": 5,
+      "n_I": 3,
+      "n_U": 9,
+      "sitios_estritos": 11,
+      "sitios_totais": 60,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 65,
+      "uniao": 15
+     },
+     "dep_total": 2048,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       15
+      ],
+      "n_C0": 7,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 5,
+      "sitios_totais": 64,
+      "sitios_uniao": 37
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1461,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 15,
+   "seed": 910000002,
+   "subtipo": "L2+L2",
+   "tentativa": 5121
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 5,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 16,
+      "uniao": 7
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 5,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 2,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 28,
+      "uniao": 7
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       10
+      ],
+      "n_C0": 2,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 5,
+      "sitios_estritos": 4,
+      "sitios_totais": 64,
+      "sitios_uniao": 20
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1515,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 7,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 5304
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 20,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 26
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       9,
+       10,
+       11,
+       12
+      ],
+      "n_C0": 6,
+      "n_C1": 10,
+      "n_I": 5,
+      "n_U": 11,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 20,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 51,
+      "uniao": 26
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13,
+       14
+      ],
+      "n_C0": 11,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 13,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1840,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 26,
+   "seed": 910000002,
+   "subtipo": "L2+L2",
+   "tentativa": 6462
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 24,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 81,
+      "uniao": 38
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       4,
+       5,
+       10,
+       11
+      ],
+      "n_C0": 14,
+      "n_C1": 8,
+      "n_I": 6,
+      "n_U": 16,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 26,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 6,
+      "sitios_uniao": 60,
+      "uniao": 36
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 7,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       3,
+       5,
+       8,
+       11,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 14,
+      "n_I": 8,
+      "n_U": 15,
+      "sitios_estritos": 18,
+      "sitios_totais": 24,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1955,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 38,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 6836
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 17,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 66,
+      "uniao": 26
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       3,
+       9,
+       10,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 12,
+      "n_I": 6,
+      "n_U": 13,
+      "sitios_estritos": 15,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 26
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       4,
+       9,
+       12,
+       14
+      ],
+      "n_C0": 12,
+      "n_C1": 8,
+      "n_I": 6,
+      "n_U": 14,
+      "sitios_estritos": 9,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 1968,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 26,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 6875
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 22,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 90,
+      "uniao": 30
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       12,
+       15
+      ],
+      "n_C0": 13,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 15,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 45
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 30
+     },
+     "dep_total": 384,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       3,
+       7,
+       14,
+       15
+      ],
+      "n_C0": 11,
+      "n_C1": 9,
+      "n_I": 6,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 12,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 2386,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 30,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 8186
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 17
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11
+      ],
+      "n_C0": 3,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 8,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 17
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       14
+      ],
+      "n_C0": 6,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 2826,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 17,
+   "seed": 910000002,
+   "subtipo": "L2+L2",
+   "tentativa": 9634
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 9,
+      "intersecao_estrita": 2,
+      "sitios_estritos": 6,
+      "sitios_uniao": 51,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       10,
+       14,
+       15
+      ],
+      "n_C0": 7,
+      "n_C1": 8,
+      "n_I": 4,
+      "n_U": 11,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 10,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 39,
+      "uniao": 19
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       12
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3012,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 20,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 10198
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 68,
+      "uniao": 33
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       3,
+       4,
+       7,
+       8,
+       9,
+       10
+      ],
+      "n_C0": 11,
+      "n_C1": 11,
+      "n_I": 7,
+      "n_U": 15,
+      "sitios_estritos": 12,
+      "sitios_totais": 32,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 22,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 132,
+      "uniao": 33
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       4,
+       5,
+       9,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 14,
+      "n_I": 7,
+      "n_U": 16,
+      "sitios_estritos": 28,
+      "sitios_totais": 64,
+      "sitios_uniao": 64
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3379,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 33,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 11315
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 16,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 18
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       13
+      ],
+      "n_C0": 8,
+      "n_C1": 2,
+      "n_I": 2,
+      "n_U": 8,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 64,
+      "uniao": 18
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       12,
+       15
+      ],
+      "n_C0": 6,
+      "n_C1": 5,
+      "n_I": 3,
+      "n_U": 8,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 28
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3847,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 18,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 12846
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 14
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8
+      ],
+      "n_C0": 7,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 7,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 30,
+      "uniao": 13
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       10
+      ],
+      "n_C0": 6,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 9,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3904,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 14,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 13034
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 66,
+      "uniao": 29
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3,
+       6,
+       12,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 18,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 69,
+      "uniao": 29
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       9,
+       11
+      ],
+      "n_C0": 7,
+      "n_C1": 11,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 3946,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 29,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 13179
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 1,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 20
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 1,
+      "n_C1": 11,
+      "n_I": 0,
+      "n_U": 12,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 20
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       6,
+       12
+      ],
+      "n_C0": 6,
+      "n_C1": 10,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 4319,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 20,
+   "seed": 910000002,
+   "subtipo": "L2+L2",
+   "tentativa": 14390
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 66,
+      "uniao": 22
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3,
+       5
+      ],
+      "n_C0": 8,
+      "n_C1": 8,
+      "n_I": 2,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 42
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 22
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       5,
+       10,
+       12,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 9,
+      "sitios_totais": 24,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4365,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 22,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 14526
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 49,
+      "uniao": 14
+     },
+     "dep_total": 1792,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1
+      ],
+      "n_C0": 5,
+      "n_C1": 7,
+      "n_I": 1,
+      "n_U": 11,
+      "sitios_estritos": 4,
+      "sitios_totais": 56,
+      "sitios_uniao": 38
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 5,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 55,
+      "uniao": 13
+     },
+     "dep_total": 1920,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8,
+       13
+      ],
+      "n_C0": 6,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 9,
+      "sitios_estritos": 8,
+      "sitios_totais": 60,
+      "sitios_uniao": 37
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 4582,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 14,
+   "seed": 910000002,
+   "subtipo": "L1+L1",
+   "tentativa": 15321
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 45,
+      "uniao": 15
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       11,
+       12
+      ],
+      "n_C0": 5,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 14,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 15
+     },
+     "dep_total": 1152,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 9,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 10,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 4793,
+   "grupo": "G2_colapso",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 15,
+   "seed": 910000002,
+   "subtipo": "L1+L2",
+   "tentativa": 16086
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 17,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 90,
+      "uniao": 30
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       3,
+       5,
+       6,
+       9,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 10,
+      "n_I": 6,
+      "n_U": 13,
+      "sitios_estritos": 18,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 12,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 47,
+      "uniao": 29
+     },
+     "dep_total": 896,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 10,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       11
+      ],
+      "n_C0": 12,
+      "n_C1": 11,
+      "n_I": 9,
+      "n_U": 14,
+      "sitios_estritos": 18,
+      "sitios_totais": 28,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 0,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 30,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 2
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 97,
+      "uniao": 24
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7,
+       11,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 16,
+      "sitios_estritos": 12,
+      "sitios_totais": 68,
+      "sitios_uniao": 68
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 18,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 114,
+      "uniao": 24
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       5,
+       13,
+       14,
+       15
+      ],
+      "n_C0": 14,
+      "n_C1": 5,
+      "n_I": 4,
+      "n_U": 15,
+      "sitios_estritos": 20,
+      "sitios_totais": 76,
+      "sitios_uniao": 71
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 1,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 3
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 10,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 12
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 6,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 8,
+      "sitios_estritos": 0,
+      "sitios_totais": 64,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 48,
+      "uniao": 12
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       2,
+       10,
+       11
+      ],
+      "n_C0": 4,
+      "n_C1": 5,
+      "n_I": 3,
+      "n_U": 6,
+      "sitios_estritos": 12,
+      "sitios_totais": 64,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 2,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 12,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 7
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 41,
+      "uniao": 13
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       4,
+       6,
+       10
+      ],
+      "n_C0": 5,
+      "n_C1": 8,
+      "n_I": 3,
+      "n_U": 10,
+      "sitios_estritos": 11,
+      "sitios_totais": 44,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 5,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 13
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 4,
+      "n_C1": 5,
+      "n_I": 0,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 44,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 3,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 13,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 11
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 40,
+      "uniao": 9
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       11
+      ],
+      "n_C0": 5,
+      "n_C1": 3,
+      "n_I": 2,
+      "n_U": 6,
+      "sitios_estritos": 9,
+      "sitios_totais": 68,
+      "sitios_uniao": 26
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 2,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 31,
+      "uniao": 9
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 2,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 6,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 22
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 4,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 9,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 12
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 1,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 66,
+      "uniao": 16
+     },
+     "dep_total": 1664,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 1,
+      "n_C1": 8,
+      "n_I": 0,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 52,
+      "sitios_uniao": 38
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 7,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 55,
+      "uniao": 15
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       5,
+       9,
+       10,
+       14
+      ],
+      "n_C0": 6,
+      "n_C1": 7,
+      "n_I": 4,
+      "n_U": 9,
+      "sitios_estritos": 14,
+      "sitios_totais": 64,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 5,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 16,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 14
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 60,
+      "uniao": 25
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       3,
+       6,
+       12
+      ],
+      "n_C0": 8,
+      "n_C1": 8,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 21,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 57,
+      "uniao": 25
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       5,
+       7
+      ],
+      "n_C0": 4,
+      "n_C1": 12,
+      "n_I": 3,
+      "n_U": 13,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 6,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 25,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 17
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 73,
+      "uniao": 17
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6,
+       15
+      ],
+      "n_C0": 3,
+      "n_C1": 11,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 8,
+      "sitios_totais": 72,
+      "sitios_uniao": 54
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 65,
+      "uniao": 17
+     },
+     "dep_total": 1920,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       15
+      ],
+      "n_C0": 10,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 13,
+      "sitios_estritos": 9,
+      "sitios_totais": 60,
+      "sitios_uniao": 49
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 7,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 17,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 18
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 82,
+      "uniao": 24
+     },
+     "dep_total": 1792,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       3,
+       4,
+       8,
+       12,
+       14
+      ],
+      "n_C0": 12,
+      "n_C1": 9,
+      "n_I": 6,
+      "n_U": 15,
+      "sitios_estritos": 22,
+      "sitios_totais": 56,
+      "sitios_uniao": 51
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 17,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 108,
+      "uniao": 24
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       11,
+       13,
+       15
+      ],
+      "n_C0": 6,
+      "n_C1": 10,
+      "n_I": 3,
+      "n_U": 13,
+      "sitios_estritos": 15,
+      "sitios_totais": 72,
+      "sitios_uniao": 59
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 8,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 19
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 44,
+      "uniao": 13
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       3,
+       8
+      ],
+      "n_C0": 5,
+      "n_C1": 7,
+      "n_I": 4,
+      "n_U": 8,
+      "sitios_estritos": 16,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 5,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 32,
+      "uniao": 13
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       6
+      ],
+      "n_C0": 4,
+      "n_C1": 7,
+      "n_I": 2,
+      "n_U": 9,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 9,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 13,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 21
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 33,
+      "R1": 32,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 128,
+      "uniao": 65
+     },
+     "dep_total": 1024,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 21,
+      "pares_diferentes": 6
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11,
+       12,
+       14,
+       15
+      ],
+      "n_C0": 15,
+      "n_C1": 16,
+      "n_I": 15,
+      "n_U": 16,
+      "sitios_estritos": 28,
+      "sitios_totais": 32,
+      "sitios_uniao": 32
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 37,
+      "R1": 28,
+      "intersecao_estrita": 4,
+      "sitios_estritos": 16,
+      "sitios_uniao": 244,
+      "uniao": 61
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 14,
+      "pares_diferentes": 9
+     },
+     "rc": {
+      "I": [
+       0,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       12,
+       13,
+       14,
+       15
+      ],
+      "n_C0": 14,
+      "n_C1": 14,
+      "n_I": 12,
+      "n_U": 16,
+      "sitios_estritos": 48,
+      "sitios_totais": 64,
+      "sitios_uniao": 64
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 10,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 65,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 34
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 7,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 69,
+      "uniao": 23
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 3
+     },
+     "rc": {
+      "I": [
+       2,
+       3,
+       8,
+       9,
+       12,
+       15
+      ],
+      "n_C0": 12,
+      "n_C1": 7,
+      "n_I": 6,
+      "n_U": 13,
+      "sitios_estritos": 18,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 19,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 57,
+      "uniao": 24
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       14
+      ],
+      "n_C0": 12,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 14,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 11,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 38
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 107,
+      "uniao": 27
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       8,
+       10
+      ],
+      "n_C0": 9,
+      "n_C1": 9,
+      "n_I": 3,
+      "n_U": 15,
+      "sitios_estritos": 13,
+      "sitios_totais": 64,
+      "sitios_uniao": 61
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 130,
+      "uniao": 27
+     },
+     "dep_total": 2432,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 5
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       6,
+       8,
+       9,
+       11,
+       12,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 11,
+      "n_I": 8,
+      "n_U": 13,
+      "sitios_estritos": 39,
+      "sitios_totais": 76,
+      "sitios_uniao": 63
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 12,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 27,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 39
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 19,
+      "intersecao_estrita": 5,
+      "sitios_estritos": 6,
+      "sitios_uniao": 57,
+      "uniao": 31
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       3,
+       5,
+       6,
+       7,
+       9,
+       12,
+       14
+      ],
+      "n_C0": 11,
+      "n_C1": 8,
+      "n_I": 7,
+      "n_U": 12,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 15,
+      "R1": 21,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 108,
+      "uniao": 36
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 5,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       6,
+       7,
+       9,
+       10,
+       13,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 12,
+      "n_I": 8,
+      "n_U": 13,
+      "sitios_estritos": 24,
+      "sitios_totais": 48,
+      "sitios_uniao": 39
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 15,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 36,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 55
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 19
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       3,
+       7,
+       12,
+       13,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 6,
+      "n_I": 5,
+      "n_U": 10,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 57,
+      "uniao": 19
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       9,
+       10,
+       11,
+       15
+      ],
+      "n_C0": 9,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 11,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 16,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 19,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 57
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 39,
+      "uniao": 13
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       14
+      ],
+      "n_C0": 7,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 10,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 13
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3,
+       4
+      ],
+      "n_C0": 3,
+      "n_C1": 9,
+      "n_I": 2,
+      "n_U": 10,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 17,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 13,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 63
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 96,
+      "uniao": 26
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       5,
+       7,
+       12
+      ],
+      "n_C0": 7,
+      "n_C1": 8,
+      "n_I": 5,
+      "n_U": 10,
+      "sitios_estritos": 17,
+      "sitios_totais": 64,
+      "sitios_uniao": 38
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 14,
+      "R1": 12,
+      "intersecao_estrita": 3,
+      "sitios_estritos": 10,
+      "sitios_uniao": 51,
+      "uniao": 23
+     },
+     "dep_total": 1664,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       4,
+       5,
+       7
+      ],
+      "n_C0": 10,
+      "n_C1": 7,
+      "n_I": 5,
+      "n_U": 12,
+      "sitios_estritos": 10,
+      "sitios_totais": 52,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 19,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 26,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 68
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 60,
+      "uniao": 15
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       6
+      ],
+      "n_C0": 8,
+      "n_C1": 2,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 4,
+      "sitios_totais": 64,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 60,
+      "uniao": 15
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       4,
+       9
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 2,
+      "n_U": 12,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 48
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 20,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 15,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 70
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 9,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 10
+     },
+     "dep_total": 1408,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 8,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 44,
+      "sitios_uniao": 26
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 5,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 40,
+      "uniao": 10
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 4,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 8,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 31
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 21,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 10,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 75
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 19,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 122,
+      "uniao": 31
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       2,
+       6,
+       9,
+       11,
+       12,
+       13
+      ],
+      "n_C0": 8,
+      "n_C1": 13,
+      "n_I": 6,
+      "n_U": 15,
+      "sitios_estritos": 24,
+      "sitios_totais": 64,
+      "sitios_uniao": 59
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 139,
+      "uniao": 31
+     },
+     "dep_total": 2304,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 7,
+      "pares_diferentes": 6
+     },
+     "rc": {
+      "I": [
+       1,
+       4,
+       5,
+       6,
+       8,
+       10,
+       11,
+       13,
+       15
+      ],
+      "n_C0": 13,
+      "n_C1": 12,
+      "n_I": 9,
+      "n_U": 16,
+      "sitios_estritos": 39,
+      "sitios_totais": 72,
+      "sitios_uniao": 72
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 22,
+   "grupo": "G3_controlo_L3L3",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 31,
+   "seed": 910000002,
+   "subtipo": "L3+L3",
+   "tentativa": 76
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 9,
+      "R1": 12,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 21
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       8,
+       12,
+       14
+      ],
+      "n_C0": 7,
+      "n_C1": 9,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 15,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 45,
+      "uniao": 21
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       2,
+       3,
+       11,
+       14
+      ],
+      "n_C0": 6,
+      "n_C1": 12,
+      "n_I": 4,
+      "n_U": 14,
+      "sitios_estritos": 6,
+      "sitios_totais": 36,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 13,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 40
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 16
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1
+      ],
+      "n_C0": 8,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 12,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 8,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 16
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       5,
+       6,
+       7
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 3,
+      "n_U": 11,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 14,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 16,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 54
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 3,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 10
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 3,
+      "n_C1": 5,
+      "n_I": 0,
+      "n_U": 8,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 4,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 10
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 3,
+      "n_C1": 4,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 18,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 10,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 67
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 16,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 18
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       8
+      ],
+      "n_C0": 8,
+      "n_C1": 2,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 18
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 11,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 54,
+      "uniao": 18
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       4,
+       12
+      ],
+      "n_C0": 8,
+      "n_C1": 6,
+      "n_I": 4,
+      "n_U": 10,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 32,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 18,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 113
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 4,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 7
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       15
+      ],
+      "n_C0": 3,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 5,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 3,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 15,
+      "uniao": 7
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       15
+      ],
+      "n_C0": 2,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 4,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 6
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 71,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 7,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 247
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 27,
+      "uniao": 12
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5,
+       14
+      ],
+      "n_C0": 5,
+      "n_C1": 3,
+      "n_I": 2,
+      "n_U": 6,
+      "sitios_estritos": 3,
+      "sitios_totais": 24,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 4,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 33,
+      "uniao": 11
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       4,
+       10,
+       11
+      ],
+      "n_C0": 6,
+      "n_C1": 4,
+      "n_I": 3,
+      "n_U": 7,
+      "sitios_estritos": 9,
+      "sitios_totais": 36,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 73,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 12,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 253
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 78,
+      "uniao": 21
+     },
+     "dep_total": 1920,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       5
+      ],
+      "n_C0": 8,
+      "n_C1": 6,
+      "n_I": 1,
+      "n_U": 13,
+      "sitios_estritos": 4,
+      "sitios_totais": 60,
+      "sitios_uniao": 49
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 89,
+      "uniao": 21
+     },
+     "dep_total": 2176,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       5,
+       9,
+       15
+      ],
+      "n_C0": 8,
+      "n_C1": 9,
+      "n_I": 4,
+      "n_U": 13,
+      "sitios_estritos": 17,
+      "sitios_totais": 68,
+      "sitios_uniao": 53
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 117,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000002,
+   "subtipo": "L2+L3",
+   "tentativa": 411
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 33,
+      "uniao": 11
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       5,
+       7
+      ],
+      "n_C0": 4,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 7,
+      "sitios_estritos": 6,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 1,
+      "R1": 10,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 11
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 1,
+      "n_C1": 7,
+      "n_I": 1,
+      "n_U": 7,
+      "sitios_estritos": 3,
+      "sitios_totais": 36,
+      "sitios_uniao": 12
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 142,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 11,
+   "seed": 910000002,
+   "subtipo": "L2+L3",
+   "tentativa": 496
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 15,
+      "R1": 5,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 56,
+      "uniao": 20
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       9
+      ],
+      "n_C0": 10,
+      "n_C1": 5,
+      "n_I": 1,
+      "n_U": 14,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 44
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 80,
+      "uniao": 20
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       1,
+       8,
+       9,
+       13,
+       14
+      ],
+      "n_C0": 6,
+      "n_C1": 12,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 20,
+      "sitios_totais": 64,
+      "sitios_uniao": 52
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 167,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 20,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 598
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 38,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 156,
+      "uniao": 39
+     },
+     "dep_total": 2048,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       10
+      ],
+      "n_C0": 15,
+      "n_C1": 1,
+      "n_I": 1,
+      "n_U": 15,
+      "sitios_estritos": 4,
+      "sitios_totais": 64,
+      "sitios_uniao": 60
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 22,
+      "R1": 17,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 4,
+      "sitios_uniao": 104,
+      "uniao": 38
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 13,
+      "pares_diferentes": 4
+     },
+     "rc": {
+      "I": [
+       1,
+       2,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ],
+      "n_C0": 13,
+      "n_C1": 11,
+      "n_I": 10,
+      "n_U": 14,
+      "sitios_estritos": 24,
+      "sitios_totais": 48,
+      "sitios_uniao": 40
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 173,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 39,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 618
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 9,
+      "R1": 7,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 16
+     },
+     "dep_total": 1024,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       15
+      ],
+      "n_C0": 6,
+      "n_C1": 7,
+      "n_I": 1,
+      "n_U": 12,
+      "sitios_estritos": 0,
+      "sitios_totais": 32,
+      "sitios_uniao": 28
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 7,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 40,
+      "uniao": 16
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       12,
+       13
+      ],
+      "n_C0": 6,
+      "n_C1": 8,
+      "n_I": 3,
+      "n_U": 11,
+      "sitios_estritos": 4,
+      "sitios_totais": 48,
+      "sitios_uniao": 28
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 176,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 16,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 625
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 3,
+      "R1": 3,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 9,
+      "uniao": 6
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 2,
+      "n_C1": 3,
+      "n_I": 1,
+      "n_U": 4,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 6
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 4,
+      "R1": 2,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 6
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 3,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 5,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 203,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "nenhuma",
+   "orbita": 6,
+   "seed": 910000002,
+   "subtipo": "L2+L3",
+   "tentativa": 704
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 13,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 63,
+      "uniao": 26
+     },
+     "dep_total": 1152,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       2,
+       3,
+       4,
+       11
+      ],
+      "n_C0": 9,
+      "n_C1": 10,
+      "n_I": 5,
+      "n_U": 14,
+      "sitios_estritos": 12,
+      "sitios_totais": 36,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 17,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 21,
+      "uniao": 26
+     },
+     "dep_total": 384,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       8,
+       10,
+       12,
+       14
+      ],
+      "n_C0": 10,
+      "n_C1": 8,
+      "n_I": 5,
+      "n_U": 13,
+      "sitios_estritos": 3,
+      "sitios_totais": 12,
+      "sitios_uniao": 9
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 209,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 26,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 727
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 11,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 63,
+      "uniao": 21
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 2,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       5,
+       7,
+       8,
+       11
+      ],
+      "n_C0": 7,
+      "n_C1": 9,
+      "n_I": 4,
+      "n_U": 12,
+      "sitios_estritos": 12,
+      "sitios_totais": 48,
+      "sitios_uniao": 36
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 21
+     },
+     "dep_total": 768,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       2,
+       4,
+       6,
+       10,
+       14
+      ],
+      "n_C0": 8,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 12,
+      "sitios_estritos": 9,
+      "sitios_totais": 24,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 258,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 21,
+   "seed": 910000002,
+   "subtipo": "L2+L3",
+   "tentativa": 882
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 14,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 24
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 1
+     },
+     "rc": {
+      "I": [
+       3,
+       5,
+       10,
+       11,
+       13
+      ],
+      "n_C0": 7,
+      "n_C1": 9,
+      "n_I": 5,
+      "n_U": 11,
+      "sitios_estritos": 15,
+      "sitios_totais": 48,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 20,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 72,
+      "uniao": 24
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7
+      ],
+      "n_C0": 12,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 15,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 45
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 299,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 24,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 1056
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 1,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 42,
+      "uniao": 14
+     },
+     "dep_total": 1536,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       12
+      ],
+      "n_C0": 1,
+      "n_C1": 10,
+      "n_I": 1,
+      "n_U": 10,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 30
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 14
+     },
+     "dep_total": 768,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       7,
+       11
+      ],
+      "n_C0": 6,
+      "n_C1": 4,
+      "n_I": 2,
+      "n_U": 8,
+      "sitios_estritos": 6,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 300,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 14,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 1058
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 6,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 18,
+      "uniao": 10
+     },
+     "dep_total": 1152,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 5,
+      "n_C1": 2,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 36,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 6,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 30,
+      "uniao": 10
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       3
+      ],
+      "n_C0": 6,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 9,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 27
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 320,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 10,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 1129
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B2",
+     "cfg": {
+      "R0": 11,
+      "R1": 6,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 24,
+      "uniao": 17
+     },
+     "dep_total": 768,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 1,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       1,
+       2
+      ],
+      "n_C0": 8,
+      "n_C1": 5,
+      "n_I": 2,
+      "n_U": 11,
+      "sitios_estritos": 0,
+      "sitios_totais": 24,
+      "sitios_uniao": 15
+     },
+     "tau_isometria_W": true
+    },
+    "C_BA->A": {
+     "categoria_cfg": "ESTRITO",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 10,
+      "R1": 7,
+      "intersecao_estrita": 1,
+      "sitios_estritos": 3,
+      "sitios_uniao": 48,
+      "uniao": 16
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 3,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       6,
+       8,
+       10,
+       11,
+       14
+      ],
+      "n_C0": 9,
+      "n_C1": 7,
+      "n_I": 5,
+      "n_U": 11,
+      "sitios_estritos": 15,
+      "sitios_totais": 48,
+      "sitios_uniao": 33
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 326,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 17,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 1150
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 16,
+      "R1": 9,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 100,
+      "uniao": 25
+     },
+     "dep_total": 2048,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       0,
+       9
+      ],
+      "n_C0": 10,
+      "n_C1": 6,
+      "n_I": 2,
+      "n_U": 14,
+      "sitios_estritos": 8,
+      "sitios_totais": 64,
+      "sitios_uniao": 56
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 12,
+      "R1": 13,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 25
+     },
+     "dep_total": 512,
+     "nivel": "L1_d_iguais",
+     "obs": {
+      "pares": 4,
+      "pares_diferentes": 2
+     },
+     "rc": {
+      "I": [
+       0,
+       1,
+       2,
+       5,
+       7
+      ],
+      "n_C0": 9,
+      "n_C1": 8,
+      "n_I": 5,
+      "n_U": 12,
+      "sitios_estritos": 12,
+      "sitios_totais": 16,
+      "sitios_uniao": 16
+     },
+     "tau_isometria_W": true
+    }
+   },
+   "fam": 363,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "ambas",
+   "orbita": 25,
+   "seed": 910000002,
+   "subtipo": "L1+L3",
+   "tentativa": 1286
+  },
+  {
+   "arestas": {
+    "C_AB->B": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "ESTRITO",
+     "cfg": {
+      "R0": 8,
+      "R1": 4,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 12
+     },
+     "dep_total": 1536,
+     "nivel": "L3_rank_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [
+       13
+      ],
+      "n_C0": 5,
+      "n_C1": 4,
+      "n_I": 1,
+      "n_U": 8,
+      "sitios_estritos": 3,
+      "sitios_totais": 48,
+      "sitios_uniao": 24
+     },
+     "tau_isometria_W": false
+    },
+    "C_BA->A": {
+     "categoria_cfg": "UNIAO_APENAS_B1",
+     "categoria_rc": "UNIAO_APENAS_B1",
+     "cfg": {
+      "R0": 11,
+      "R1": 1,
+      "intersecao_estrita": 0,
+      "sitios_estritos": 0,
+      "sitios_uniao": 36,
+      "uniao": 12
+     },
+     "dep_total": 1536,
+     "nivel": "L2_rank_igual_d_diferente",
+     "obs": {
+      "pares": 0,
+      "pares_diferentes": 0
+     },
+     "rc": {
+      "I": [],
+      "n_C0": 6,
+      "n_C1": 1,
+      "n_I": 0,
+      "n_U": 7,
+      "sitios_estritos": 0,
+      "sitios_totais": 48,
+      "sitios_uniao": 21
+     },
+     "tau_isometria_W": false
+    }
+   },
+   "fam": 368,
+   "grupo": "G4_misto",
+   "instancia_estrito_rc": "pelo_menos_uma",
+   "orbita": 12,
+   "seed": 910000002,
+   "subtipo": "L2+L3",
+   "tentativa": 1299
+  }
+ ],
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY"
+}

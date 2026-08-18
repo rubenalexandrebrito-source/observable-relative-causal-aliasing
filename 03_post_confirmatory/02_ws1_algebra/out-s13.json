@@ -1,0 +1,95 @@
+{
+ "aceites": 5000,
+ "classes_por_instancia": {
+  "colapso_total": 16,
+  "individua_ambas": 4612,
+  "individua_uma": 372
+ },
+ "confusao_K_vs_L1_por_aresta": {
+  "FN": 0,
+  "FP": 0,
+  "NPV": 1.0,
+  "TN": 9693,
+  "TP": 307,
+  "especificidade": 1.0,
+  "precisao": 1.0,
+  "sensibilidade": 1.0
+ },
+ "confusao_colapso_por_instancia": {
+  "FN": 0,
+  "FP": 0,
+  "NPV": 1.0,
+  "TN": 4984,
+  "TP": 16,
+  "especificidade": 1.0,
+  "precisao": 1.0,
+  "sensibilidade": 1.0
+ },
+ "confusao_ordinal_vs_L1uL2_por_aresta": {
+  "FN": 0,
+  "FP": 0,
+  "NPV": 1.0,
+  "TN": 9596,
+  "TP": 404,
+  "especificidade": 1.0,
+  "precisao": 1.0,
+  "sensibilidade": 1.0
+ },
+ "dep_zero_arestas": 2,
+ "divergencias_formula_vs_congelado": {
+  "d": 0,
+  "dep": 0,
+  "nivel": 0
+ },
+ "duracao_s": 7.4,
+ "n_alvo": 5000,
+ "niveis_por_aresta": {
+  "L1_d_iguais": 307,
+  "L2_rank_igual_d_diferente": 97,
+  "L3_rank_diferente": 9596
+ },
+ "por_rho": {
+  "3-ciclo": {
+   "L1": 21,
+   "L1L1": 0,
+   "L2": 14,
+   "L3": 3659,
+   "colapso": 0,
+   "fam": 1847
+  },
+  "4-ciclo": {
+   "L1": 17,
+   "L1L1": 0,
+   "L2": 19,
+   "L3": 2478,
+   "colapso": 0,
+   "fam": 1257
+  },
+  "V4": {
+   "L1": 99,
+   "L1L1": 6,
+   "L2": 0,
+   "L3": 1217,
+   "colapso": 6,
+   "fam": 658
+  },
+  "transposicao": {
+   "L1": 170,
+   "L1L1": 6,
+   "L2": 64,
+   "L3": 2242,
+   "colapso": 10,
+   "fam": 1238
+  }
+ },
+ "precommit": "precommit-ws1-oos.txt",
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "script": "s13_oos.py",
+ "semente": 910000005,
+ "subtipos_colapso": {
+  "('L1_d_iguais', 'L1_d_iguais')": 12,
+  "('L1_d_iguais', 'L2_rank_igual_d_diferente')": 2,
+  "('L2_rank_igual_d_diferente', 'L2_rank_igual_d_diferente')": 2
+ },
+ "tentativas": 16890
+}

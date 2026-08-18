@@ -1,0 +1,228 @@
+{
+ "L2": {
+  "abs_delta": {
+   "64": 412,
+   "128": 88,
+   "192": 12,
+   "256": 2
+  },
+  "classes_de_empate_movidas_uniformemente": 988,
+  "classes_nao_uniformes(viola_empate)": 0,
+  "margem_minima_pos_mudanca": {
+   "64": 208,
+   "128": 17
+  },
+  "n_arestas": 225,
+  "n_componentes_mudadas": {
+   "2": 193,
+   "4": 32
+  },
+  "n_valores_distintos_t": {
+   "3": 2,
+   "4": 133,
+   "5": 90
+  },
+  "padroes_k_mudados": {
+   "(1, 2)": 96,
+   "(1, 2, 3, 4)": 32,
+   "(3, 4)": 97
+  },
+  "tamanhos_de_classes_de_empate": {
+   "1": 346,
+   "2": 402,
+   "3": 109,
+   "4": 109,
+   "5": 20,
+   "6": 2
+  }
+ },
+ "L3": {
+  "abs_delta": {
+   "64": 51102,
+   "128": 23877,
+   "192": 6998,
+   "256": 1358,
+   "320": 152,
+   "384": 21
+  },
+  "n_arestas": 19070,
+  "n_componentes_mudadas": {
+   "2": 3950,
+   "3": 713,
+   "4": 6708,
+   "5": 1723,
+   "6": 4134,
+   "7": 1518,
+   "8": 324
+  },
+  "tipo_mudanca_ordinal": {
+   "misto": 17002,
+   "so_empates": 840,
+   "so_inversoes": 1228
+  }
+ },
+ "atenuacao_massa_pos_S2_sobre_sitios_pc_dif": {
+  "L2": {
+   "razao": 0.15306369581012352,
+   "s1_sites": 264256,
+   "soma_abs_delta_d": 40448
+  },
+  "L3": {
+   "razao": 0.300247016996102,
+   "s1_sites": 26893696,
+   "soma_abs_delta_d": 8074752
+  }
+ },
+ "descricao": "ordinalizacao S3->S4: o que rank_canonico destroi/preserva",
+ "fibra_ordinalizacao": {
+  "fibra_teorica_C33t_valores_em_32Z": {
+   "1": 33,
+   "2": 528,
+   "3": 5456,
+   "4": 40920,
+   "5": 237336,
+   "6": 1107568,
+   "7": 4272048,
+   "8": 13884156,
+   "9": 38567100
+  },
+  "multiplicidade_vetores_por_padrao": {
+   "1": 50,
+   "2": 12,
+   "3": 7,
+   "4": 71,
+   "5": 7,
+   "6": 18,
+   "7": 58,
+   "8": 2,
+   "9": 2,
+   "10": 3,
+   "11": 17,
+   "12": 12,
+   "13": 6,
+   "14": 12,
+   "15": 16,
+   "16": 11,
+   "17": 3,
+   "18": 6,
+   "19": 9,
+   "20": 10,
+   "21": 14,
+   "23": 1,
+   "27": 2,
+   "28": 3,
+   "29": 5,
+   "30": 3,
+   "31": 2,
+   "32": 2,
+   "33": 1,
+   "34": 1,
+   "35": 2,
+   "36": 7,
+   "37": 3,
+   "38": 9,
+   "39": 3,
+   "40": 4,
+   "41": 1,
+   "47": 1,
+   "49": 1,
+   "50": 1,
+   "51": 2,
+   "52": 3
+  },
+  "padroes_rank_observados": 403,
+  "t_valores_distintos_por_padrao_observado": {
+   "2": 2,
+   "3": 17,
+   "4": 80,
+   "5": 160,
+   "6": 144
+  },
+  "top5_padroes_mais_povoados": [
+   [
+    52,
+    [
+     0,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     3,
+     2
+    ]
+   ],
+   [
+    52,
+    [
+     0,
+     2,
+     2,
+     1,
+     1,
+     2,
+     2,
+     2,
+     3
+    ]
+   ],
+   [
+    52,
+    [
+     0,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     3,
+     2
+    ]
+   ],
+   [
+    51,
+    [
+     0,
+     2,
+     2,
+     1,
+     1,
+     2,
+     3,
+     2,
+     2
+    ]
+   ],
+   [
+    51,
+    [
+     0,
+     1,
+     1,
+     2,
+     2,
+     2,
+     2,
+     2,
+     3
+    ]
+   ]
+  ],
+  "vetores_d_distintos_observados": 4895
+ },
+ "paridade_mod64": {
+  "componentes_nao_nulas_ok": 84022,
+  "distribuicao_abs_delta_todas": {
+   "64": 51514,
+   "128": 23965,
+   "192": 7010,
+   "256": 1360,
+   "320": 152,
+   "384": 21
+  },
+  "violacoes": 0
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY"
+}

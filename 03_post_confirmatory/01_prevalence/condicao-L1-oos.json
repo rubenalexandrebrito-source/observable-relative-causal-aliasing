@@ -1,0 +1,1212 @@
+{
+ "W_com_simetria_mas_K_falso_(edge)": {
+  "C_AB->B": 2283,
+  "C_BA->A": 2288
+ },
+ "condicao_K": "Wtil_0 == Wtil_1  <=>  tau = pi1 o pi0^-1 e isometria de W_M",
+ "confusao_K_vs_L1": {
+  "C_AB->B": {
+   "FN": 0,
+   "FP": 0,
+   "TN": 4813,
+   "TP": 187,
+   "especificidade": 1.0,
+   "precisao": 1.0,
+   "sensibilidade": 1.0
+  },
+  "C_BA->A": {
+   "FN": 0,
+   "FP": 0,
+   "TN": 4819,
+   "TP": 181,
+   "especificidade": 1.0,
+   "precisao": 1.0,
+   "sensibilidade": 1.0
+  }
+ },
+ "controlos_emparelhados_mesmo_tau": [
+  {
+   "L1_em": [
+    910000004,
+    4761
+   ],
+   "L3_em": [
+    910000004,
+    1
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    0,
+    2,
+    3,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    16006
+   ],
+   "L3_em": [
+    910000004,
+    4
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    1,
+    3,
+    2,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    8725
+   ],
+   "L3_em": [
+    910000004,
+    4
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    1,
+    3,
+    2,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    164
+   ],
+   "L3_em": [
+    910000004,
+    9
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    2,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    2100
+   ],
+   "L3_em": [
+    910000004,
+    9
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    2,
+    3,
+    0,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    2501
+   ],
+   "L3_em": [
+    910000004,
+    10
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    2,
+    3,
+    1,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    7055
+   ],
+   "L3_em": [
+    910000004,
+    19
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    2,
+    1,
+    3,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    206
+   ],
+   "L3_em": [
+    910000004,
+    20
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    529
+   ],
+   "L3_em": [
+    910000004,
+    20
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    1378
+   ],
+   "L3_em": [
+    910000004,
+    34
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    0,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    1378
+   ],
+   "L3_em": [
+    910000004,
+    34
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    0,
+    1,
+    3,
+    2
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    171
+   ],
+   "L3_em": [
+    910000004,
+    35
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    1,
+    3,
+    0,
+    2
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    12978
+   ],
+   "L3_em": [
+    910000004,
+    35
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    1,
+    3,
+    0,
+    2
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    6985
+   ],
+   "L3_em": [
+    910000004,
+    39
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    3,
+    0,
+    2,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    1785
+   ],
+   "L3_em": [
+    910000004,
+    39
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    3,
+    0,
+    2,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    2112
+   ],
+   "L3_em": [
+    910000004,
+    41
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    1,
+    2,
+    0,
+    3
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    2321
+   ],
+   "L3_em": [
+    910000004,
+    41
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    1,
+    2,
+    0,
+    3
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    1419
+   ],
+   "L3_em": [
+    910000004,
+    46
+   ],
+   "aresta": "C_AB->B",
+   "tau": [
+    2,
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    7253
+   ],
+   "L3_em": [
+    910000004,
+    46
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    2,
+    0,
+    3,
+    1
+   ]
+  },
+  {
+   "L1_em": [
+    910000004,
+    2573
+   ],
+   "L3_em": [
+    910000004,
+    50
+   ],
+   "aresta": "C_BA->A",
+   "tau": [
+    3,
+    2,
+    0,
+    1
+   ]
+  }
+ ],
+ "correlacao_entre_arestas": {
+  "P_L1_aresta_A": 0.0362,
+  "P_L1_aresta_B": 0.0374,
+  "obs_P_ambas": 0.0032,
+  "obs_ambas_L1": 16,
+  "pred_independencia": 0.001354,
+  "pred_modelo_tau_partilhado": 0.002604,
+  "razao_obs_sobre_indep": 2.36,
+  "razao_pred_tau_sobre_indep": 1.92
+ },
+ "duracao_s": 7.5,
+ "equivalencia_iso_vs_K": {
+  "mismatches": 0
+ },
+ "exemplos_L1": [
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 94
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "tentativa": 155
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 2048,
+   "seed": 910000004,
+   "tau": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "tentativa": 164
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(4,)",
+   "dep": 1792,
+   "seed": 910000004,
+   "tau": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "tentativa": 171
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 206
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "tentativa": 261
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 311
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 372
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 517
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 529
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1024,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 529
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 580
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 384,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 676
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 682
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 806
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1024,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 859
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 951
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 962
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 970
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 975
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1024,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 1054
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(4,)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    3,
+    0,
+    2
+   ],
+   "tentativa": 1344
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 1348
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "tentativa": 1378
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    1,
+    3,
+    2
+   ],
+   "tentativa": 1378
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(4,)",
+   "dep": 1920,
+   "seed": 910000004,
+   "tau": [
+    2,
+    0,
+    3,
+    1
+   ],
+   "tentativa": 1419
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 1454
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1024,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 1462
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 1519
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "tentativa": 1523
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "tentativa": 1523
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 1543
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(4,)",
+   "dep": 1664,
+   "seed": 910000004,
+   "tau": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "tentativa": 1589
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 1610
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 1626
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 3)",
+   "dep": 2176,
+   "seed": 910000004,
+   "tau": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "tentativa": 1651
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 3)",
+   "dep": 2048,
+   "seed": 910000004,
+   "tau": [
+    3,
+    0,
+    2,
+    1
+   ],
+   "tentativa": 1785
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(4,)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    3,
+    0,
+    1,
+    2
+   ],
+   "tentativa": 1805
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 3)",
+   "dep": 2176,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    1,
+    2
+   ],
+   "tentativa": 1957
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 2021
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 2052
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "tentativa": 2055
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 2059
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 2068
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 512,
+   "seed": 910000004,
+   "tau": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "tentativa": 2100
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 3)",
+   "dep": 2176,
+   "seed": 910000004,
+   "tau": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "tentativa": 2112
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 2113
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "tentativa": 2160
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "tentativa": 2160
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "tentativa": 2256
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    2,
+    3,
+    0,
+    1
+   ],
+   "tentativa": 2272
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 3)",
+   "dep": 2176,
+   "seed": 910000004,
+   "tau": [
+    1,
+    2,
+    0,
+    3
+   ],
+   "tentativa": 2321
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 2048,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "tentativa": 2470
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(1, 1, 2)",
+   "dep": 1536,
+   "seed": 910000004,
+   "tau": [
+    0,
+    3,
+    2,
+    1
+   ],
+   "tentativa": 2492
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(4,)",
+   "dep": 1920,
+   "seed": 910000004,
+   "tau": [
+    2,
+    3,
+    1,
+    0
+   ],
+   "tentativa": 2501
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(4,)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    0,
+    1
+   ],
+   "tentativa": 2573
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 0,
+   "seed": 910000004,
+   "tau": [
+    1,
+    0,
+    3,
+    2
+   ],
+   "tentativa": 2605
+  },
+  {
+   "aresta": "C_BA->A",
+   "classe_tau": "(2, 2)",
+   "dep": 1024,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 2717
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 768,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 2719
+  },
+  {
+   "aresta": "C_AB->B",
+   "classe_tau": "(2, 2)",
+   "dep": 1152,
+   "seed": 910000004,
+   "tau": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "tentativa": 2724
+  }
+ ],
+ "fam20": null,
+ "familias": 5000,
+ "instancias": {
+  "colapso_total": 21,
+  "individua_ambas": 4543,
+  "individua_uma": 436
+ },
+ "n_por_seed": 5000,
+ "por_classe_de_tau": {
+  "(1, 1, 2)": {
+   "P_K_A": 0.07448,
+   "P_K_B": 0.08844,
+   "P_L1_A": 0.07448,
+   "P_L1_B": 0.08844,
+   "n": 1289
+  },
+  "(1, 3)": {
+   "P_K_A": 0.00754,
+   "P_K_B": 0.00638,
+   "P_L1_A": 0.00754,
+   "P_L1_B": 0.00638,
+   "n": 1724
+  },
+  "(2, 2)": {
+   "P_K_A": 0.08671,
+   "P_K_B": 0.07225,
+   "P_L1_A": 0.08671,
+   "P_L1_B": 0.07225,
+   "n": 692
+  },
+  "(4,)": {
+   "P_K_A": 0.00927,
+   "P_K_B": 0.00927,
+   "P_L1_A": 0.00927,
+   "P_L1_B": 0.00927,
+   "n": 1295
+  }
+ },
+ "rotulo": "POST-CONFIRMATORY / EXPLORATORY",
+ "seeds": [
+  910000004
+ ],
+ "teorema_previsto": "K <=> L1 (necessidade: sistema linear das 9 intervencoes so tem Delta=0)",
+ "verificacao_formula_d": {
+  "falhas": 0,
+  "total_arestas": 10000
+ }
+}

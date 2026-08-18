@@ -1,0 +1,140 @@
+POST-CONFIRMATORY / EXPLORATORY — Pré-registo A v8.3, Fase 6 multiagente
+WS4 — ESPECIFICIDADE NA CLASSE III
+PRECOMMIT + DERIVAÇÃO ANALÍTICA (enunciada ANTES de qualquer medição)
+Data (UTC): 2026-08-17
+Área: /root/causal-A-postconfirmatory-analysis/multiagent/ws4-classIII-specificity/
+
+O resultado confirmatório permanece NEGATIVO e imutável (C1' 199/200; único
+erro: 7bb0baab3a8ed7aa, fam 20, II, Estrato 2). Nada aqui o recalcula ou
+reinterpreta. Este ficheiro fixa, ANTES de correr qualquer amostra nova:
+(a) as previsões teóricas derivadas do passo III congelado; (b) N e sementes;
+(c) a lista fechada de estatísticas a medir. Sem multiprocessing.
+
+=======================================================================
+A. DERIVAÇÃO ANALÍTICA (do passo III congelado; gerador.py step_III)
+=======================================================================
+Passo III canónico (n=10; bit0-1=x, bit2=mA, bit3-4=y, bit5=mB, bits6-7=cAB,
+bits8-9=cBA):
+  x' = F0[x][cBA] ^ sigmaA[mA];  mA' = H[mA][x];
+  y' = G0[y][cAB] ^ sigmaB[mB];  mB' = K[mB][y];  cAB' = x; cBA' = y.
+
+Aresta C_AB->B (canal a=[6,7], receptor b=[3,4,5], memória do receptor
+mB=bit5). Ponto da fibra z com mB=m; extractor eB(T[z]) = y'(z) | (mB'(z)<<2).
+Intervenção (mk,vl) nos bits {6,7} substitui cAB por sub(cAB)=(cAB&~mc)|vc e
+não toca em x, mA, y, mB, cBA. Então:
+  xr(z) = eB(T[z_int]) ^ eB(T[z])
+        = [ (G0[y][sub(cAB)]^sigmaB[m]) ^ (G0[y][cAB]^sigmaB[m]) ]  (bits y)
+          | [ (K[m][y] ^ K[m][y]) << 2 ]                             (bit mB)
+        = ( G0[y][sub(cAB)] ^ G0[y][cAB] )  | 0.
+sigmaB[m] cancela no XOR; K[m][y] cancela porque a intervenção no canal não
+altera y no estado corrente.
+
+TEOREMA III-1 (invariância pontual à memória). Em qualquer instância III,
+para qualquer intervenção do canal, o padrão de resposta xr(z) depende APENAS
+de (y, cAB) [resp. (x, cBA) na aresta C_BA->A] — não depende de m nem de
+x, mA, cBA [resp. y, mB, cAB]. Como estados_da_fibra alinha Z0 e Z1 pela
+mesma enumeração dos 9 bits livres, os vectores xr são IGUAIS entrada a
+entrada entre m=0 e m=1. A prova usa só as equações do passo; não usa n:
+transfere-se sem alteração ao Estrato 2 (n=12; bits D são bits livres extra
+da fibra e não entram em eB — multiplicidade x4, lema d_E2=4*d_E1 já
+verificado em verifica_E1_E2.out).
+
+Corolários (previsões exactas, probabilidade 1 sobre theta elegível):
+ P1. dep_sites = 0 em AMBAS as arestas canal->processador, em TODA a
+     instância III. P(dependência ponto-a-ponto de alta resolução | III) = 0
+     analiticamente. (A amostra empírica é um guarda de implementação, não
+     uma estimativa de quantidade não-nula.)
+ P2. d_0 == d_1 entrada a entrada => nível L1 em TODAS as arestas (nunca L2,
+     nunca L3); C1' marca 'estado' e o núcleo A->C_AB->B->C_BA->A funde
+     SEMPRE em III. Determinístico.
+ P3. Forma fechada: d_m(mk,vl) = 32 * sum_{c=0..3} W_M(c, sub(c)), com
+     W_M(p,q) = sum_{r=0..3} pc2(M[r][p]^M[r][q]); M=G0 e r=y na C_AB->B;
+     M=F0 e r=x na C_BA->A; multiplicidade 32 = 2^5 (bits livres após fixar
+     (r,c)). É a fórmula Wtil do resultado prévio com pi_m = id para ambos
+     os m: III é o ponto degenerado da condição K (tau = id, sempre
+     isometria de W_M).
+ P4. Candidatas C2 e C3 nas mesmas arestas: conjuntos de eficácia por bit
+     (C2) idênticos entre contextos (xr idêntico); suporte C3 idêntico entre
+     contextos (as assinaturas nxt diferem entre contextos apenas por
+     complemento constante sigma por bit e pela constante K no bit de
+     memória; o nº de assinaturas distintas por bit através das intervenções
+     é invariante a complemento). Todas as candidatas congeladas dão
+     'estado' deterministicamente em III.
+ P5. ESTRUTURA DE BASELINE (não faz parte do estatístico d_m; é a via de
+     mimetismo nº1): nx_m alinhado difere entre contextos. Na C_AB->B:
+     nx_m(z) = (G0[y][cAB]^sigmaB[m]) | (K[m][y]<<2); pontos discordantes
+     bdep = 512 se sigmaB[0]!=sigmaB[1], senão 128*|{y: K[0][y]!=K[1][y]}|.
+     Nas famílias ELEGÍVEIS, E1+E5 (III) FORÇAM sigmaA[0]!=sigmaA[1] e
+     sigmaB[0]!=sigmaB[1] (E5 exige >=2 valores de sigma alcançados e só há
+     2 valores de memória): logo bdep = 512 (SATURADO) em ambas as arestas
+     em 100% das famílias elegíveis. Ou seja: num III verdadeiro a memória é
+     causalmente ACTIVA em todos os pontos do baseline; o estatístico
+     congelado aniquila-a exactamente por diferenciação XOR.
+ P6. Ambos os contextos de memória são alcançados na órbita III em 100% das
+     famílias elegíveis (E1(III)): a comparação entre contextos está sempre
+     activa; a especificidade não é artefacto de contexto não alcançado.
+ P7. VIA DE MIMETISMO nº2 (órbita/visitação): com V = órbita(s0),
+     V_m = {s em V: mem_receptor(s)=m}, e S_m(k) = sum_{s em V_m}
+     pc2(xr_k(s)) (o mesmo funcional por ponto, restringido aos estados
+     visitados), S_m é determinado pelo multiconjunto P_m = {(r(s),c(s))}.
+     PROPOSIÇÃO: P_0 == P_1 => S_0(k)==S_1(k) para todo k; logo QUALQUER
+     diferença S_0 vs S_1 num III é composição de visitação (selecção), não
+     mecanismo. Previsão: P_0 != P_1 genericamente => estatísticas
+     condicionadas ao contexto SOBRE A ÓRBITA fabricam "dependência de
+     memória" em III verdadeiros; a maquinaria congelada evita-o usando a
+     fibra COMPLETA.
+ P8. Contagem zero (se P1 observado 0/N): limite superior unilateral exacto
+     de Clopper-Pearson a 95%: 1-(0.05)^(1/N); com N=2000 instâncias
+     ~1.497e-3; por aresta 0/4000 ~7.487e-4. (Regra de três: 3/N.)
+
+=======================================================================
+B. AMOSTRA NOVA (fixada AQUI, antes de correr)
+=======================================================================
+- SEMENTE: 910000020 (intervalo atribuído ao WS4: 910000020..910000029;
+  distinta das confirmatórias 3786434918/3786434919 e das 20 queimadas).
+  Fluxo: SeedSequence(910000020).spawn(4)[0] -> PCG64 (posicional [0],
+  idêntico a gerar_lote); fluxos [1..3] não usados (análise canónica).
+- N = 2000 famílias ACEITES (loop congelado: sample_theta_base; rejeitar
+  pi0==pi1; aceitar sse elegibilidade(th, False)[0]). MAX_TENTATIVAS=200000.
+- Instância canónica III por família: tabela_transicao("III", th, False);
+  s0 = _campos_para_int(estado_inicial("III", th), lay). Módulos canónicos:
+  A=[0,1,2] mem[2]; B=[3,4,5] mem[5]; C_AB=[6,7]; C_BA=[8,9].
+- NENHUMA outra semente será usada sem novo ficheiro precommit-*.txt.
+- Sem paragem opcional: o script corre até N=2000 ou MAX_TENTATIVAS e
+  reporta o que obtiver; nenhum critério de paragem depende dos resultados.
+
+Estatísticas por instância (lista FECHADA):
+ 1. Por aresta (C_AB->B e C_BA->A), maquinaria congelada exacta (extractor,
+    popcount_tab, intervencoes, estados_da_fibra, rank_canonico):
+    dep_sites; d0, d1; nível L1/L2/L3; igualdade entrada-a-entrada d0==d1;
+    verificação exacta da forma fechada P3 (d0==d1==32*sum_c W_M(c,sub(c)));
+    igualdade C2-eficácia entre contextos; igualdade C3-suporte entre
+    contextos; bdep medido + verificação exacta da previsão P5;
+    sigmaR[0]!=sigmaR[1] e linhas K/H iguais/diferentes (para P5).
+ 2. Órbita canónica: comprimento; |V_0|,|V_1| por aresta (contextos do
+    receptor); ambos os contextos alcançados (P6); Cnt_m = matriz 4x4 de
+    visitação (r,c) por contexto; igualdade multiconjunto P_0==P_1;
+    S_m(k) DIRECTO pela maquinaria congelada sobre estados visitados;
+    verificação da factorização S_m = sum Cnt_m*resp (Teorema III-1 na
+    órbita); igualdade S_0==S_1 (bruta); igualdade normalizada
+    S_0(k)*|V_1| == S_1(k)*|V_0| para todo k; delta_norm = max_k
+    |S_0(k)/|V_0| - S_1(k)/|V_1||.
+ 3. Agregados: contagens de P1..P7; IC unilateral P8 para contagens zero;
+    taxa de aceitação; anomalias (qualquer previsão falhada => registo
+    integral da instância: tentativa, theta_sha, detalhe).
+
+=======================================================================
+C. ANÁLISE DETERMINÍSTICA DE DADOS EXISTENTES (sem amostragem nova)
+=======================================================================
+Contraste II (leitura apenas; NUNCA editar): prevalencia-combinada-N10000
+.json + exemplos dos dois lotes (sementes 910000001/910000002, alheias):
+distribuição de dep_sites nas 92 arestas dos 46 colapso_total; quantas
+arestas de colapso têm dep_sites==0; agregado global sem_dependencia (7 em
+20000) e nível dessas arestas (dep=0 => L1 por implicação analítica).
+Objectivo: situar o zero exacto de III face ao "quase-zero" do lado II.
+NÃO se propõe regra de decisão, threshold, C1'' nem correcção alguma.
+
+Scripts a depositar nesta área: medicao_ws4_classIII.py,
+contraste_II_ws4.py. Saídas: ws4-classIII-medicao.json/.out,
+ws4-contraste-II.json/.out. Relatório: WS4-CLASSIII-SPECIFICITY.md.
+SHAS.txt cobre tudo no fim. Rótulo em todos: POST-CONFIRMATORY/EXPLORATORY.
